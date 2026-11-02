@@ -1,0 +1,26 @@
+{
+  "dataset": "mnist",
+  "method": "ahce-fl",
+  "seed": 42,
+  "clients": 5,
+  "edges": 2,
+  "rounds": 2,
+  "local_epochs": 1,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "compression_threshold": 0.01,
+  "participation_ratio": 0.4,
+  "dirichlet_alpha": 0.5,
+  "selection_weights": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "prox_mu": 0.01,
+  "train_limit": 400,
+  "sync_max_gap": 2,
+  "sync_threshold": 0.05,
+  "cpu_threads": 2
+}
