@@ -12,3 +12,13 @@ Unit tests: 7 passed. Source commit before this report: e900381.
 | FedAvg | 0.100 | 3675072 | 155.920 |
 
 These are unreplicated smoke tests, not journal evidence. AHCE-FL falls back to dense client encoding when sparse index/value encoding exceeds model bytes. The FedAvg control was executed before the dense-fallback source change, but its uncompressed path is unaffected. Round duration is an analytic estimate, not observed network latency. Results do not validate manuscript claims or privacy guarantees.
+
+## Additional baseline execution on the same smoke configuration
+
+| Method | Final accuracy | Total modeled bytes (3 rounds) |
+|---|---:|---:|
+| fedprox | 0.100 | 3675072 |
+| fedcs | 0.110 | 3675072 |
+| hfl | 0.100 | 3368816 |
+
+All five configured methods executed without runtime exceptions. This remains a small, single-seed, three-round pipeline validation, not a statistical comparison.
