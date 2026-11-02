@@ -44,10 +44,10 @@ def summarize(config, seeds, methods, tau=0.01, root="results"):
             comp.update(mean_accuracy_difference=mean,sd_difference=sd,
                         standard_error=sd/math.sqrt(len(diff)))
             try:
-                from scipy.stats import t
+                from scipy.stats import t, ttest_1samp
                 comp["ci95"]=[mean-t.ppf(.975,len(diff)-1)*comp["standard_error"],
                               mean+t.ppf(.975,len(diff)-1)*comp["standard_error"]]
-                comp["paired_t_pvalue"]=float(t.ttest_1samp(diff,0).pvalue)
+                comp["paired_t_pvalue"]=float(ttest_1samp(diff,0).pvalue)
             except ImportError:
                 comp["ci95"]=None
                 comp["paired_t_pvalue"]=None
