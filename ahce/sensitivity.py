@@ -18,7 +18,7 @@ def main():
     assert base["dataset"]=="cifar10" and base["rounds"]==100 and base["local_epochs"]==5
     assert "train_limit" not in base and "test_limit" not in base
     items=[(f"tau_{x:g}",{"compression_threshold":x},x) for x in args.taus] if args.mode=="compression" else [
-        (f"gap_{x}",{"sync_max_gap":x},0.0) for x in args.sync_gaps]
+        (f"gap_{x}",{"sync_max_gap":x},base["compression_threshold"]) for x in args.sync_gaps]
     Path("configs/generated").mkdir(parents=True,exist_ok=True)
     for name,updates,tau in items:
         cfg=dict(base)
