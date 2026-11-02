@@ -261,7 +261,7 @@ def main():
     history = simulate(cfg, method, seed, tau)
     folder = Path("results")
     folder.mkdir(exist_ok=True)
-    prefix = f"{cfg['dataset']}_{method}_seed{seed}_tau{tau:g}"
+    prefix = f"{Path(a.config).stem}_{cfg['dataset']}_{method}_seed{seed}_tau{tau:g}"
     with (folder / (prefix + ".csv")).open("w", newline="") as out:
         writer = csv.DictWriter(out, fieldnames=history[0].keys())
         writer.writeheader()
