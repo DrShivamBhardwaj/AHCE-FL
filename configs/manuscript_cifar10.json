@@ -1,0 +1,25 @@
+{
+  "dataset": "cifar10",
+  "method": "ahce-fl",
+  "seed": 42,
+  "clients": 50,
+  "edges": 5,
+  "rounds": 100,
+  "local_epochs": 5,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "compression_threshold": 0.01,
+  "participation_ratio": 0.2,
+  "dirichlet_alpha": 0.5,
+  "selection_weights": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "prox_mu": 0.01,
+  "sync_max_gap": 3,
+  "sync_threshold": 0.05,
+  "cpu_threads": 2
+}
