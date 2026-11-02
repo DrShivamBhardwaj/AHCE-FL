@@ -129,12 +129,15 @@ def local_train(global_state, template, dataset, indices, cfg, method, device, s
     return {key: value.detach().cpu().clone() for key, value in local.state_dict().items()}
 
 
-def evaluate(template, state, dataset, batch_size, device):
+def evaluate(template, state, dataset, batch_size, device, test_limit=None):
     import torch
     from torch.utils.data import DataLoader
     template.load_state_dict(state)
     template.to(device).eval()
     correct = 0
+    if test_limit:
+        from torch.utils.data import Subset
+        dataset = Subset(dataset, list(range(min(int(test_limit), len(dataset)))))
     with torch.no_grad():
         for x, y in DataLoader(dataset, batch_size=batch_size, num_workers=0):
             correct += int((template(x.to(device)).argmax(1).cpu() == y).sum())
@@ -227,7 +230,7 @@ def simulate(cfg, method, seed, tau):
                                           [n for group in selected_counts for n in group])
             cloud_upload = len(selected) * model_bytes
             cloud_download = len(selected) * model_bytes
-        accuracy = evaluate(template, global_state, test, cfg["batch_size"], device)
+        accuracy = evaluate(template, global_state, test, cfg["batch_size"], device, cfg.get("test_limit"))
         row = {"round": round_index, "accuracy": accuracy, "participating_clients": len(selected),
                "sync_triggered": int(synced), "parameters": count_params,
                "client_upload_bytes": client_upload, "client_download_bytes": client_download,

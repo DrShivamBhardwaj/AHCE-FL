@@ -4,7 +4,7 @@
   "seed": 42,
   "clients": 5,
   "edges": 2,
-  "rounds": 2,
+  "rounds": 1,
   "local_epochs": 1,
   "batch_size": 32,
   "learning_rate": 0.001,
@@ -19,8 +19,9 @@
     0.2
   ],
   "prox_mu": 0.01,
-  "train_limit": 400,
+  "train_limit": 200,
   "sync_max_gap": 2,
   "sync_threshold": 0.05,
-  "cpu_threads": 2
+  "cpu_threads": 2,
+  "test_limit": 200
 }
