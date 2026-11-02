@@ -60,7 +60,11 @@ def sparsify(delta, tau):
         out = array * mask
         decoded[key] = out
         selected += int(mask.sum())
-    return decoded, 8 * selected, selected
+    dense_bytes = sum(int(v.numel() * v.element_size()) for v in delta.values())
+    sparse_bytes = 8 * selected
+    if sparse_bytes >= dense_bytes:
+        return {k: v.detach().cpu().clone() for k, v in delta.items()}, dense_bytes, sum(v.numel() for v in delta.values())
+    return decoded, sparse_bytes, selected
 
 
 def weighted_state(states, counts):

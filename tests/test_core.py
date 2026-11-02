@@ -17,8 +17,11 @@ def test_resource_score_rewards_better_client():
 
 
 def test_sparsification_and_wire_bytes():
-    d, n, active = sparsify({"a": torch.tensor([0.005, -0.02, 0.1])}, 0.01)
-    assert torch.allclose(d["a"], torch.tensor([0, -0.02, 0.1]))
+    values = torch.zeros(100)
+    values[0] = -0.02
+    values[1] = 0.1
+    d, n, active = sparsify({"a": values}, 0.01)
+    assert torch.equal(d["a"], values)
     assert (n, active) == (16, 2)
 
 
@@ -36,3 +39,10 @@ def test_sync_guards():
 def test_models_have_valid_outputs():
     assert model("mnist")(torch.zeros(2, 1, 28, 28)).shape == (2, 10)
     assert model("cifar10")(torch.zeros(2, 3, 32, 32)).shape == (2, 10)
+
+
+def test_dense_fallback_prevents_expansion():
+    delta = {"w": torch.ones(100)}
+    decoded, wire_bytes, _ = sparsify(delta, 0.01)
+    assert wire_bytes == 400
+    assert torch.equal(decoded["w"], delta["w"])
