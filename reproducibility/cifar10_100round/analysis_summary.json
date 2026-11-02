@@ -1,0 +1,220 @@
+{
+  "runs": [
+    {
+      "seed": 11,
+      "method": "fedavg",
+      "status": "COMPLETE",
+      "accuracy": 0.6553,
+      "total_bytes": 617120000,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_fedavg_seed11_tau0.01.csv"
+    },
+    {
+      "seed": 11,
+      "method": "fedprox",
+      "status": "COMPLETE",
+      "accuracy": 0.6471,
+      "total_bytes": 617120000,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_fedprox_seed11_tau0.01.csv"
+    },
+    {
+      "seed": 11,
+      "method": "fedcs",
+      "status": "COMPLETE",
+      "accuracy": 0.5128,
+      "total_bytes": 617120000,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_fedcs_seed11_tau0.01.csv"
+    },
+    {
+      "seed": 11,
+      "method": "hfl",
+      "status": "COMPLETE",
+      "accuracy": 0.6547,
+      "total_bytes": 448337680,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_hfl_seed11_tau0.01.csv"
+    },
+    {
+      "seed": 11,
+      "method": "ahce-fl",
+      "status": "COMPLETE",
+      "accuracy": 0.4909,
+      "total_bytes": 326857264,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_ahce-fl_seed11_tau0.01.csv"
+    },
+    {
+      "seed": 23,
+      "method": "fedavg",
+      "status": "COMPLETE",
+      "accuracy": 0.6271,
+      "total_bytes": 617120000,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_fedavg_seed23_tau0.01.csv"
+    },
+    {
+      "seed": 23,
+      "method": "fedprox",
+      "status": "COMPLETE",
+      "accuracy": 0.6271,
+      "total_bytes": 617120000,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_fedprox_seed23_tau0.01.csv"
+    },
+    {
+      "seed": 23,
+      "method": "fedcs",
+      "status": "COMPLETE",
+      "accuracy": 0.5051,
+      "total_bytes": 617120000,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_fedcs_seed23_tau0.01.csv"
+    },
+    {
+      "seed": 23,
+      "method": "hfl",
+      "status": "COMPLETE",
+      "accuracy": 0.6278,
+      "total_bytes": 451423280,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_hfl_seed23_tau0.01.csv"
+    },
+    {
+      "seed": 23,
+      "method": "ahce-fl",
+      "status": "COMPLETE",
+      "accuracy": 0.4677,
+      "total_bytes": 381577840,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_ahce-fl_seed23_tau0.01.csv"
+    },
+    {
+      "seed": 42,
+      "method": "fedavg",
+      "status": "COMPLETE",
+      "accuracy": 0.648,
+      "total_bytes": 617120000,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_fedavg_seed42_tau0.01.csv"
+    },
+    {
+      "seed": 42,
+      "method": "fedprox",
+      "status": "COMPLETE",
+      "accuracy": 0.6504,
+      "total_bytes": 617120000,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_fedprox_seed42_tau0.01.csv"
+    },
+    {
+      "seed": 42,
+      "method": "fedcs",
+      "status": "COMPLETE",
+      "accuracy": 0.5102,
+      "total_bytes": 617120000,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_fedcs_seed42_tau0.01.csv"
+    },
+    {
+      "seed": 42,
+      "method": "hfl",
+      "status": "COMPLETE",
+      "accuracy": 0.6447,
+      "total_bytes": 451114720,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_hfl_seed42_tau0.01.csv"
+    },
+    {
+      "seed": 42,
+      "method": "ahce-fl",
+      "status": "COMPLETE",
+      "accuracy": 0.4606,
+      "total_bytes": 389578752,
+      "sync_count": 100,
+      "rounds": 100,
+      "path": "results/manuscript_cifar10_cifar10_ahce-fl_seed42_tau0.01.csv"
+    }
+  ],
+  "comparisons": [
+    {
+      "baseline": "fedavg",
+      "paired_seeds": [
+        11,
+        23,
+        42
+      ],
+      "mean_accuracy_difference": -0.1704,
+      "sd_difference": 0.014933184523068093,
+      "standard_error": 0.008621678104251717,
+      "ci95": [
+        -0.2074960868302798,
+        -0.13330391316972018
+      ],
+      "paired_t_pvalue": 0.002550237458110635
+    },
+    {
+      "baseline": "fedprox",
+      "paired_seeds": [
+        11,
+        23,
+        42
+      ],
+      "mean_accuracy_difference": -0.16846666666666665,
+      "sd_difference": 0.01854436122742794,
+      "standard_error": 0.010706591946605181,
+      "ci95": [
+        -0.21453341373204105,
+        -0.12239991960129226
+      ],
+      "paired_t_pvalue": 0.004014699565220372
+    },
+    {
+      "baseline": "fedcs",
+      "paired_seeds": [
+        11,
+        23,
+        42
+      ],
+      "mean_accuracy_difference": -0.0363,
+      "sd_difference": 0.01388272307582339,
+      "standard_error": 0.008015193904911665,
+      "ci95": [
+        -0.07078659593443942,
+        -0.0018134040655605754
+      ],
+      "paired_t_pvalue": 0.04545600474459761
+    },
+    {
+      "baseline": "hfl",
+      "paired_seeds": [
+        11,
+        23,
+        42
+      ],
+      "mean_accuracy_difference": -0.16933333333333334,
+      "sd_difference": 0.012921429229513818,
+      "standard_error": 0.0074601906439745016,
+      "ci95": [
+        -0.2014319429720816,
+        -0.13723472369458506
+      ],
+      "paired_t_pvalue": 0.001935319904713325
+    }
+  ]
+}
