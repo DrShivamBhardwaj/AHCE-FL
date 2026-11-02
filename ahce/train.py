@@ -182,13 +182,14 @@ def simulate(cfg, method, seed, tau):
         selected_counts = [[] for _ in range(cfg["edges"])]
         client_upload, client_download, round_delay, nonzero = 0, 0, 0.0, 0
         for client in selected:
-            state = local_train(global_state, template, dataset, partitions[client], cfg,
+            base_state = edge_cache.get(client % cfg["edges"], global_state) if method == "ahce-fl" else global_state
+            state = local_train(base_state, template, dataset, partitions[client], cfg,
                                 method, device, seed + 100000 * round_index + client)
             upload = model_bytes
             if method == "ahce-fl":
-                delta = {k: state[k] - global_state[k] for k in state}
+                delta = {k: state[k] - base_state[k] for k in state}
                 compressed, upload, active = sparsify(delta, tau)
-                state = {k: global_state[k] + compressed[k] for k in global_state}
+                state = {k: base_state[k] + compressed[k] for k in base_state}
                 nonzero += active
             edge = client % cfg["edges"]
             by_edge[edge].append(state)
@@ -210,6 +211,9 @@ def simulate(cfg, method, seed, tau):
             divergence = math.sqrt(sum((candidate[k] - global_state[k]).float().square().sum().item()
                                        for k in candidate))
             if method == "ahce-fl":
+                for edge_index, groups in enumerate(by_edge):
+                    if groups:
+                        edge_cache[edge_index] = weighted_state(groups, selected_counts[edge_index])
                 synced = should_sync(round_index, last_sync, divergence,
                                      cfg.get("sync_max_gap", 1), cfg.get("sync_threshold", 0.0))
             if synced:
@@ -217,6 +221,7 @@ def simulate(cfg, method, seed, tau):
                 cloud_upload = len(edge_states) * model_bytes
                 cloud_download = len(edge_states) * model_bytes
                 last_sync = round_index
+                edge_cache.clear()
         else:
             global_state = weighted_state([s for group in by_edge for s in group],
                                           [n for group in selected_counts for n in group])
