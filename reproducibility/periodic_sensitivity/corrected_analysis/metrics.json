@@ -1,0 +1,18 @@
+[
+  {
+    "gap": 1,
+    "seed": 11,
+    "accuracy": 0.4909,
+    "modeled_total_bytes": 326857264,
+    "sync_count": 100,
+    "sync_reasons": {
+      "both": 0,
+      "max_gap": 100,
+      "divergence": 0,
+      "held": 0
+    },
+    "divergence_min": 0.39711525092495353,
+    "divergence_max": 1.9776542728913291,
+    "csv": "cifar10_sync_corrected_gap_1_cifar10_ahce-fl_seed11_tau0.01.csv"
+  }
+]
