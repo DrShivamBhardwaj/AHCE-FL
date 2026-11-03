@@ -1,0 +1,46 @@
+{
+  "configuration": {
+    "dataset": "cifar10",
+    "method": "ahce-fl",
+    "seed": 42,
+    "clients": 50,
+    "edges": 5,
+    "rounds": 100,
+    "local_epochs": 5,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "compression_threshold": 0.01,
+    "participation_ratio": 0.2,
+    "dirichlet_alpha": 0.5,
+    "selection_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "prox_mu": 0.01,
+    "sync_max_gap": 1,
+    "sync_threshold": 0.05,
+    "cpu_threads": 2
+  },
+  "method": "ahce-fl",
+  "seed": 42,
+  "tau": 0.01,
+  "result": {
+    "round": 100,
+    "accuracy": 0.4606,
+    "participating_clients": 10,
+    "sync_triggered": 1,
+    "parameters": 38570,
+    "client_upload_bytes": 693176,
+    "client_download_bytes": 1542800,
+    "cloud_upload_bytes": 771400,
+    "cloud_download_bytes": 771400,
+    "total_bytes": 3778776,
+    "compressed_entries": 86647,
+    "modeled_critical_path_ms": 162.02277260560498,
+    "wall_clock_s": 8.350877124932595
+  },
+  "measurement_type": "single-process simulation"
+}
