@@ -23,5 +23,5 @@
   "sync_threshold": 1000000000.0,
   "cpu_threads": 2,
   "checkpoint_every": 1,
-  "checkpoint_path": "results/checkpoints/cifar10_sync_corrected_gap_5_seed23_tau0.01.pt"
+  "checkpoint_path": "results/checkpoints/cifar10_sync_corrected_gap_5_seed42_tau0.01.pt"
 }
