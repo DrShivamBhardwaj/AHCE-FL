@@ -142,5 +142,21 @@
     "divergence_min": 0.40292735822468617,
     "divergence_max": 4.116783387085312,
     "csv": "cifar10_sync_corrected_gap_3_cifar10_ahce-fl_seed42_tau0.01.csv"
+  },
+  {
+    "gap": 5,
+    "seed": 11,
+    "accuracy": 0.4768,
+    "modeled_total_bytes": 253487488,
+    "sync_count": 20,
+    "sync_reasons": {
+      "both": 0,
+      "max_gap": 20,
+      "divergence": 0,
+      "held": 80
+    },
+    "divergence_min": 0.43727787241172816,
+    "divergence_max": 5.354268383394349,
+    "csv": "cifar10_sync_corrected_gap_5_cifar10_ahce-fl_seed11_tau0.01.csv"
   }
 ]
