@@ -174,7 +174,25 @@ def simulate(cfg, method, seed, tau):
                 "compute": rng.uniform(0.5, 2, cfg["clients"])}
     records, edge_cache = [], {}
     last_sync = 0
-    for round_index in range(1, cfg["rounds"] + 1):
+    checkpoint_path = Path(cfg["checkpoint_path"]) if cfg.get("checkpoint_path") else None
+    start_round = 1
+    if checkpoint_path and checkpoint_path.exists():
+        checkpoint = torch.load(checkpoint_path, map_location="cpu", weights_only=False)
+        if checkpoint.get("seed") != seed or checkpoint.get("method") != method or checkpoint.get("tau") != tau:
+            raise RuntimeError("Checkpoint settings do not match requested run")
+        if checkpoint.get("config") != cfg:
+            raise RuntimeError("Checkpoint configuration changed; refusing unsafe resume")
+        global_state = checkpoint["global_state"]
+        edge_cache = checkpoint["edge_cache"]
+        last_sync = checkpoint["last_sync"]
+        records = checkpoint["records"]
+        rng.bit_generator.state = checkpoint["rng_state"]
+        random.setstate(checkpoint["python_rng_state"])
+        np.random.set_state(checkpoint["numpy_rng_state"])
+        torch.set_rng_state(checkpoint["torch_rng_state"])
+        start_round = checkpoint["round"] + 1
+        print(json.dumps({"checkpoint_resume_from": checkpoint["round"], "path": str(checkpoint_path)}), flush=True)
+    for round_index in range(start_round, cfg["rounds"] + 1):
         start = time.perf_counter()
         eligible = [i for i, partition in enumerate(partitions) if len(partition)]
         if not eligible:
@@ -213,6 +231,8 @@ def simulate(cfg, method, seed, tau):
         cloud_upload = 0
         cloud_download = 0
         synced = True
+        divergence = float("nan")
+        sync_reason = "baseline_every_round"
         if method in ("ahce-fl", "hfl"):
             candidate = weighted_state(edge_states, edge_counts)
             divergence = math.sqrt(sum((candidate[k] - global_state[k]).float().square().sum().item()
@@ -221,8 +241,15 @@ def simulate(cfg, method, seed, tau):
                 for edge_index, groups in enumerate(by_edge):
                     if groups:
                         edge_cache[edge_index] = weighted_state(groups, selected_counts[edge_index])
+                gap_expired = round_index - last_sync >= cfg.get("sync_max_gap", 1)
+                divergence_exceeded = divergence >= cfg.get("sync_threshold", 0.0)
                 synced = should_sync(round_index, last_sync, divergence,
                                      cfg.get("sync_max_gap", 1), cfg.get("sync_threshold", 0.0))
+                sync_reason = ("both" if gap_expired and divergence_exceeded else
+                               "max_gap" if gap_expired else
+                               "divergence" if divergence_exceeded else "held")
+            else:
+                sync_reason = "hierarchical_every_round"
             if synced:
                 global_state = candidate
                 cloud_upload = len(edge_states) * model_bytes
@@ -241,8 +268,22 @@ def simulate(cfg, method, seed, tau):
                "cloud_upload_bytes": cloud_upload, "cloud_download_bytes": cloud_download,
                "total_bytes": client_upload + client_download + cloud_upload + cloud_download,
                "compressed_entries": nonzero, "modeled_critical_path_ms": round_delay,
-               "wall_clock_s": time.perf_counter() - start}
+               "wall_clock_s": time.perf_counter() - start,
+               "divergence_l2": divergence, "sync_reason": sync_reason}
         records.append(row)
+        if checkpoint_path and (round_index % int(cfg.get("checkpoint_every", 1)) == 0
+                                or round_index == cfg["rounds"]):
+            checkpoint_path.parent.mkdir(parents=True, exist_ok=True)
+            checkpoint = {"seed": seed, "method": method, "tau": tau, "config": cfg,
+                          "round": round_index, "global_state": global_state,
+                          "edge_cache": edge_cache, "last_sync": last_sync,
+                          "records": records, "rng_state": rng.bit_generator.state,
+                          "python_rng_state": random.getstate(),
+                          "numpy_rng_state": np.random.get_state(),
+                          "torch_rng_state": torch.get_rng_state()}
+            temporary = checkpoint_path.with_suffix(".tmp")
+            torch.save(checkpoint, temporary)
+            temporary.replace(checkpoint_path)
         print(json.dumps({"method": method, **row}), flush=True)
     return records
 
