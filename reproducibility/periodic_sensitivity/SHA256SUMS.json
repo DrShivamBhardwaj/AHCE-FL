@@ -1,5 +1,5 @@
 {
-  "STATUS.json": "5712eea0ba6657eb0bea81c958ecf2b267101c587472d84b0925c3c5580ba6ed",
+  "STATUS.json": "adc61f924d169d95d458c946646d410bc5e3d16cd1b8587ee36c072aedadf123",
   "complete_runs/cifar10_compression_tau_0.001_cifar10_ahce-fl_seed11_tau0.001.csv": "0da59d5b4778e47be3f9ea8a182875b9b9d8ec40627e0fc73e117125675eac43",
   "complete_runs/cifar10_compression_tau_0.001_cifar10_ahce-fl_seed11_tau0.001.json": "bfd67967604e0d6137259aa101844b1fbc45abb47b8e6fb19173facd7f677ba8",
   "complete_runs/cifar10_compression_tau_0.001_cifar10_ahce-fl_seed23_tau0.001.csv": "fdc4eb99e09e62d6963701a3ebd2f9fa967e7b373c6d1d2b5976a3684163e578",
@@ -40,6 +40,10 @@
   "complete_runs/cifar10_synchronization_gap_3_cifar10_ahce-fl_seed11_tau0.01.json": "ed35ebd62609aa2141f3f9a22e3a5eee9f17cd258e6787344dc475bc7264234b",
   "complete_runs/cifar10_synchronization_gap_3_cifar10_ahce-fl_seed23_tau0.01.csv": "dc620f117c51fe4d326ab29860896c0aecef20e1f3b950814932db5535956e4f",
   "complete_runs/cifar10_synchronization_gap_3_cifar10_ahce-fl_seed23_tau0.01.json": "fa151b8bb5b49294b20d795ab6438828dce1b8d0456751183b39f66cb64cf5fc",
+  "complete_runs/cifar10_synchronization_gap_3_cifar10_ahce-fl_seed42_tau0.01.csv": "7f2c48b8f06cccfd31c3d63876b0f2191ba77b34cd1d874c0cbc098b56512916",
+  "complete_runs/cifar10_synchronization_gap_3_cifar10_ahce-fl_seed42_tau0.01.json": "be3a6156bdf217062f0fca167b39e2753c15b4bd5bd11d4787b8855b81786044",
+  "complete_runs/cifar10_synchronization_gap_5_cifar10_ahce-fl_seed11_tau0.01.csv": "e92bb5d83f66774ae02681d4477429242fda968661eb3e84d437ce3d44b5fab8",
+  "complete_runs/cifar10_synchronization_gap_5_cifar10_ahce-fl_seed11_tau0.01.json": "433ea5e9cc82cd1b45a3714c4f25378877deb2add0e461e9937d22150bd94557",
   "configs/cifar10_compression_tau_0.001.json": "205fb71fb417c919140a8539ab5501322eaf8193590c1bd1c8f63a0ece7a7286",
   "configs/cifar10_compression_tau_0.01.json": "daaf477bde9d82dae6cb3af4b1ae698bcf726bf85e0c5f47acf10fd8068075d5",
   "configs/cifar10_compression_tau_0.05.json": "142784a0a9a2222e45f07bdd41160041d15d6adbc2accf79b1d0fec539765801",
@@ -47,6 +51,7 @@
   "configs/cifar10_synchronization_gap_1.json": "a185ca714105d353a616218a081b549492d94045d796ba914e6ce4d679960511",
   "configs/cifar10_synchronization_gap_2.json": "6db1d67029a2e60441fd7c816f6032811d2873221a03767c13673aa8e6d07f1b",
   "configs/cifar10_synchronization_gap_3.json": "daaf477bde9d82dae6cb3af4b1ae698bcf726bf85e0c5f47acf10fd8068075d5",
+  "configs/cifar10_synchronization_gap_5.json": "31c73f5fc11325a000de9902a2cc3e8367abdbc5272d46f675710279059e8f5d",
   "logs/sensitivity_compression_resume.log": "eacc2bb042fcd025eb02fdf57b231138ae681c184d778f0b33b42fe194f63a23",
-  "logs/sensitivity_resume_sequence.log": "1b036d37c90aecf48516cbfd35c289f714037d97bb14b95c4efcf18eff8b9e64"
+  "logs/sensitivity_resume_sequence.log": "7c69e46968baf7c6dcd55d269b88d81bc748ad68f33c0fcd0f51152c9fa2fde9"
 }

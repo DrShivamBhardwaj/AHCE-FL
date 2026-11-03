@@ -1,6 +1,6 @@
 {
-  "timestamp_utc": "2026-11-03T01:18:59.687142+00:00",
-  "completed_sensitivity_runs": 20,
+  "timestamp_utc": "2026-11-03T01:49:07.172848+00:00",
+  "completed_sensitivity_runs": 22,
   "files": [
     "cifar10_compression_tau_0.001_cifar10_ahce-fl_seed11_tau0.001.csv",
     "cifar10_compression_tau_0.001_cifar10_ahce-fl_seed23_tau0.001.csv",
@@ -21,7 +21,9 @@
     "cifar10_synchronization_gap_2_cifar10_ahce-fl_seed23_tau0.01.csv",
     "cifar10_synchronization_gap_2_cifar10_ahce-fl_seed42_tau0.01.csv",
     "cifar10_synchronization_gap_3_cifar10_ahce-fl_seed11_tau0.01.csv",
-    "cifar10_synchronization_gap_3_cifar10_ahce-fl_seed23_tau0.01.csv"
+    "cifar10_synchronization_gap_3_cifar10_ahce-fl_seed23_tau0.01.csv",
+    "cifar10_synchronization_gap_3_cifar10_ahce-fl_seed42_tau0.01.csv",
+    "cifar10_synchronization_gap_5_cifar10_ahce-fl_seed11_tau0.01.csv"
   ],
   "logs": {
     "sensitivity_compression_resume.log": {
@@ -29,8 +31,8 @@
       "events_in_log": 1200
     },
     "sensitivity_resume_sequence.log": {
-      "latest_round_in_log": 57,
-      "events_in_log": 857
+      "latest_round_in_log": 35,
+      "events_in_log": 1035
     }
   },
   "training_model_state_checkpointed": false,
