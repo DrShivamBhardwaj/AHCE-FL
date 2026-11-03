@@ -349,5 +349,113 @@
     "modeled_total_bytes": 389578752,
     "sync_count": 100,
     "run_file": "cifar10_synchronization_gap_5_cifar10_ahce-fl_seed42_tau0.01.csv"
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "1",
+    "seed": 11,
+    "accuracy": 0.4909,
+    "modeled_total_bytes": 326857264,
+    "sync_count": 100,
+    "run_file": "cifar10_sync_corrected_gap_1_cifar10_ahce-fl_seed11_tau0.01.csv"
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "1",
+    "seed": 23,
+    "accuracy": 0.4677,
+    "modeled_total_bytes": 381577840,
+    "sync_count": 100,
+    "run_file": "cifar10_sync_corrected_gap_1_cifar10_ahce-fl_seed23_tau0.01.csv"
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "1",
+    "seed": 42,
+    "accuracy": 0.4606,
+    "modeled_total_bytes": 389578752,
+    "sync_count": 100,
+    "run_file": "cifar10_sync_corrected_gap_1_cifar10_ahce-fl_seed42_tau0.01.csv"
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "2",
+    "seed": 11,
+    "accuracy": 0.4802,
+    "modeled_total_bytes": 282873448,
+    "sync_count": 50,
+    "run_file": "cifar10_sync_corrected_gap_2_cifar10_ahce-fl_seed11_tau0.01.csv"
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "2",
+    "seed": 23,
+    "accuracy": 0.4659,
+    "modeled_total_bytes": 302661328,
+    "sync_count": 50,
+    "run_file": "cifar10_sync_corrected_gap_2_cifar10_ahce-fl_seed23_tau0.01.csv"
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "2",
+    "seed": 42,
+    "accuracy": 0.4722,
+    "modeled_total_bytes": 304960744,
+    "sync_count": 50,
+    "run_file": "cifar10_sync_corrected_gap_2_cifar10_ahce-fl_seed42_tau0.01.csv"
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "3",
+    "seed": 11,
+    "accuracy": 0.4876,
+    "modeled_total_bytes": 266763088,
+    "sync_count": 33,
+    "run_file": "cifar10_sync_corrected_gap_3_cifar10_ahce-fl_seed11_tau0.01.csv"
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "3",
+    "seed": 23,
+    "accuracy": 0.4726,
+    "modeled_total_bytes": 274360824,
+    "sync_count": 33,
+    "run_file": "cifar10_sync_corrected_gap_3_cifar10_ahce-fl_seed23_tau0.01.csv"
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "3",
+    "seed": 42,
+    "accuracy": 0.4662,
+    "modeled_total_bytes": 278244080,
+    "sync_count": 33,
+    "run_file": "cifar10_sync_corrected_gap_3_cifar10_ahce-fl_seed42_tau0.01.csv"
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "5",
+    "seed": 11,
+    "accuracy": 0.4768,
+    "modeled_total_bytes": 253487488,
+    "sync_count": 20,
+    "run_file": "cifar10_sync_corrected_gap_5_cifar10_ahce-fl_seed11_tau0.01.csv"
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "5",
+    "seed": 23,
+    "accuracy": 0.4706,
+    "modeled_total_bytes": 252453496,
+    "sync_count": 20,
+    "run_file": "cifar10_sync_corrected_gap_5_cifar10_ahce-fl_seed23_tau0.01.csv"
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "5",
+    "seed": 42,
+    "accuracy": 0.4571,
+    "modeled_total_bytes": 254244184,
+    "sync_count": 20,
+    "run_file": "cifar10_sync_corrected_gap_5_cifar10_ahce-fl_seed42_tau0.01.csv"
   }
 ]

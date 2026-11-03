@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430">
+<rect width="720" height="430" fill="white"/>
+<path d="M100 45 V350 H630" stroke="black" fill="none" stroke-width="2"/>
+<circle cx="100.00" cy="102.21" r="5" fill="black"/>
+<text x="100.00" y="379" text-anchor="middle" font-size="15" font-family="serif">1</text>
+<text x="100.00" y="89.21" text-anchor="middle" font-size="14" font-family="serif">100.000</text>
+<circle cx="266.67" cy="226.11" r="5" fill="black"/>
+<text x="266.67" y="379" text-anchor="middle" font-size="15" font-family="serif">2</text>
+<text x="266.67" y="213.11" text-anchor="middle" font-size="14" font-family="serif">50.000</text>
+<circle cx="433.33" cy="268.23" r="5" fill="black"/>
+<text x="433.33" y="379" text-anchor="middle" font-size="15" font-family="serif">3</text>
+<text x="433.33" y="255.23" text-anchor="middle" font-size="14" font-family="serif">33.000</text>
+<circle cx="600.00" cy="300.44" r="5" fill="black"/>
+<text x="600.00" y="379" text-anchor="middle" font-size="15" font-family="serif">5</text>
+<text x="600.00" y="287.44" text-anchor="middle" font-size="14" font-family="serif">20.000</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="100.00,102.21 266.67,226.11 433.33,268.23 600.00,300.44"/>
+<text x="365" y="414" text-anchor="middle" font-size="16" font-family="serif">Maximum cloud synchronization gap</text>
+<text x="23" y="200" transform="rotate(-90 23 200)" text-anchor="middle" font-size="16" font-family="serif">Mean cloud synchronization events</text>
+</svg>

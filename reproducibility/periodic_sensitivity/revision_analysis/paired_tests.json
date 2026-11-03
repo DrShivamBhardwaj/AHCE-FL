@@ -98,5 +98,35 @@
     "ci95_lower": 0.0,
     "ci95_upper": 0.0,
     "p_value": 1.0
+  },
+  {
+    "group": "corrected_gap",
+    "candidate": "2",
+    "reference": "1",
+    "seed_count": 3,
+    "mean_accuracy_difference": -0.000300000000000004,
+    "ci95_lower": -0.028185483157732266,
+    "ci95_upper": 0.027585483157732255,
+    "p_value": 0.967286134506588
+  },
+  {
+    "group": "corrected_gap",
+    "candidate": "3",
+    "reference": "1",
+    "seed_count": 3,
+    "mean_accuracy_difference": 0.0023999999999999946,
+    "ci95_lower": -0.009893344735519533,
+    "ci95_upper": 0.01469334473551952,
+    "p_value": 0.4893231706582333
+  },
+  {
+    "group": "corrected_gap",
+    "candidate": "5",
+    "reference": "1",
+    "seed_count": 3,
+    "mean_accuracy_difference": -0.004899999999999997,
+    "ci95_lower": -0.02622889376882237,
+    "ci95_upper": 0.016428893768822374,
+    "p_value": 0.42711279124708706
   }
 ]
