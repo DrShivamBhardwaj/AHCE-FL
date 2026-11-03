@@ -1,5 +1,5 @@
 {
-  "STATUS.json": "5819a08da7fe29053f32fac41d4b23938578dc6007340887350d2abfc7a0f3de",
+  "STATUS.json": "c710f4a11ad1e141ad3f4fef4707e3800c7096e25c852714abb08cf33b499f4b",
   "complete_runs/cifar10_compression_tau_0.001_cifar10_ahce-fl_seed11_tau0.001.csv": "0da59d5b4778e47be3f9ea8a182875b9b9d8ec40627e0fc73e117125675eac43",
   "complete_runs/cifar10_compression_tau_0.001_cifar10_ahce-fl_seed11_tau0.001.json": "bfd67967604e0d6137259aa101844b1fbc45abb47b8e6fb19173facd7f677ba8",
   "complete_runs/cifar10_compression_tau_0.001_cifar10_ahce-fl_seed23_tau0.001.csv": "fdc4eb99e09e62d6963701a3ebd2f9fa967e7b373c6d1d2b5976a3684163e578",
@@ -52,10 +52,21 @@
   "configs/cifar10_compression_tau_0.01.json": "daaf477bde9d82dae6cb3af4b1ae698bcf726bf85e0c5f47acf10fd8068075d5",
   "configs/cifar10_compression_tau_0.05.json": "142784a0a9a2222e45f07bdd41160041d15d6adbc2accf79b1d0fec539765801",
   "configs/cifar10_compression_tau_0.json": "370a54691afef6716316189cd3534042987aa264f51055012b6cf32e13998d7c",
+  "configs/cifar10_sync_corrected_gap_1.json": "39d26796ff1d9a93776e3c4c5a2d30e1fbbd56c12fe5deb4aa32c954c22f04e1",
   "configs/cifar10_synchronization_gap_1.json": "a185ca714105d353a616218a081b549492d94045d796ba914e6ce4d679960511",
   "configs/cifar10_synchronization_gap_2.json": "6db1d67029a2e60441fd7c816f6032811d2873221a03767c13673aa8e6d07f1b",
   "configs/cifar10_synchronization_gap_3.json": "daaf477bde9d82dae6cb3af4b1ae698bcf726bf85e0c5f47acf10fd8068075d5",
   "configs/cifar10_synchronization_gap_5.json": "31c73f5fc11325a000de9902a2cc3e8367abdbc5272d46f675710279059e8f5d",
   "logs/sensitivity_compression_resume.log": "eacc2bb042fcd025eb02fdf57b231138ae681c184d778f0b33b42fe194f63a23",
-  "logs/sensitivity_resume_sequence.log": "92c2f5559d733a46d295cd1b8946e6dca5bee7c920bbfc9ef52639fb7288a401"
+  "logs/sensitivity_resume_sequence.log": "92c2f5559d733a46d295cd1b8946e6dca5bee7c920bbfc9ef52639fb7288a401",
+  "logs/unattended_revision.log": "b847d143f04dfeab199edf5243d27de8225fb2429fc2c9add3e3a65a3b4f9d93",
+  "model_checkpoints/cifar10_sync_corrected_gap_1_seed11_tau0.01.pt": "debc91d18af1bfb5ce7fceb8e9e429547aebd1d7878f0eb8a7ea4bc8df063353",
+  "revision_analysis/EVIDENCE_REPORT.md": "49b7dee8292ffb3ea6ed32ffa8e8db24c8a2f4d0253e1d48e76fbe249ab7df98",
+  "revision_analysis/compression_accuracy.svg": "1565dfaad53ebabccdc21e7fbb3eb3c85825ad2aac248383e8262e5a05fc4a80",
+  "revision_analysis/compression_bytes.svg": "88d35900218b241da4d144da4b9ffc54c9c6eac549f0ea2d8753bb8a95a64d8f",
+  "revision_analysis/descriptive_statistics.json": "dfc3dd527daebe1c6af67554819ddb2fba5737d4365aae0cecde775c6f2312de",
+  "revision_analysis/individual_runs.json": "5d4fb7c479c699da101cae37c3afadefc33931c502b06f0cb559c96a8abbc773",
+  "revision_analysis/original_sync_events.svg": "ff5af0a23080cb8b00da5eb16b8829bcedf3f0e687acc9b01fe65abf15361b3c",
+  "revision_analysis/paired_tests.json": "c94940ba9fed3e4b3490238795f5697e63b363521de64d163e668613646f8c5f",
+  "revision_analysis/statistics.csv": "ff1ff795df9ca3f76bcc273d2383940bc5ecf9a2c2b44b7c04672ba36f4a9a3c"
 }

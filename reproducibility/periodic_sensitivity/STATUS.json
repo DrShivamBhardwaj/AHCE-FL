@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-03T02:28:33.935929+00:00",
+  "timestamp_utc": "2026-11-03T03:30:21.287796+00:00",
   "completed_sensitivity_runs": 24,
   "files": [
     "cifar10_compression_tau_0.001_cifar10_ahce-fl_seed11_tau0.001.csv",
@@ -37,6 +37,6 @@
       "events_in_log": 1200
     }
   },
-  "training_model_state_checkpointed": false,
-  "resume_note": "Complete runs are reusable. A partial log cannot restore live training weights or optimizer state."
+  "training_model_state_checkpointed": true,
+  "resume_note": "Corrected runs restore a saved round state when matching checkpoint and config exist. Earlier runs have logs only."
 }

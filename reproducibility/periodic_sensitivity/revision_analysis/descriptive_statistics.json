@@ -1,0 +1,145 @@
+[
+  {
+    "group": "baseline",
+    "setting": "ahce-fl",
+    "n": 3,
+    "accuracy_mean": 0.4730666666666667,
+    "accuracy_sd": 0.015846871405212237,
+    "accuracy_ci95_lower": 0.43370085579572104,
+    "accuracy_ci95_upper": 0.5124324775376123,
+    "mean_modeled_total_bytes": 366004618.6666667,
+    "mean_cloud_sync_count": 100
+  },
+  {
+    "group": "baseline",
+    "setting": "fedavg",
+    "n": 3,
+    "accuracy_mean": 0.6434666666666666,
+    "accuracy_sd": 0.014636370223977443,
+    "accuracy_ci95_lower": 0.6071079074301446,
+    "accuracy_ci95_upper": 0.6798254259031886,
+    "mean_modeled_total_bytes": 617120000,
+    "mean_cloud_sync_count": 100
+  },
+  {
+    "group": "baseline",
+    "setting": "fedcs",
+    "n": 3,
+    "accuracy_mean": 0.5093666666666666,
+    "accuracy_sd": 0.00391705671816652,
+    "accuracy_ci95_lower": 0.4996361583540042,
+    "accuracy_ci95_upper": 0.5190971749793291,
+    "mean_modeled_total_bytes": 617120000,
+    "mean_cloud_sync_count": 100
+  },
+  {
+    "group": "baseline",
+    "setting": "fedprox",
+    "n": 3,
+    "accuracy_mean": 0.6415333333333333,
+    "accuracy_sd": 0.012608066201179836,
+    "accuracy_ci95_lower": 0.6102131606107377,
+    "accuracy_ci95_upper": 0.6728535060559289,
+    "mean_modeled_total_bytes": 617120000,
+    "mean_cloud_sync_count": 100
+  },
+  {
+    "group": "baseline",
+    "setting": "hfl",
+    "n": 3,
+    "accuracy_mean": 0.6424,
+    "accuracy_sd": 0.013596690773861084,
+    "accuracy_ci95_lower": 0.6086239476936439,
+    "accuracy_ci95_upper": 0.676176052306356,
+    "mean_modeled_total_bytes": 450291893.3333333,
+    "mean_cloud_sync_count": 100
+  },
+  {
+    "group": "compression",
+    "setting": "0",
+    "n": 3,
+    "accuracy_mean": 0.5059,
+    "accuracy_sd": 0.0017349351572897257,
+    "accuracy_ci95_lower": 0.5015901821483352,
+    "accuracy_ci95_upper": 0.5102098178516649,
+    "mean_modeled_total_bytes": 442269333.3333333,
+    "mean_cloud_sync_count": 100
+  },
+  {
+    "group": "compression",
+    "setting": "0.001",
+    "n": 3,
+    "accuracy_mean": 0.5059,
+    "accuracy_sd": 0.0017349351572897257,
+    "accuracy_ci95_lower": 0.5015901821483352,
+    "accuracy_ci95_upper": 0.5102098178516649,
+    "mean_modeled_total_bytes": 442269333.3333333,
+    "mean_cloud_sync_count": 100
+  },
+  {
+    "group": "compression",
+    "setting": "0.01",
+    "n": 3,
+    "accuracy_mean": 0.4730666666666667,
+    "accuracy_sd": 0.015846871405212237,
+    "accuracy_ci95_lower": 0.43370085579572104,
+    "accuracy_ci95_upper": 0.5124324775376123,
+    "mean_modeled_total_bytes": 366004618.6666667,
+    "mean_cloud_sync_count": 100
+  },
+  {
+    "group": "compression",
+    "setting": "0.05",
+    "n": 3,
+    "accuracy_mean": 0.18613333333333335,
+    "accuracy_sd": 0.038257199758128316,
+    "accuracy_ci95_lower": 0.09109718066820119,
+    "accuracy_ci95_upper": 0.2811694859984655,
+    "mean_modeled_total_bytes": 288659957.3333333,
+    "mean_cloud_sync_count": 100
+  },
+  {
+    "group": "original_sync",
+    "setting": "1",
+    "n": 3,
+    "accuracy_mean": 0.4730666666666667,
+    "accuracy_sd": 0.015846871405212237,
+    "accuracy_ci95_lower": 0.43370085579572104,
+    "accuracy_ci95_upper": 0.5124324775376123,
+    "mean_modeled_total_bytes": 366004618.6666667,
+    "mean_cloud_sync_count": 100
+  },
+  {
+    "group": "original_sync",
+    "setting": "2",
+    "n": 3,
+    "accuracy_mean": 0.4730666666666667,
+    "accuracy_sd": 0.015846871405212237,
+    "accuracy_ci95_lower": 0.43370085579572104,
+    "accuracy_ci95_upper": 0.5124324775376123,
+    "mean_modeled_total_bytes": 366004618.6666667,
+    "mean_cloud_sync_count": 100
+  },
+  {
+    "group": "original_sync",
+    "setting": "3",
+    "n": 3,
+    "accuracy_mean": 0.4730666666666667,
+    "accuracy_sd": 0.015846871405212237,
+    "accuracy_ci95_lower": 0.43370085579572104,
+    "accuracy_ci95_upper": 0.5124324775376123,
+    "mean_modeled_total_bytes": 366004618.6666667,
+    "mean_cloud_sync_count": 100
+  },
+  {
+    "group": "original_sync",
+    "setting": "5",
+    "n": 3,
+    "accuracy_mean": 0.4730666666666667,
+    "accuracy_sd": 0.015846871405212237,
+    "accuracy_ci95_lower": 0.43370085579572104,
+    "accuracy_ci95_upper": 0.5124324775376123,
+    "mean_modeled_total_bytes": 366004618.6666667,
+    "mean_cloud_sync_count": 100
+  }
+]
