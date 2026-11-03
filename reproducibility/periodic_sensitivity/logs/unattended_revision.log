@@ -1269,3 +1269,7 @@ RUN 5 42 attempt 1
 {"method": "ahce-fl", "round": 100, "accuracy": 0.4571, "participating_clients": 10, "sync_triggered": 1, "parameters": 38570, "client_upload_bytes": 482816, "client_download_bytes": 1542800, "cloud_upload_bytes": 771400, "cloud_download_bytes": 771400, "total_bytes": 3568416, "compressed_entries": 60352, "modeled_critical_path_ms": 159.90625564469434, "wall_clock_s": 11.061422375030816, "divergence_l2": 1.4342130349387159, "sync_reason": "max_gap"}
 Saved results/cifar10_sync_corrected_gap_5_cifar10_ahce-fl_seed42_tau0.01.csv
 COMPLETE 5 42 count 12
+VERIFIED_COMPLETE_RUNS 36 ACTIVE_LOG_STATUS {'sensitivity_compression_resume.log': {'latest_round_in_log': 100, 'events_in_log': 1200}, 'sensitivity_resume_sequence.log': {'latest_round_in_log': 100, 'events_in_log': 1200}}
+SYNC_OK 2026-11-03T07:32:21Z 006d57f
+SNAPSHOT_RETURN_CODE 0
+FINISHED_ALL 12
