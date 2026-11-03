@@ -3,7 +3,15 @@ set -eu
 cd "$HOME/research/AHCE-FL"
 mkdir -p logs
 if [ -f reproducibility/revision_analysis/FINALIZED.json ]; then
- echo "ALREADY_FINALIZED"
+ local_commit=$(git rev-parse HEAD)
+ remote_commit=$(git ls-remote origin refs/heads/main | cut -f1) || remote_commit=''
+ if [ "$local_commit" = "$remote_commit" ]; then
+  echo "ALREADY_FINALIZED_REMOTE_VERIFIED"
+  exit 0
+ fi
+ git push origin main
+ scripts/sync_every_30min.sh
+ echo "FINAL_RETRY_SYNCED"
  exit 0
 fi
 complete=$(.venv/bin/python - <<'PY'
