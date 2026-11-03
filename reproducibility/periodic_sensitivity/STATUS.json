@@ -1,6 +1,6 @@
 {
-  "timestamp_utc": "2026-11-03T04:51:56.598116+00:00",
-  "completed_sensitivity_runs": 28,
+  "timestamp_utc": "2026-11-03T05:11:34.950804+00:00",
+  "completed_sensitivity_runs": 29,
   "files": [
     "cifar10_compression_tau_0.001_cifar10_ahce-fl_seed11_tau0.001.csv",
     "cifar10_compression_tau_0.001_cifar10_ahce-fl_seed23_tau0.001.csv",
@@ -18,6 +18,7 @@
     "cifar10_sync_corrected_gap_1_cifar10_ahce-fl_seed23_tau0.01.csv",
     "cifar10_sync_corrected_gap_1_cifar10_ahce-fl_seed42_tau0.01.csv",
     "cifar10_sync_corrected_gap_2_cifar10_ahce-fl_seed11_tau0.01.csv",
+    "cifar10_sync_corrected_gap_2_cifar10_ahce-fl_seed23_tau0.01.csv",
     "cifar10_synchronization_gap_1_cifar10_ahce-fl_seed11_tau0.01.csv",
     "cifar10_synchronization_gap_1_cifar10_ahce-fl_seed23_tau0.01.csv",
     "cifar10_synchronization_gap_1_cifar10_ahce-fl_seed42_tau0.01.csv",
