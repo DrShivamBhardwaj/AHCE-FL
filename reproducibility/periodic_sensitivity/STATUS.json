@@ -1,0 +1,38 @@
+{
+  "timestamp_utc": "2026-11-03T01:18:28.762760+00:00",
+  "completed_sensitivity_runs": 20,
+  "files": [
+    "cifar10_compression_tau_0.001_cifar10_ahce-fl_seed11_tau0.001.csv",
+    "cifar10_compression_tau_0.001_cifar10_ahce-fl_seed23_tau0.001.csv",
+    "cifar10_compression_tau_0.001_cifar10_ahce-fl_seed42_tau0.001.csv",
+    "cifar10_compression_tau_0.01_cifar10_ahce-fl_seed11_tau0.01.csv",
+    "cifar10_compression_tau_0.01_cifar10_ahce-fl_seed23_tau0.01.csv",
+    "cifar10_compression_tau_0.01_cifar10_ahce-fl_seed42_tau0.01.csv",
+    "cifar10_compression_tau_0.05_cifar10_ahce-fl_seed11_tau0.05.csv",
+    "cifar10_compression_tau_0.05_cifar10_ahce-fl_seed23_tau0.05.csv",
+    "cifar10_compression_tau_0.05_cifar10_ahce-fl_seed42_tau0.05.csv",
+    "cifar10_compression_tau_0_cifar10_ahce-fl_seed11_tau0.csv",
+    "cifar10_compression_tau_0_cifar10_ahce-fl_seed23_tau0.csv",
+    "cifar10_compression_tau_0_cifar10_ahce-fl_seed42_tau0.csv",
+    "cifar10_synchronization_gap_1_cifar10_ahce-fl_seed11_tau0.01.csv",
+    "cifar10_synchronization_gap_1_cifar10_ahce-fl_seed23_tau0.01.csv",
+    "cifar10_synchronization_gap_1_cifar10_ahce-fl_seed42_tau0.01.csv",
+    "cifar10_synchronization_gap_2_cifar10_ahce-fl_seed11_tau0.01.csv",
+    "cifar10_synchronization_gap_2_cifar10_ahce-fl_seed23_tau0.01.csv",
+    "cifar10_synchronization_gap_2_cifar10_ahce-fl_seed42_tau0.01.csv",
+    "cifar10_synchronization_gap_3_cifar10_ahce-fl_seed11_tau0.01.csv",
+    "cifar10_synchronization_gap_3_cifar10_ahce-fl_seed23_tau0.01.csv"
+  ],
+  "logs": {
+    "sensitivity_compression_resume.log": {
+      "latest_round_in_log": 100,
+      "events_in_log": 1200
+    },
+    "sensitivity_resume_sequence.log": {
+      "latest_round_in_log": 54,
+      "events_in_log": 854
+    }
+  },
+  "training_model_state_checkpointed": false,
+  "resume_note": "Complete runs are reusable. A partial log cannot restore live training weights or optimizer state."
+}
