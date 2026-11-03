@@ -26,7 +26,7 @@ if ! git show-ref --verify --quiet "refs/heads/$branch"; then
 fi
 git checkout -q "$branch"
 if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
-  git pull --ff-only --quiet origin "$branch"
+  git pull --ff-only --quiet origin "$branch" || echo "WARN_REMOTE_PULL_DEFERRED"
 fi
 dest="$mirror/reproducibility/periodic_sensitivity"
 mkdir -p "$dest/complete_runs" "$dest/configs" "$dest/logs"
@@ -80,8 +80,9 @@ PY
 git add reproducibility/periodic_sensitivity
 if ! git diff --cached --quiet; then
   git commit -qm "Checkpoint sensitivity data $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
-  git push -q -u origin "$branch"
+fi
+if git push -q -u origin "$branch"; then
   echo "SYNC_OK $(date -u '+%Y-%m-%dT%H:%M:%SZ') $(git rev-parse --short HEAD)"
 else
-  echo "NO_CHANGES $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+  echo "REMOTE_UNAVAILABLE_LOCAL_COMMIT_SAVED $(date -u '+%Y-%m-%dT%H:%M:%SZ') $(git rev-parse --short HEAD)"
 fi
