@@ -1,0 +1,102 @@
+[
+  {
+    "group": "baseline",
+    "candidate": "fedavg",
+    "reference": "ahce-fl",
+    "seed_count": 3,
+    "mean_accuracy_difference": 0.1704,
+    "ci95_lower": 0.13330391316972018,
+    "ci95_upper": 0.2074960868302798,
+    "p_value": 0.002550237458110635
+  },
+  {
+    "group": "baseline",
+    "candidate": "fedcs",
+    "reference": "ahce-fl",
+    "seed_count": 3,
+    "mean_accuracy_difference": 0.0363,
+    "ci95_lower": 0.0018134040655605754,
+    "ci95_upper": 0.07078659593443942,
+    "p_value": 0.04545600474459761
+  },
+  {
+    "group": "baseline",
+    "candidate": "fedprox",
+    "reference": "ahce-fl",
+    "seed_count": 3,
+    "mean_accuracy_difference": 0.16846666666666665,
+    "ci95_lower": 0.12239991960129226,
+    "ci95_upper": 0.21453341373204105,
+    "p_value": 0.004014699565220372
+  },
+  {
+    "group": "baseline",
+    "candidate": "hfl",
+    "reference": "ahce-fl",
+    "seed_count": 3,
+    "mean_accuracy_difference": 0.16933333333333334,
+    "ci95_lower": 0.13723472369458506,
+    "ci95_upper": 0.2014319429720816,
+    "p_value": 0.001935319904713325
+  },
+  {
+    "group": "compression",
+    "candidate": "0.001",
+    "reference": "0",
+    "seed_count": 3,
+    "mean_accuracy_difference": 0.0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0,
+    "p_value": 1.0
+  },
+  {
+    "group": "compression",
+    "candidate": "0.01",
+    "reference": "0",
+    "seed_count": 3,
+    "mean_accuracy_difference": -0.032833333333333305,
+    "ci95_lower": -0.06986059825498729,
+    "ci95_upper": 0.004193931588320682,
+    "p_value": 0.062342233476246574
+  },
+  {
+    "group": "compression",
+    "candidate": "0.05",
+    "reference": "0",
+    "seed_count": 3,
+    "mean_accuracy_difference": -0.31976666666666664,
+    "ci95_lower": -0.4110296850175766,
+    "ci95_upper": -0.2285036483157567,
+    "p_value": 0.004371151432413025
+  },
+  {
+    "group": "original_sync",
+    "candidate": "2",
+    "reference": "1",
+    "seed_count": 3,
+    "mean_accuracy_difference": 0.0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0,
+    "p_value": 1.0
+  },
+  {
+    "group": "original_sync",
+    "candidate": "3",
+    "reference": "1",
+    "seed_count": 3,
+    "mean_accuracy_difference": 0.0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0,
+    "p_value": 1.0
+  },
+  {
+    "group": "original_sync",
+    "candidate": "5",
+    "reference": "1",
+    "seed_count": 3,
+    "mean_accuracy_difference": 0.0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0,
+    "p_value": 1.0
+  }
+]

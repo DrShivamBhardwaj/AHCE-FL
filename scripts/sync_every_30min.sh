@@ -38,7 +38,11 @@ if [ -d "$source_root/results/checkpoints" ]; then
  find "$source_root/results/checkpoints" -maxdepth 1 -type f -name 'cifar10_sync_corrected_*.pt' -exec cp -p {} "$dest/model_checkpoints/" \;
 fi
 if [ -d "$source_root/reproducibility/sync_corrected" ]; then
- find "$source_root/reproducibility/sync_corrected" -maxdepth 1 -type f \( -name '*.json' -o -name '*.md' -o -name '*.png' -o -name '*.csv' \) -exec cp -p {} "$dest/corrected_analysis/" \;
+ find "$source_root/reproducibility/sync_corrected" -maxdepth 1 -type f \( -name '*.json' -o -name '*.md' -o -name '*.png' -o -name '*.svg' -o -name '*.csv' \) -exec cp -p {} "$dest/corrected_analysis/" \;
+fi
+if [ -d "$source_root/reproducibility/revision_analysis" ]; then
+  mkdir -p "$dest/revision_analysis"
+  find "$source_root/reproducibility/revision_analysis" -maxdepth 1 -type f -exec cp -p {} "$dest/revision_analysis/" \;
 fi
 for name in sensitivity_compression_resume.log sensitivity_resume_sequence.log unattended_revision.log; do
   [ ! -f "$source_root/logs/$name" ] || cp "$source_root/logs/$name" "$dest/logs/$name"

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430">
+<rect width="720" height="430" fill="white"/>
+<path d="M100 45 V350 H630" stroke="black" fill="none" stroke-width="2"/>
+<circle cx="100.00" cy="102.21" r="5" fill="black"/>
+<text x="100.00" y="379" text-anchor="middle" font-size="15" font-family="serif">0</text>
+<text x="100.00" y="89.21" text-anchor="middle" font-size="14" font-family="serif">442.269</text>
+<circle cx="266.67" cy="102.21" r="5" fill="black"/>
+<text x="266.67" y="379" text-anchor="middle" font-size="15" font-family="serif">0.001</text>
+<text x="266.67" y="89.21" text-anchor="middle" font-size="14" font-family="serif">442.269</text>
+<circle cx="433.33" cy="144.94" r="5" fill="black"/>
+<text x="433.33" y="379" text-anchor="middle" font-size="15" font-family="serif">0.01</text>
+<text x="433.33" y="131.94" text-anchor="middle" font-size="14" font-family="serif">366.005</text>
+<circle cx="600.00" cy="188.27" r="5" fill="black"/>
+<text x="600.00" y="379" text-anchor="middle" font-size="15" font-family="serif">0.05</text>
+<text x="600.00" y="175.27" text-anchor="middle" font-size="14" font-family="serif">288.660</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="100.00,102.21 266.67,102.21 433.33,144.94 600.00,188.27"/>
+<text x="365" y="414" text-anchor="middle" font-size="16" font-family="serif">Compression threshold</text>
+<text x="23" y="200" transform="rotate(-90 23 200)" text-anchor="middle" font-size="16" font-family="serif">Mean modeled bytes (millions)</text>
+</svg>
