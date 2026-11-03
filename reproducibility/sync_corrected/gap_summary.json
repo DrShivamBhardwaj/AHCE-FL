@@ -1,0 +1,22 @@
+{
+  "1": {
+    "mean_accuracy": 0.4730666666666667,
+    "mean_sync_count": 100.0,
+    "mean_modeled_total_bytes": 366004618.6666667
+  },
+  "2": {
+    "mean_accuracy": 0.4727666666666666,
+    "mean_sync_count": 50.0,
+    "mean_modeled_total_bytes": 296831840.0
+  },
+  "3": {
+    "mean_accuracy": 0.47546666666666665,
+    "mean_sync_count": 33.0,
+    "mean_modeled_total_bytes": 273122664.0
+  },
+  "5": {
+    "mean_accuracy": 0.4681666666666667,
+    "mean_sync_count": 20.0,
+    "mean_modeled_total_bytes": 253395056.0
+  }
+}

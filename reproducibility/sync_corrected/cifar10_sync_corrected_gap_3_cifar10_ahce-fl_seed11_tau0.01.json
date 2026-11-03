@@ -1,0 +1,50 @@
+{
+  "configuration": {
+    "dataset": "cifar10",
+    "method": "ahce-fl",
+    "seed": 42,
+    "clients": 50,
+    "edges": 5,
+    "rounds": 100,
+    "local_epochs": 5,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "compression_threshold": 0.01,
+    "participation_ratio": 0.2,
+    "dirichlet_alpha": 0.5,
+    "selection_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "prox_mu": 0.01,
+    "sync_max_gap": 3,
+    "sync_threshold": 1000000000.0,
+    "cpu_threads": 2,
+    "checkpoint_every": 1,
+    "checkpoint_path": "results/checkpoints/cifar10_sync_corrected_gap_3_seed11_tau0.01.pt"
+  },
+  "method": "ahce-fl",
+  "seed": 11,
+  "tau": 0.01,
+  "result": {
+    "round": 100,
+    "accuracy": 0.4876,
+    "participating_clients": 10,
+    "sync_triggered": 0,
+    "parameters": 38570,
+    "client_upload_bytes": 780912,
+    "client_download_bytes": 1542800,
+    "cloud_upload_bytes": 0,
+    "cloud_download_bytes": 0,
+    "total_bytes": 2323712,
+    "compressed_entries": 97614,
+    "modeled_critical_path_ms": 219.18024579877337,
+    "wall_clock_s": 13.063133542076685,
+    "divergence_l2": 0.4142017709137394,
+    "sync_reason": "held"
+  },
+  "measurement_type": "single-process simulation"
+}

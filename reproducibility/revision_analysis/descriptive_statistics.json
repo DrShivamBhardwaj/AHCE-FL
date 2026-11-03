@@ -99,6 +99,50 @@
     "mean_cloud_sync_count": 100
   },
   {
+    "group": "corrected_gap",
+    "setting": "1",
+    "n": 3,
+    "accuracy_mean": 0.4730666666666667,
+    "accuracy_sd": 0.015846871405212237,
+    "accuracy_ci95_lower": 0.43370085579572104,
+    "accuracy_ci95_upper": 0.5124324775376123,
+    "mean_modeled_total_bytes": 366004618.6666667,
+    "mean_cloud_sync_count": 100
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "2",
+    "n": 3,
+    "accuracy_mean": 0.47276666666666667,
+    "accuracy_sd": 0.007166821703749409,
+    "accuracy_ci95_lower": 0.454963294598992,
+    "accuracy_ci95_upper": 0.49057003873434135,
+    "mean_modeled_total_bytes": 296831840,
+    "mean_cloud_sync_count": 50
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "3",
+    "n": 3,
+    "accuracy_mean": 0.47546666666666665,
+    "accuracy_sd": 0.01098423112162763,
+    "accuracy_ci95_lower": 0.44818032390284984,
+    "accuracy_ci95_upper": 0.5027530094304835,
+    "mean_modeled_total_bytes": 273122664,
+    "mean_cloud_sync_count": 33
+  },
+  {
+    "group": "corrected_gap",
+    "setting": "5",
+    "n": 3,
+    "accuracy_mean": 0.4681666666666667,
+    "accuracy_sd": 0.010072900939318986,
+    "accuracy_ci95_lower": 0.4431441935765791,
+    "accuracy_ci95_upper": 0.49318913975675427,
+    "mean_modeled_total_bytes": 253395056,
+    "mean_cloud_sync_count": 20
+  },
+  {
     "group": "original_sync",
     "setting": "1",
     "n": 3,

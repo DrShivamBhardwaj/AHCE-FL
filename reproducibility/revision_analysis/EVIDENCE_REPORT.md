@@ -15,6 +15,10 @@ Accuracy and communication are reported as separate outcomes.
 | compression | 0.001 | 3 | 0.505900 | [0.501590, 0.510210] | 100.00 | 442269333 |
 | compression | 0.01 | 3 | 0.473067 | [0.433701, 0.512432] | 100.00 | 366004619 |
 | compression | 0.05 | 3 | 0.186133 | [0.091097, 0.281169] | 100.00 | 288659957 |
+| corrected_gap | 1 | 3 | 0.473067 | [0.433701, 0.512432] | 100.00 | 366004619 |
+| corrected_gap | 2 | 3 | 0.472767 | [0.454963, 0.490570] | 50.00 | 296831840 |
+| corrected_gap | 3 | 3 | 0.475467 | [0.448180, 0.502753] | 33.00 | 273122664 |
+| corrected_gap | 5 | 3 | 0.468167 | [0.443144, 0.493189] | 20.00 | 253395056 |
 | original_sync | 1 | 3 | 0.473067 | [0.433701, 0.512432] | 100.00 | 366004619 |
 | original_sync | 2 | 3 | 0.473067 | [0.433701, 0.512432] | 100.00 | 366004619 |
 | original_sync | 3 | 3 | 0.473067 | [0.433701, 0.512432] | 100.00 | 366004619 |
@@ -34,6 +38,9 @@ Comparisons are exploratory because each group contains only three independent s
 | original_sync | 2 minus 1 | 0.000000 | [0.000000, 0.000000] | 1.0000000000 |
 | original_sync | 3 minus 1 | 0.000000 | [0.000000, 0.000000] | 1.0000000000 |
 | original_sync | 5 minus 1 | 0.000000 | [0.000000, 0.000000] | 1.0000000000 |
+| corrected_gap | 2 minus 1 | -0.000300 | [-0.028185, 0.027585] | 0.9672861345 |
+| corrected_gap | 3 minus 1 | 0.002400 | [-0.009893, 0.014693] | 0.4893231707 |
+| corrected_gap | 5 minus 1 | -0.004900 | [-0.026229, 0.016429] | 0.4271127912 |
 
 ## Required manuscript corrections
 - Remove unsupported AHCE-FL classification-accuracy superiority statements.

@@ -1,0 +1,8 @@
+{
+  "completed": 12,
+  "planned": 12,
+  "checkpoint_type": "atomic torch model state per round",
+  "threshold_used": 1000000000.0,
+  "objective": "isolate maximum synchronization gap independently of divergence trigger",
+  "execution_note": "No real networking is measured"
+}
