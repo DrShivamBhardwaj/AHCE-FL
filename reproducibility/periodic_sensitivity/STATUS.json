@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-03T18:43:17.355916+00:00",
+  "timestamp_utc": "2026-11-03T19:13:23.565731+00:00",
   "completed_sensitivity_runs": 36,
   "files": [
     "cifar10_compression_tau_0.001_cifar10_ahce-fl_seed11_tau0.001.csv",
