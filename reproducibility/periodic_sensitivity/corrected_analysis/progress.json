@@ -1,5 +1,5 @@
 {
-  "completed": 7,
+  "completed": 8,
   "planned": 12,
   "checkpoint_type": "atomic torch model state per round",
   "threshold_used": 1000000000.0,
