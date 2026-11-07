@@ -1,0 +1,368 @@
+{
+  "timestamp_utc": "2026-11-07T16:17:42.845816+00:00",
+  "count": 16,
+  "verified": 10,
+  "needs_review": [
+    {
+      "index": 1,
+      "reference": "Bagdasaryan, E., Veit, A., Hua, Y., Estrin, D. and Shmatikov, V. (2020) 'How to backdoor federated learning', Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, Vol. 108, pp. 2938–2948. Available at: https://proceedings.mlr.press/v108/bagdasaryan20a.html (accessed 3 November 2026).",
+      "doi": null,
+      "status": "url_accessible_requires_metadata_review",
+      "issues": [],
+      "http_code": 200,
+      "source": "Publisher/archive URL"
+    },
+    {
+      "index": 5,
+      "reference": "Konečný, J., McMahan, H.B., Yu, F.X., Richtárik, P., Suresh, A.T. and Bacon, D. (2016) 'Federated learning: strategies for improving communication efficiency', NeurIPS Workshop on Private Multi-Party Machine Learning. arXiv:1610.05492. doi:10.48550/arXiv.1610.05492.",
+      "doi": "10.48550/arXiv.1610.05492",
+      "status": "unverified",
+      "issues": [
+        "External lookup failed: HTTP Error 404: Not Found"
+      ]
+    },
+    {
+      "index": 6,
+      "reference": "Li, T., Sahu, A.K., Zaheer, M., Sanjabi, M., Talwalkar, A. and Smith, V. (2020) 'Federated optimization in heterogeneous networks', Proceedings of Machine Learning and Systems, Vol. 2, pp. 429–450.",
+      "doi": null,
+      "status": "unverified",
+      "issues": [
+        "No DOI or URL; search bibliographic metadata manually"
+      ]
+    },
+    {
+      "index": 10,
+      "reference": "McMahan, B., Moore, E., Ramage, D., Hampson, S. and Agüera y Arcas, B. (2017) 'Communication-efficient learning of deep networks from decentralized data', Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, Vol. 54, pp. 1273–1282. Available at: https://proceedings.mlr.press/v54/mcmahan17a.html (accessed 3 November 2026).",
+      "doi": null,
+      "status": "url_accessible_requires_metadata_review",
+      "issues": [],
+      "http_code": 200,
+      "source": "Publisher/archive URL"
+    },
+    {
+      "index": 12,
+      "reference": "Truex, S., Liu, L., Chow, K.H., Gursoy, M.E. and Wei, W. (2020) 'LDP-Fed: federated learning with local differential privacy', Proceedings of the 3rd ACM International Workshop on Edge Systems, Analytics and Networking, pp. 61–66. doi:10.1145/3378679.3394533.",
+      "doi": "10.1145/3378679.3394533",
+      "status": "needs_review",
+      "issues": [
+        "Publication title differs from DOI metadata"
+      ],
+      "source": "Crossref API",
+      "verified_title": "LDP-Fed",
+      "title_similarity": 0.2105,
+      "verified_year": 2020,
+      "verified_authors": [
+        "Stacey Truex",
+        "Ling Liu",
+        "Ka-Ho Chow",
+        "Mehmet Emre Gursoy",
+        "Wenqi Wei"
+      ],
+      "verified_container": "Proceedings of the Third ACM International Workshop on Edge Systems, Analytics and Networking",
+      "verified_pages": "61-66",
+      "verified_volume": null,
+      "verified_issue": null
+    },
+    {
+      "index": 14,
+      "reference": "Wen, A., Fu, Y., Liu, Z., Wang, Z. and Zhang, W. (2025) 'Hierarchical asynchronous federated learning algorithm for edge computing networks', Journal of Internet Technology, Vol. 26, No. 5, pp. 617–629.",
+      "doi": null,
+      "status": "unverified",
+      "issues": [
+        "No DOI or URL; search bibliographic metadata manually"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "index": 1,
+      "reference": "Bagdasaryan, E., Veit, A., Hua, Y., Estrin, D. and Shmatikov, V. (2020) 'How to backdoor federated learning', Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, Vol. 108, pp. 2938–2948. Available at: https://proceedings.mlr.press/v108/bagdasaryan20a.html (accessed 3 November 2026).",
+      "doi": null,
+      "status": "url_accessible_requires_metadata_review",
+      "issues": [],
+      "http_code": 200,
+      "source": "Publisher/archive URL"
+    },
+    {
+      "index": 2,
+      "reference": "Chowdhury, M. (2023) 'Merit: an on-demand IoT service delivery and resource scheduling scheme for federated learning and blockchain empowered 6G edge networks with reduced time and energy cost', International Journal of Ad Hoc and Ubiquitous Computing, Vol. 44, No. 2, pp. 79–103. doi:10.1504/IJAHUC.2023.134603.",
+      "doi": "10.1504/IJAHUC.2023.134603",
+      "status": "verified",
+      "issues": [],
+      "source": "Crossref API",
+      "verified_title": "Merit: an on-demand IoT service delivery and resource scheduling scheme for federated learning and blockchain empowered 6G edge networks with reduced time and energy cost",
+      "title_similarity": 1.0,
+      "verified_year": 2023,
+      "verified_authors": [
+        "Mahfuzulhoq Chowdhury"
+      ],
+      "verified_container": "International Journal of Ad Hoc and Ubiquitous Computing",
+      "verified_pages": "79-103",
+      "verified_volume": "44",
+      "verified_issue": "2"
+    },
+    {
+      "index": 3,
+      "reference": "Deng, Y., Lyu, F., Xia, T., Zhou, Y., Zhang, Y., Ren, J. and Yang, Y. (2024) 'A communication-efficient hierarchical federated learning framework via shaping data distribution at edge', IEEE/ACM Transactions on Networking, Vol. 32, No. 3, pp. 2600–2615. doi:10.1109/TNET.2024.3363916.",
+      "doi": "10.1109/TNET.2024.3363916",
+      "status": "verified",
+      "issues": [],
+      "source": "Crossref API",
+      "verified_title": "A Communication-Efficient Hierarchical Federated Learning Framework via Shaping Data Distribution at Edge",
+      "title_similarity": 1.0,
+      "verified_year": 2024,
+      "verified_authors": [
+        "Yongheng Deng",
+        "Feng Lyu",
+        "Tengxi Xia",
+        "Yuezhi Zhou",
+        "Yaoxue Zhang",
+        "Ju Ren",
+        "Yuanyuan Yang"
+      ],
+      "verified_container": "IEEE/ACM Transactions on Networking",
+      "verified_pages": "2600-2615",
+      "verified_volume": "32",
+      "verified_issue": "3"
+    },
+    {
+      "index": 4,
+      "reference": "Kairouz, P. et al. (2021) 'Advances and open problems in federated learning', Foundations and Trends in Machine Learning, Vol. 14, Nos. 1–2, pp. 1–210. doi:10.1561/2200000083.",
+      "doi": "10.1561/2200000083",
+      "status": "verified",
+      "issues": [],
+      "source": "Crossref API",
+      "verified_title": "Advances and Open Problems in Federated Learning",
+      "title_similarity": 1.0,
+      "verified_year": 2021,
+      "verified_authors": [
+        "Peter Kairouz",
+        "H. Brendan McMahan"
+      ],
+      "verified_container": "Foundations and Trends® in Machine Learning",
+      "verified_pages": "1-210",
+      "verified_volume": "14",
+      "verified_issue": "1-2"
+    },
+    {
+      "index": 5,
+      "reference": "Konečný, J., McMahan, H.B., Yu, F.X., Richtárik, P., Suresh, A.T. and Bacon, D. (2016) 'Federated learning: strategies for improving communication efficiency', NeurIPS Workshop on Private Multi-Party Machine Learning. arXiv:1610.05492. doi:10.48550/arXiv.1610.05492.",
+      "doi": "10.48550/arXiv.1610.05492",
+      "status": "unverified",
+      "issues": [
+        "External lookup failed: HTTP Error 404: Not Found"
+      ]
+    },
+    {
+      "index": 6,
+      "reference": "Li, T., Sahu, A.K., Zaheer, M., Sanjabi, M., Talwalkar, A. and Smith, V. (2020) 'Federated optimization in heterogeneous networks', Proceedings of Machine Learning and Systems, Vol. 2, pp. 429–450.",
+      "doi": null,
+      "status": "unverified",
+      "issues": [
+        "No DOI or URL; search bibliographic metadata manually"
+      ]
+    },
+    {
+      "index": 7,
+      "reference": "Lim, W.Y.B., Luong, N.C., Hoang, D.T., Jiao, Y., Liang, Y.C., Yang, Q., Niyato, D. and Miao, C. (2020) 'Federated learning in mobile edge networks: a comprehensive survey', IEEE Communications Surveys & Tutorials, Vol. 22, No. 3, pp. 2031–2063. doi:10.1109/COMST.2020.2986024.",
+      "doi": "10.1109/COMST.2020.2986024",
+      "status": "verified",
+      "issues": [],
+      "source": "Crossref API",
+      "verified_title": "Federated Learning in Mobile Edge Networks: A Comprehensive Survey",
+      "title_similarity": 1.0,
+      "verified_year": 2020,
+      "verified_authors": [
+        "Wei Yang Bryan Lim",
+        "Nguyen Cong Luong",
+        "Dinh Thai Hoang",
+        "Yutao Jiao",
+        "Ying-Chang Liang",
+        "Qiang Yang",
+        "Dusit Niyato",
+        "Chunyan Miao"
+      ],
+      "verified_container": "IEEE Communications Surveys &amp; Tutorials",
+      "verified_pages": "2031-2063",
+      "verified_volume": "22",
+      "verified_issue": "3"
+    },
+    {
+      "index": 8,
+      "reference": "Lin, F.P.C., Hosseinalipour, S., Michelusi, N. and Brinton, C.G. (2024) 'Delay-aware hierarchical federated learning', IEEE Transactions on Cognitive Communications and Networking, Vol. 10, No. 2, pp. 674–688. doi:10.1109/TCCN.2023.3329024.",
+      "doi": "10.1109/TCCN.2023.3329024",
+      "status": "verified",
+      "issues": [],
+      "source": "Crossref API",
+      "verified_title": "Delay-Aware Hierarchical Federated Learning",
+      "title_similarity": 1.0,
+      "verified_year": 2024,
+      "verified_authors": [
+        "Frank Po-Chen Lin",
+        "Seyyedali Hosseinalipour",
+        "Nicolò Michelusi",
+        "Christopher G. Brinton"
+      ],
+      "verified_container": "IEEE Transactions on Cognitive Communications and Networking",
+      "verified_pages": "674-688",
+      "verified_volume": "10",
+      "verified_issue": "2"
+    },
+    {
+      "index": 9,
+      "reference": "Ma, C., Li, X., Huang, B., Li, G. and Li, F. (2024) 'Personalized client-edge-cloud hierarchical federated learning in mobile edge computing', Journal of Cloud Computing, Vol. 13, Article 161. doi:10.1186/s13677-024-00721-w.",
+      "doi": "10.1186/s13677-024-00721-w",
+      "status": "verified",
+      "issues": [],
+      "source": "Crossref API",
+      "verified_title": "Personalized client-edge-cloud hierarchical federated learning in mobile edge computing",
+      "title_similarity": 1.0,
+      "verified_year": 2024,
+      "verified_authors": [
+        "Chunmei Ma",
+        "Xiangqian Li",
+        "Baogui Huang",
+        "Guangshun Li",
+        "Fengyin Li"
+      ],
+      "verified_container": "Journal of Cloud Computing",
+      "verified_pages": null,
+      "verified_volume": "13",
+      "verified_issue": "1"
+    },
+    {
+      "index": 10,
+      "reference": "McMahan, B., Moore, E., Ramage, D., Hampson, S. and Agüera y Arcas, B. (2017) 'Communication-efficient learning of deep networks from decentralized data', Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, Vol. 54, pp. 1273–1282. Available at: https://proceedings.mlr.press/v54/mcmahan17a.html (accessed 3 November 2026).",
+      "doi": null,
+      "status": "url_accessible_requires_metadata_review",
+      "issues": [],
+      "http_code": 200,
+      "source": "Publisher/archive URL"
+    },
+    {
+      "index": 11,
+      "reference": "Shabariram, C.P., Shanthi, N., Shinaz, A. and Ranganathan, L. (2026) 'Intelligent task offloading in vehicular edge computing using federated learning and Kolmogorov Arnold networks (FL-KAN)', International Journal of Ad Hoc and Ubiquitous Computing, Vol. 51, No. 1, pp. 37–55. doi:10.1504/IJAHUC.2026.151264.",
+      "doi": "10.1504/IJAHUC.2026.151264",
+      "status": "verified",
+      "issues": [],
+      "source": "Crossref API",
+      "verified_title": "Intelligent task offloading in vehicular edge computing using federated learning and Kolmogorov Arnold networks (FL-KAN)",
+      "title_similarity": 1.0,
+      "verified_year": 2026,
+      "verified_authors": [
+        "C.P. Shabariram",
+        "N. Shanthi",
+        "Alisha Shinaz",
+        "Lakshana Ranganathan"
+      ],
+      "verified_container": "International Journal of Ad Hoc and Ubiquitous Computing",
+      "verified_pages": "37-55",
+      "verified_volume": "51",
+      "verified_issue": "1"
+    },
+    {
+      "index": 12,
+      "reference": "Truex, S., Liu, L., Chow, K.H., Gursoy, M.E. and Wei, W. (2020) 'LDP-Fed: federated learning with local differential privacy', Proceedings of the 3rd ACM International Workshop on Edge Systems, Analytics and Networking, pp. 61–66. doi:10.1145/3378679.3394533.",
+      "doi": "10.1145/3378679.3394533",
+      "status": "needs_review",
+      "issues": [
+        "Publication title differs from DOI metadata"
+      ],
+      "source": "Crossref API",
+      "verified_title": "LDP-Fed",
+      "title_similarity": 0.2105,
+      "verified_year": 2020,
+      "verified_authors": [
+        "Stacey Truex",
+        "Ling Liu",
+        "Ka-Ho Chow",
+        "Mehmet Emre Gursoy",
+        "Wenqi Wei"
+      ],
+      "verified_container": "Proceedings of the Third ACM International Workshop on Edge Systems, Analytics and Networking",
+      "verified_pages": "61-66",
+      "verified_volume": null,
+      "verified_issue": null
+    },
+    {
+      "index": 13,
+      "reference": "Tseng, F.-H., Wang, Y.-C., Cho, H.-H. and Baihan, A. (2026) 'SCGAT-HFL: a semantic-aware hierarchical federated learning via communication-gated graph attention networks for 6G services', IEEE Network, early access. doi:10.1109/MNET.2026.3719448.",
+      "doi": "10.1109/MNET.2026.3719448",
+      "status": "verified",
+      "issues": [],
+      "source": "Crossref API",
+      "verified_title": "SCGAT-HFL: A Semantic-Aware Hierarchical Federated Learning via Communication-Gated Graph Attention Networks for 6G Services",
+      "title_similarity": 1.0,
+      "verified_year": 2026,
+      "verified_authors": [
+        "Fan-Hsun Tseng",
+        "Yi-Chieh Wang",
+        "Hsin-Hung Cho",
+        "Abdullah Shaya Baihan"
+      ],
+      "verified_container": "IEEE Network",
+      "verified_pages": "1-8",
+      "verified_volume": null,
+      "verified_issue": null
+    },
+    {
+      "index": 14,
+      "reference": "Wen, A., Fu, Y., Liu, Z., Wang, Z. and Zhang, W. (2025) 'Hierarchical asynchronous federated learning algorithm for edge computing networks', Journal of Internet Technology, Vol. 26, No. 5, pp. 617–629.",
+      "doi": null,
+      "status": "unverified",
+      "issues": [
+        "No DOI or URL; search bibliographic metadata manually"
+      ]
+    },
+    {
+      "index": 15,
+      "reference": "Wu, Q., Chen, X., Ouyang, T., Zhou, Z., Zhang, X., Yang, S. and Zhang, J. (2023) 'HiFlash: communication-efficient hierarchical federated learning with adaptive staleness control and heterogeneity-aware client-edge association', IEEE Transactions on Parallel and Distributed Systems, Vol. 34, No. 5, pp. 1560–1579. doi:10.1109/TPDS.2023.3238049.",
+      "doi": "10.1109/TPDS.2023.3238049",
+      "status": "verified",
+      "issues": [],
+      "source": "Crossref API",
+      "verified_title": "HiFlash: Communication-Efficient Hierarchical Federated Learning With Adaptive Staleness Control and Heterogeneity-Aware Client-Edge Association",
+      "title_similarity": 1.0,
+      "verified_year": 2023,
+      "verified_authors": [
+        "Qiong Wu",
+        "Xu Chen",
+        "Tao Ouyang",
+        "Zhi Zhou",
+        "Xiaoxi Zhang",
+        "Shusen Yang",
+        "Junshan Zhang"
+      ],
+      "verified_container": "IEEE Transactions on Parallel and Distributed Systems",
+      "verified_pages": "1560-1579",
+      "verified_volume": "34",
+      "verified_issue": "5"
+    },
+    {
+      "index": 16,
+      "reference": "Yu, X., Cherkasova, L., Vardhan, H., Zhao, Q., Ekaireb, E., Zhang, X., Mazumdar, A. and Šimunić Rosing, T. (2023) 'Async-HFL: efficient and robust asynchronous federated learning in hierarchical IoT networks', Proceedings of the International Conference on Internet-of-Things Design and Implementation (IoTDI 2023). doi:10.1145/3576842.3582377.",
+      "doi": "10.1145/3576842.3582377",
+      "status": "verified",
+      "issues": [],
+      "source": "Crossref API",
+      "verified_title": "Async-HFL: Efficient and Robust Asynchronous Federated Learning in Hierarchical IoT Networks",
+      "title_similarity": 1.0,
+      "verified_year": 2023,
+      "verified_authors": [
+        "Xiaofan Yu",
+        "Lucy Cherkasova",
+        "Harsh Vardhan",
+        "Quanling Zhao",
+        "Emily Ekaireb",
+        "Xiyuan Zhang",
+        "Arya Mazumdar",
+        "Tajana Rosing"
+      ],
+      "verified_container": "Proceedings of the 8th ACM/IEEE Conference on Internet of Things Design and Implementation",
+      "verified_pages": "236-248",
+      "verified_volume": null,
+      "verified_issue": null
+    }
+  ],
+  "note": "Crossref DOI metadata is not a full-text verification; review authors, title, pages and cited context manually before submission."
+}
