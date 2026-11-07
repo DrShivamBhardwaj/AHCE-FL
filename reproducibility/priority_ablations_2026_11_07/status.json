@@ -227,6 +227,20 @@
       "status": "verified",
       "syncs": 33
     },
+    "gap3_delta1e+09_seed23": {
+      "accuracy": 0.4726,
+      "archive_files": {
+        "config.json": "18e7c6c63a8d7cb39f6ac8ba4b8d30f2148b3877577a131c55dd53bdca97c75a",
+        "final.json": "488d9455fdce64a8a6db5a9121eab3e9071c70acaa04e68d08ea13c5aac04c98",
+        "rounds.csv": "f16b8c73a0da79a5a56d224c974192b715c9982d5e89d81b46b69801b15f9e9a"
+      },
+      "completed_utc": "2026-11-07T12:14:12.253200+00:00",
+      "csv_sha256": "f16b8c73a0da79a5a56d224c974192b715c9982d5e89d81b46b69801b15f9e9a",
+      "json_sha256": "488d9455fdce64a8a6db5a9121eab3e9071c70acaa04e68d08ea13c5aac04c98",
+      "modeled_bytes": 274360824,
+      "status": "verified",
+      "syncs": 33
+    },
     "weights_accuracy_seed11": {
       "accuracy": 0.5034,
       "archive_files": {
@@ -480,6 +494,6 @@
       "syncs": 100
     }
   },
-  "updated_utc": "2026-11-07T11:57:23.794971+00:00",
-  "verified_runs": 34
+  "updated_utc": "2026-11-07T12:14:12.254924+00:00",
+  "verified_runs": 35
 }
