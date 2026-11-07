@@ -1,0 +1,10 @@
+{
+  "P1_provenance": "pass_sidecar_created",
+  "P2_resource_weight_ablation": "pending_experimental_runs",
+  "P3_divergence_gap_ablation": "pending_experimental_runs",
+  "P4_communication_accounting": "pass_independent_recalculation",
+  "P5_figures": "visual_review_pending",
+  "P6_robustness_hardware": "future_separately_scoped_validation",
+  "passed_audit": true,
+  "research_claims": "baseline AHCE-FL does not outperform FedAvg; no hardware/network measurements"
+}

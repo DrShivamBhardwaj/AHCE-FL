@@ -1,0 +1,20 @@
+{
+  "figures_expected": 9,
+  "manuscript_sha256": "337094fc215f5c4a3c772e49a19763b79cbebd3ef1c574e1b47ca5c5d5c07c0d",
+  "required_check": "Review chart axes, point values, error bars, caption-to-image identity, and source plot scripts; do not equate embedded figure presence to correctness.",
+  "source_files": [
+    {
+      "path": "reproducibility/revision_analysis/descriptive_statistics.json",
+      "sha256": "8b1e62072ef88ca99689d73dcf5e22d45a298c2ed38c4fe795ea5b7ab09fef68"
+    },
+    {
+      "path": "reproducibility/revision_analysis/paired_tests.json",
+      "sha256": "a1d2bf09b67550e95a276fd30e042b54e2b92a3d64b894f590eec822676a8028"
+    },
+    {
+      "path": "reproducibility/sync_corrected/metrics.json",
+      "sha256": "d3cd129b10bfa25d9b9cffa0791103c486f36f39bb9686625580bf8a5e5339fb"
+    }
+  ],
+  "status": "manual_pixel_and_provenance_review_pending"
+}

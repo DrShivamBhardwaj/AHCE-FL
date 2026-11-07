@@ -1,0 +1,50 @@
+{
+  "corrected_flat_baseline_bytes": 308560000,
+  "errors": [],
+  "interpretation": "modeled parameter payload only, not measured physical network traffic",
+  "legacy_flat_baseline_bytes": 617120000,
+  "methods": {
+    "ahce-fl": {
+      "mean_bytes": 366004618.6666667,
+      "per_seed_bytes": [
+        326857264,
+        381577840,
+        389578752
+      ]
+    },
+    "fedavg": {
+      "mean_bytes": 308560000.0,
+      "per_seed_bytes": [
+        308560000,
+        308560000,
+        308560000
+      ]
+    },
+    "fedcs": {
+      "mean_bytes": 308560000.0,
+      "per_seed_bytes": [
+        308560000,
+        308560000,
+        308560000
+      ]
+    },
+    "fedprox": {
+      "mean_bytes": 308560000.0,
+      "per_seed_bytes": [
+        308560000,
+        308560000,
+        308560000
+      ]
+    },
+    "hfl": {
+      "mean_bytes": 450291893.3333333,
+      "per_seed_bytes": [
+        448337680,
+        451423280,
+        451114720
+      ]
+    }
+  },
+  "old_report_contains_duplicated_ledger": true,
+  "status": "pass"
+}

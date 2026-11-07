@@ -1,0 +1,142 @@
+{
+  "expected_records": 15,
+  "metadata_mismatch_count": 12,
+  "metadata_mismatches": [
+    {
+      "csv_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedavg_seed11_tau0.01.csv",
+      "csv_sha256": "1bb736089443c92acdc3e34ce5df00541a62b5a0168780291350849fbc81c354",
+      "embedded_configuration_method": "ahce-fl",
+      "json_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedavg_seed11_tau0.01.json",
+      "json_sha256": "0b5c2bf3cc1f358e873e6238a5fa14d0b8753acd1071c4f3614bf60d67663a3f",
+      "method": "fedavg",
+      "seed": 11,
+      "source_originals_unchanged": true,
+      "verified_top_level_method": "fedavg"
+    },
+    {
+      "csv_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedavg_seed23_tau0.01.csv",
+      "csv_sha256": "c88102aa0db79df209dafd63e01579bba501eb8969351ed2763005887c8dea37",
+      "embedded_configuration_method": "ahce-fl",
+      "json_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedavg_seed23_tau0.01.json",
+      "json_sha256": "ba563a57d110251ae855b179f1a804cb9f77dce207917f6d2e6685e86647f1ee",
+      "method": "fedavg",
+      "seed": 23,
+      "source_originals_unchanged": true,
+      "verified_top_level_method": "fedavg"
+    },
+    {
+      "csv_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedavg_seed42_tau0.01.csv",
+      "csv_sha256": "7a4c19e95a4eb8f5183a411f77032678861d275bc0363adb35fe7790c8078c8b",
+      "embedded_configuration_method": "ahce-fl",
+      "json_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedavg_seed42_tau0.01.json",
+      "json_sha256": "31274989162771b639b31b7403eb3f2717b37aad4db92d5fc9d8e775105ed962",
+      "method": "fedavg",
+      "seed": 42,
+      "source_originals_unchanged": true,
+      "verified_top_level_method": "fedavg"
+    },
+    {
+      "csv_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedprox_seed11_tau0.01.csv",
+      "csv_sha256": "2440fed70a4fa0c557b0fbfea7001d7c645966bfce216586f54b27807099a863",
+      "embedded_configuration_method": "ahce-fl",
+      "json_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedprox_seed11_tau0.01.json",
+      "json_sha256": "09f49f2dd8253d3cf920635279175af2a0d365ae3d92148873d0e17742b16336",
+      "method": "fedprox",
+      "seed": 11,
+      "source_originals_unchanged": true,
+      "verified_top_level_method": "fedprox"
+    },
+    {
+      "csv_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedprox_seed23_tau0.01.csv",
+      "csv_sha256": "8de5e498d1a16a8d8e005b40cd4e7b42964b6a523d1f685c91c1e9601be7098a",
+      "embedded_configuration_method": "ahce-fl",
+      "json_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedprox_seed23_tau0.01.json",
+      "json_sha256": "cb36bee3c483ef26c933a181caf9beadbc839c92c6d31c520ef41470ef9fc9c1",
+      "method": "fedprox",
+      "seed": 23,
+      "source_originals_unchanged": true,
+      "verified_top_level_method": "fedprox"
+    },
+    {
+      "csv_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedprox_seed42_tau0.01.csv",
+      "csv_sha256": "c6c85e33c140cfd974b0764e702ea21aada6be8de4bed799c32bb992e74ee3a8",
+      "embedded_configuration_method": "ahce-fl",
+      "json_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedprox_seed42_tau0.01.json",
+      "json_sha256": "6c46f7ce3db8b04c977fc793c90840db158722ab59409f84b216ac001231830d",
+      "method": "fedprox",
+      "seed": 42,
+      "source_originals_unchanged": true,
+      "verified_top_level_method": "fedprox"
+    },
+    {
+      "csv_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedcs_seed11_tau0.01.csv",
+      "csv_sha256": "39b24f74f2bc7165a1a78d99f4f64552358db8eb207d5475b4421c10d2d8c6e5",
+      "embedded_configuration_method": "ahce-fl",
+      "json_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedcs_seed11_tau0.01.json",
+      "json_sha256": "6d7144a509568d5d71f2989588d53d782ce73658b1490c5ffbf9c6b6631f432b",
+      "method": "fedcs",
+      "seed": 11,
+      "source_originals_unchanged": true,
+      "verified_top_level_method": "fedcs"
+    },
+    {
+      "csv_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedcs_seed23_tau0.01.csv",
+      "csv_sha256": "22098ab8201174da8586574f791a2a7e2fe68fea485524b3e4818bc94c1e2e5e",
+      "embedded_configuration_method": "ahce-fl",
+      "json_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedcs_seed23_tau0.01.json",
+      "json_sha256": "d52384b55ce443da5e1abda44cea2c3fbf088ed36827c39a4a1018a3e3543b07",
+      "method": "fedcs",
+      "seed": 23,
+      "source_originals_unchanged": true,
+      "verified_top_level_method": "fedcs"
+    },
+    {
+      "csv_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedcs_seed42_tau0.01.csv",
+      "csv_sha256": "a4752323e7b7bb90c8f58fd598b4f7250d8657a3514a46b84e84d3c24b74997c",
+      "embedded_configuration_method": "ahce-fl",
+      "json_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedcs_seed42_tau0.01.json",
+      "json_sha256": "1e1cddc0ada54fe927a7a2e2c4d4ae8895f657e8233366311933f6c38a9a5773",
+      "method": "fedcs",
+      "seed": 42,
+      "source_originals_unchanged": true,
+      "verified_top_level_method": "fedcs"
+    },
+    {
+      "csv_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_hfl_seed11_tau0.01.csv",
+      "csv_sha256": "3f512b374e68d5da8602d049f0c735481595366b29beda17d46c000714205475",
+      "embedded_configuration_method": "ahce-fl",
+      "json_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_hfl_seed11_tau0.01.json",
+      "json_sha256": "b2fb8f7dd2c814ba416fe70c1de9bf58b95ac9e741d071388ae11586dd85b88f",
+      "method": "hfl",
+      "seed": 11,
+      "source_originals_unchanged": true,
+      "verified_top_level_method": "hfl"
+    },
+    {
+      "csv_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_hfl_seed23_tau0.01.csv",
+      "csv_sha256": "8d496e6ee8a5dd75f17fc8d919a13d83d616e2a4b7473e51fb938cc2d0caf8a6",
+      "embedded_configuration_method": "ahce-fl",
+      "json_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_hfl_seed23_tau0.01.json",
+      "json_sha256": "f7e7c8953b0401ab9c18fdb328c774355ba0dbfe4dc7efc822c666ca95124f0f",
+      "method": "hfl",
+      "seed": 23,
+      "source_originals_unchanged": true,
+      "verified_top_level_method": "hfl"
+    },
+    {
+      "csv_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_hfl_seed42_tau0.01.csv",
+      "csv_sha256": "a05635b067154b0c3bf2a4c3368bde12a6bb6a85b4d0d0cbf197891cbf39e068",
+      "embedded_configuration_method": "ahce-fl",
+      "json_path": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_hfl_seed42_tau0.01.json",
+      "json_sha256": "22d2b65bfd9bf9b9026ad33ab164b26497fd31d49827ca04ca6d97dc0a4155d8",
+      "method": "hfl",
+      "seed": 42,
+      "source_originals_unchanged": true,
+      "verified_top_level_method": "hfl"
+    }
+  ],
+  "policy": "Retain original raw JSON/CSV; use verified top-level method and filenames; preserve hashes",
+  "problems": [],
+  "source_records": 15,
+  "status": "pass"
+}
