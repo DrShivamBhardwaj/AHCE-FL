@@ -87,6 +87,20 @@
       "status": "verified",
       "syncs": 100
     },
+    "weights_compute_seed11": {
+      "accuracy": 0.5094,
+      "archive_files": {
+        "config.json": "82e419703cce2ef6bee63d9edf80f95a3887dbc213205c9ce681205a348bf5c2",
+        "final.json": "600a584f55c524e0fdaa81bb683264f81707bcf1e41034c41ce970015e2ddddc",
+        "rounds.csv": "03d332b0416fe3697ddcdada20ae1e3244427888f03f1c1b80adbfa8fb9bf192"
+      },
+      "completed_utc": "2026-11-07T07:07:02.352330+00:00",
+      "csv_sha256": "03d332b0416fe3697ddcdada20ae1e3244427888f03f1c1b80adbfa8fb9bf192",
+      "json_sha256": "600a584f55c524e0fdaa81bb683264f81707bcf1e41034c41ce970015e2ddddc",
+      "modeled_bytes": 329479552,
+      "status": "verified",
+      "syncs": 100
+    },
     "weights_energy_seed11": {
       "accuracy": 0.4919,
       "archive_files": {
@@ -214,6 +228,6 @@
       "syncs": 100
     }
   },
-  "updated_utc": "2026-11-07T06:46:37.495243+00:00",
-  "verified_runs": 15
+  "updated_utc": "2026-11-07T07:07:02.356384+00:00",
+  "verified_runs": 16
 }
