@@ -1,0 +1,50 @@
+{
+  "configuration": {
+    "batch_size": 32,
+    "checkpoint_every": 5,
+    "checkpoint_path": "reproducibility/priority_ablations_2026_11_07/checkpoints/gap1_delta0.5_seed23.pt",
+    "clients": 50,
+    "compression_threshold": 0.01,
+    "cpu_threads": 2,
+    "dataset": "cifar10",
+    "dirichlet_alpha": 0.5,
+    "edges": 5,
+    "learning_rate": 0.001,
+    "local_epochs": 5,
+    "method": "ahce-fl",
+    "participation_ratio": 0.2,
+    "prox_mu": 0.01,
+    "rounds": 100,
+    "seed": 23,
+    "selection_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "sync_max_gap": 1,
+    "sync_threshold": 0.5
+  },
+  "method": "ahce-fl",
+  "seed": 23,
+  "tau": 0.01,
+  "result": {
+    "round": 100,
+    "accuracy": 0.4677,
+    "participating_clients": 10,
+    "sync_triggered": 1,
+    "parameters": 38570,
+    "client_upload_bytes": 678712,
+    "client_download_bytes": 1542800,
+    "cloud_upload_bytes": 771400,
+    "cloud_download_bytes": 771400,
+    "total_bytes": 3764312,
+    "compressed_entries": 84839,
+    "modeled_critical_path_ms": 171.5029483218893,
+    "wall_clock_s": 9.388011540984735,
+    "divergence_l2": 0.38756156124861324,
+    "sync_reason": "max_gap"
+  },
+  "measurement_type": "single-process simulation"
+}
