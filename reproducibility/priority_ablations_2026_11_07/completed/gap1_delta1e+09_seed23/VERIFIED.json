@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.4677,
+  "archive_files": {
+    "config.json": "0ba4d4d7e38dbbe47b338136ea3aae62d066c866141de8b5ff4e421797fb5aae",
+    "final.json": "971f1903ef419f9161d1c46e2ddfc53d08543dcc11f819b65c1979eeea77c6d3",
+    "rounds.csv": "6516b95428415ffd401c7bcb2ccff7ea7c7833e687ddffa2ea26f865e7f58c37"
+  },
+  "completed_utc": "2026-11-07T09:49:18.131898+00:00",
+  "csv_sha256": "6516b95428415ffd401c7bcb2ccff7ea7c7833e687ddffa2ea26f865e7f58c37",
+  "json_sha256": "971f1903ef419f9161d1c46e2ddfc53d08543dcc11f819b65c1979eeea77c6d3",
+  "modeled_bytes": 381577840,
+  "status": "verified",
+  "syncs": 100
+}
