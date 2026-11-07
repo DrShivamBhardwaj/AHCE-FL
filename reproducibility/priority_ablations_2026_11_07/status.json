@@ -87,6 +87,20 @@
       "status": "verified",
       "syncs": 100
     },
+    "gap1_delta1e+09_seed11": {
+      "accuracy": 0.4909,
+      "archive_files": {
+        "config.json": "b88302a4d3adb4a60c4c41e362af5988b26ad85e1b57655bfc5d55d30c7e1124",
+        "final.json": "3cb2af04fb10b000544316cd07c161655aa2abfa8beff8fb066a9a36d2694c0f",
+        "rounds.csv": "d685a1df53c7e185267af8a1f65fd6deb6b70a4a648fd826d4ae5f8a9dc4b48e"
+      },
+      "completed_utc": "2026-11-07T09:33:23.268535+00:00",
+      "csv_sha256": "d685a1df53c7e185267af8a1f65fd6deb6b70a4a648fd826d4ae5f8a9dc4b48e",
+      "json_sha256": "3cb2af04fb10b000544316cd07c161655aa2abfa8beff8fb066a9a36d2694c0f",
+      "modeled_bytes": 326857264,
+      "status": "verified",
+      "syncs": 100
+    },
     "weights_accuracy_seed11": {
       "accuracy": 0.5034,
       "archive_files": {
@@ -340,6 +354,6 @@
       "syncs": 100
     }
   },
-  "updated_utc": "2026-11-07T09:16:13.028529+00:00",
-  "verified_runs": 24
+  "updated_utc": "2026-11-07T09:33:23.271143+00:00",
+  "verified_runs": 25
 }
