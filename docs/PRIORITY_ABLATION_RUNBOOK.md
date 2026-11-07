@@ -19,3 +19,7 @@ Resource note: CIFAR-10 full dataset (50,000 training/10,000 test), 50 clients, 
 The controller still runs **one case at a time** with a 5-round checkpoint. Only verified full 100-round outputs are archived and synchronized to GitHub. Transient run errors can be retried from intact local checkpoints; missing or inconsistent final outputs halt for manual review. `watchdog_state.json`, `controller.log`, `status.json`, and per-case `run_logs` reveal actual progress.
 
 The Mac must stay powered on and logged in for LaunchAgent execution. Caffeinate reduces idle sleep, **not shutdown**. The agent automatically starts when the user logs back in after a restart.
+
+## Five-minute live dashboard
+
+Run `zsh scripts/install_priority_dashboard.sh` once on the Mac. LaunchAgent `org.ahce.priority-live-dashboard` serves a **read-only** local webpage at `http://127.0.0.1:8765/`, bound exclusively to the Mac loopback interface. Open this URL in a browser on the same Mac and leave the tab open. It refreshes actual status, completed runs, live round number, watchdog health and checkpoint-branch commit every **300 seconds** and also has a manual refresh button. The underlying API endpoint `/api/status` always reads current status and log files; it never edits measurements or triggers training. This is a local dashboard, not a 5-minute ChatGPT notification service.
