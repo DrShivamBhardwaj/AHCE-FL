@@ -4,3 +4,7 @@ __pycache__/
 data/
 results/
 *.pyc
+
+# Resumable AHCE priority campaign: keep live checkpoints and locks on the Mac
+reproducibility/priority_ablations_2026_11_07/checkpoints/
+reproducibility/priority_ablations_2026_11_07/execution.lock

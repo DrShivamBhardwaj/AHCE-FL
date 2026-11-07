@@ -74,8 +74,14 @@ def archive(name,config,csvpath,jsonpath,record):
  atomic_json(out/"VERIFIED.json",record)
 def push(name):
  # A separate research-progress branch, not main. All output data is staged selectively.
- args=["git","add","--","scripts/execute_priority_ablations.py","docs/PRIORITY_ABLATION_RUNBOOK.md",
-       "configs/priority_generated",str(RUNROOT.relative_to(ROOT))]
+ args=["git","add","--","scripts/execute_priority_ablations.py",
+       "scripts/ahce_priority_watchdog.py","scripts/install_ahce_priority_launchagent.sh",
+       "docs/PRIORITY_ABLATION_RUNBOOK.md",".gitignore","configs/priority_generated",
+       str((RUNROOT/"configs").relative_to(ROOT)),
+       str((RUNROOT/"run_logs").relative_to(ROOT)),
+       str(STATE.relative_to(ROOT))]
+ if (RUNROOT/"completed").exists():
+  args.append(str((RUNROOT/"completed").relative_to(ROOT)))
  a=subprocess.run(args,cwd=ROOT,capture_output=True,text=True,timeout=60)
  if a.returncode:log("STAGING_ERROR",a.stderr[-500:]);return False
  staged=subprocess.run(["git","diff","--cached","--quiet"],cwd=ROOT)
