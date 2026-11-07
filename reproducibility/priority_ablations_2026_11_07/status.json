@@ -171,6 +171,20 @@
       "status": "verified",
       "syncs": 100
     },
+    "gap3_delta0.5_seed11": {
+      "accuracy": 0.4935,
+      "archive_files": {
+        "config.json": "92b7a4ce29beabfbb2f753dec2959b29015756bdf9d09a7f71580b63527a2a9f",
+        "final.json": "63901109d95d8ed99cf883fa1008c2d6bb8abb28d6748e28e2defaa88d44f7e7",
+        "rounds.csv": "69e1f3ccec523d73f452274bcf92d08378e3c515140e15c889de56843843a7ce"
+      },
+      "completed_utc": "2026-11-07T11:07:58.067053+00:00",
+      "csv_sha256": "69e1f3ccec523d73f452274bcf92d08378e3c515140e15c889de56843843a7ce",
+      "json_sha256": "63901109d95d8ed99cf883fa1008c2d6bb8abb28d6748e28e2defaa88d44f7e7",
+      "modeled_bytes": 306185496,
+      "status": "verified",
+      "syncs": 79
+    },
     "weights_accuracy_seed11": {
       "accuracy": 0.5034,
       "archive_files": {
@@ -424,6 +438,6 @@
       "syncs": 100
     }
   },
-  "updated_utc": "2026-11-07T10:50:15.293423+00:00",
-  "verified_runs": 30
+  "updated_utc": "2026-11-07T11:07:58.069079+00:00",
+  "verified_runs": 31
 }
