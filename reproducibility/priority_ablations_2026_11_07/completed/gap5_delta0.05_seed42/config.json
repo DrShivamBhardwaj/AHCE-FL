@@ -1,0 +1,27 @@
+{
+  "batch_size": 32,
+  "checkpoint_every": 5,
+  "checkpoint_path": "reproducibility/priority_ablations_2026_11_07/checkpoints/gap5_delta0.05_seed42.pt",
+  "clients": 50,
+  "compression_threshold": 0.01,
+  "cpu_threads": 2,
+  "dataset": "cifar10",
+  "dirichlet_alpha": 0.5,
+  "edges": 5,
+  "learning_rate": 0.001,
+  "local_epochs": 5,
+  "method": "ahce-fl",
+  "participation_ratio": 0.2,
+  "prox_mu": 0.01,
+  "rounds": 100,
+  "seed": 42,
+  "selection_weights": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "sync_max_gap": 5,
+  "sync_threshold": 0.05
+}
