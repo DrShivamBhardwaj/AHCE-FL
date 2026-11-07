@@ -1,0 +1,1352 @@
+{
+  "facts": {
+    "caveat": "3 paired seeds per setting; confidence intervals exploratory; no physical packet/energy measurements",
+    "existing_original_archives_unchanged": true,
+    "independent_seed_count": 3,
+    "p2_all_complete": true,
+    "p2_runs": 18,
+    "p3_all_complete": true,
+    "p3_runs": 27,
+    "physical_network_validation": "not performed",
+    "unique_runs": 45
+  },
+  "resource_weights": [
+    {
+      "accuracy": {
+        "ci95": [
+          0.43370085579572104,
+          0.5124324775376123
+        ],
+        "mean": 0.4730666666666667,
+        "sd": 0.015846871405212237
+      },
+      "accuracy_per_seed": [
+        0.4909,
+        0.4677,
+        0.4606
+      ],
+      "bytes": {
+        "ci95": [
+          281201593.4592273,
+          450807643.87410605
+        ],
+        "mean": 366004618.6666667,
+        "sd": 34137811.60613956
+      },
+      "bytes_per_seed": [
+        326857264,
+        381577840,
+        389578752
+      ],
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          10959.99893376225,
+          26062.00117400989
+        ],
+        "mean": 18511.00005388607,
+        "sd": 3039.6870046320273
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        21977.462261762732,
+        17254.661922375486,
+        16300.875977519992
+      ],
+      "policy": "equal",
+      "syncs": {
+        "ci95": [
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      },
+      "syncs_per_seed": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "accuracy": {
+        "ci95": [
+          0.47342954443958735,
+          0.49757045556041263
+        ],
+        "mean": 0.4855,
+        "sd": 0.004859012245302531
+      },
+      "accuracy_contrast": {
+        "ci95": [
+          -0.01509505243103766,
+          0.03996171909770429
+        ],
+        "mean_difference": 0.012433333333333315,
+        "p_holm_family": 0.765763404236151,
+        "p_unadjusted": 0.19144085105903774,
+        "paired_seed_differences": [
+          0.00019999999999997797,
+          0.01529999999999998,
+          0.021799999999999986
+        ]
+      },
+      "accuracy_per_seed": [
+        0.4911,
+        0.483,
+        0.4824
+      ],
+      "bytes": {
+        "ci95": [
+          280945020.9080222,
+          451483133.7586444
+        ],
+        "mean": 366214077.3333333,
+        "sd": 34325414.41723466
+      },
+      "bytes_per_seed": [
+        326605576,
+        387286808,
+        384749848
+      ],
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          9841.140214552292,
+          26032.335382461944
+        ],
+        "mean": 17936.737798507118,
+        "sd": 3258.9165832721274
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        19554.146895095633,
+        14185.495543159535,
+        20070.570957266176
+      ],
+      "policy": "bandwidth",
+      "syncs": {
+        "ci95": [
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      },
+      "syncs_per_seed": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "accuracy": {
+        "ci95": [
+          0.4288279261938761,
+          0.5181054071394572
+        ],
+        "mean": 0.47346666666666665,
+        "sd": 0.017969511215760244
+      },
+      "accuracy_contrast": {
+        "ci95": [
+          -0.02894123145418167,
+          0.029741231454181657
+        ],
+        "mean_difference": 0.00039999999999999297,
+        "p_holm_family": 0.9716059736214149,
+        "p_unadjusted": 0.9585590490574024,
+        "paired_seed_differences": [
+          0.0010000000000000009,
+          -0.011699999999999988,
+          0.011899999999999966
+        ]
+      },
+      "accuracy_per_seed": [
+        0.4919,
+        0.456,
+        0.4725
+      ],
+      "bytes": {
+        "ci95": [
+          316901160.8043989,
+          425671569.86226773
+        ],
+        "mean": 371286365.3333333,
+        "sd": 21892990.985034578
+      },
+      "bytes_per_seed": [
+        363641384,
+        395976744,
+        354240968
+      ],
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          16751.43568025872,
+          25609.75137155241
+        ],
+        "mean": 21180.593525905566,
+        "sd": 1782.9759697686197
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        22878.070294873476,
+        21340.781686261736,
+        19322.928596581478
+      ],
+      "policy": "energy",
+      "syncs": {
+        "ci95": [
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      },
+      "syncs_per_seed": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "accuracy": {
+        "ci95": [
+          0.4133684291264176,
+          0.5626982375402491
+        ],
+        "mean": 0.4880333333333333,
+        "sd": 0.030056668699863117
+      },
+      "accuracy_contrast": {
+        "ci95": [
+          -0.0609851414158085,
+          0.09091847474914179
+        ],
+        "mean_difference": 0.014966666666666647,
+        "p_holm_family": 0.9716059736214149,
+        "p_unadjusted": 0.48580298681070744,
+        "paired_seed_differences": [
+          0.012499999999999956,
+          -0.01429999999999998,
+          0.046699999999999964
+        ]
+      },
+      "accuracy_per_seed": [
+        0.5034,
+        0.4534,
+        0.5073
+      ],
+      "bytes": {
+        "ci95": [
+          287281154.60626185,
+          428106264.0604048
+        ],
+        "mean": 357693709.3333333,
+        "sd": 28344867.675415058
+      },
+      "bytes_per_seed": [
+        327237752,
+        383302320,
+        362541056
+      ],
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          -2709.2644933996708,
+          59065.90516582066
+        ],
+        "mean": 28178.320336210494,
+        "sd": 12433.92614004748
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        21884.62936118972,
+        42500.79151937491,
+        20149.54012806685
+      ],
+      "policy": "accuracy",
+      "syncs": {
+        "ci95": [
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      },
+      "syncs_per_seed": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "accuracy": {
+        "ci95": [
+          0.4305827742920936,
+          0.5588172257079066
+        ],
+        "mean": 0.4947000000000001,
+        "sd": 0.025810656713845935
+      },
+      "accuracy_contrast": {
+        "ci95": [
+          -0.003373104584169801,
+          0.046639771250836445
+        ],
+        "mean_difference": 0.02163333333333332,
+        "p_holm_family": 0.3259782230268612,
+        "p_unadjusted": 0.06519564460537224,
+        "paired_seed_differences": [
+          0.032299999999999995,
+          0.020299999999999985,
+          0.012299999999999978
+        ]
+      },
+      "accuracy_per_seed": [
+        0.5232,
+        0.488,
+        0.4729
+      ],
+      "bytes": {
+        "ci95": [
+          335762831.3747785,
+          410416720.6252215
+        ],
+        "mean": 373089776.0,
+        "sd": 15026117.291589601
+      },
+      "bytes_per_seed": [
+        361151064,
+        368155712,
+        389962552
+      ],
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          3192.7361513155774,
+          29469.853096064213
+        ],
+        "mean": 16331.294623689895,
+        "sd": 5288.981528772354
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        16828.75637610035,
+        21353.970055611724,
+        10811.157439357617
+      ],
+      "policy": "latency",
+      "syncs": {
+        "ci95": [
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      },
+      "syncs_per_seed": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "accuracy": {
+        "ci95": [
+          0.4381074824506914,
+          0.5460258508826419
+        ],
+        "mean": 0.49206666666666665,
+        "sd": 0.02172149473064256
+      },
+      "accuracy_contrast": {
+        "ci95": [
+          -0.028831747494483893,
+          0.06683174749448385
+        ],
+        "mean_difference": 0.01899999999999998,
+        "p_holm_family": 0.765763404236151,
+        "p_unadjusted": 0.22955384082503966,
+        "paired_seed_differences": [
+          0.01849999999999996,
+          0.0,
+          0.03849999999999998
+        ]
+      },
+      "accuracy_per_seed": [
+        0.5094,
+        0.4677,
+        0.4991
+      ],
+      "bytes": {
+        "ci95": [
+          292175494.46748614,
+          429676404.1991805
+        ],
+        "mean": 360925949.3333333,
+        "sd": 27675782.441789594
+      },
+      "bytes_per_seed": [
+        329479552,
+        381577840,
+        371720456
+      ],
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          11338.145622011732,
+          25831.71084207906
+        ],
+        "mean": 18584.928232045397,
+        "sd": 2917.2225741573566
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        21930.16981867769,
+        17254.661922375486,
+        16569.95295508302
+      ],
+      "policy": "compute",
+      "syncs": {
+        "ci95": [
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      },
+      "syncs_per_seed": [
+        100,
+        100,
+        100
+      ]
+    }
+  ],
+  "settings": {
+    "dataset": "CIFAR-10",
+    "rounds": 100,
+    "seeds": [
+      11,
+      23,
+      42
+    ]
+  },
+  "source_sha256": {
+    "gap1_delta0.05_seed11": {
+      "csv": "fbc26cf68fa99b1c5493df8a1932d855ebc3f3e9dd922e5e8d5c5e5332351d23",
+      "json": "5f107a00d960442888102aa1da20ea3d86aa5c5e69cbe240f7189a2917dd0c8f"
+    },
+    "gap1_delta0.05_seed23": {
+      "csv": "019e06cf02aea174579627c623c959c0a86735fbb7d6a4aff63e812c6ea80d6d",
+      "json": "2de9308ed5211665b84f740147b53f2d27c4683d09b9ef5a7c1f7bb159f468d8"
+    },
+    "gap1_delta0.05_seed42": {
+      "csv": "d4832b931ed3b4a406ffe386d9a55b756d525989d7e851e4363cb97a77f1ff71",
+      "json": "15702cd53e3cd04a5f158cfaef86678b37bad4b1734819acf5bc5a53317adccd"
+    },
+    "gap1_delta0.5_seed11": {
+      "csv": "6a0eae5c0f07ceebe022a10ab34a48916a52d6bf98b5146f6e5c9484159a4c15",
+      "json": "2bde37c3a99e64c584c8f5743f100936d7a9aae64ffc17d10c6142ddb432caf3"
+    },
+    "gap1_delta0.5_seed23": {
+      "csv": "b2381133f2421d8c7589e45b78b8506d89a3d96e85e749e7be32987cc5421357",
+      "json": "b2e0cfb3a105ca0cffa326ff5b26adfda5ddfe719c8607d2e1bf7d607f74f860"
+    },
+    "gap1_delta0.5_seed42": {
+      "csv": "c64cb807722c63058e187384899d20e176412eef35d73438726209f899dc473a",
+      "json": "940289c8f303934371b5eca86d73f2a4285b9a48102a5cfe44f9bb1f796521f3"
+    },
+    "gap1_delta1e+09_seed11": {
+      "csv": "d685a1df53c7e185267af8a1f65fd6deb6b70a4a648fd826d4ae5f8a9dc4b48e",
+      "json": "3cb2af04fb10b000544316cd07c161655aa2abfa8beff8fb066a9a36d2694c0f"
+    },
+    "gap1_delta1e+09_seed23": {
+      "csv": "6516b95428415ffd401c7bcb2ccff7ea7c7833e687ddffa2ea26f865e7f58c37",
+      "json": "971f1903ef419f9161d1c46e2ddfc53d08543dcc11f819b65c1979eeea77c6d3"
+    },
+    "gap1_delta1e+09_seed42": {
+      "csv": "7af8ae3791815c6f7fd2d55065ba62198d6df7c4dc5d887c3b80676760f24b19",
+      "json": "bb2884633d9bf937792b9964972b812edfee895458c8b31d7c633dbb08ff77df"
+    },
+    "gap3_delta0.05_seed11": {
+      "csv": "6c4a0a0eaa167470aba0b6454730cf5f559cd805bf4545bd08d2645e60bbb60d",
+      "json": "2d0475f9968f843602c118c129b3d8b37947480ff129466ff174a573fd9f5242"
+    },
+    "gap3_delta0.05_seed23": {
+      "csv": "3937071de084047376236bef162f575f81606cf82d1d6373e373b51a8a49e6b8",
+      "json": "398390f79a6ab12ab0c510cc76f5e4949480d5de72e85229d1dc13ca6fc047aa"
+    },
+    "gap3_delta0.05_seed42": {
+      "csv": "5bed2fdae6b59911d55fac9e4309bac33ab5e089dcc846941d03b0a68b7dad26",
+      "json": "09c494189ef45e3e4028d57a999c9bc6cd75151ce7ec2b09546684e96e07e0a1"
+    },
+    "gap3_delta0.5_seed11": {
+      "csv": "69e1f3ccec523d73f452274bcf92d08378e3c515140e15c889de56843843a7ce",
+      "json": "63901109d95d8ed99cf883fa1008c2d6bb8abb28d6748e28e2defaa88d44f7e7"
+    },
+    "gap3_delta0.5_seed23": {
+      "csv": "d0031f9dc13c6ce398e8dad14435b855b84ad8381f7079617175474feb5e23da",
+      "json": "0128e1380b6984cbf20a8200de9cf4c273ce1448585dde811219bf2c6bf26af3"
+    },
+    "gap3_delta0.5_seed42": {
+      "csv": "2fa96be1f523257aa26a67ec8a9eb3cd66f290baaa0fec87348eb830a4a9beeb",
+      "json": "b83bb2e9f1185ca7c23af5a4e4da2d39e959f246776ac6546245c5088d945ecb"
+    },
+    "gap3_delta1e+09_seed11": {
+      "csv": "25871c781abbd6c41f103bc698c3921e76113d523070baeacd9e1a6971f18112",
+      "json": "daabe7e6d6c8641723135204b149b5a2e1e5bc8d91456dcb5b9633c98b650bc6"
+    },
+    "gap3_delta1e+09_seed23": {
+      "csv": "f16b8c73a0da79a5a56d224c974192b715c9982d5e89d81b46b69801b15f9e9a",
+      "json": "488d9455fdce64a8a6db5a9121eab3e9071c70acaa04e68d08ea13c5aac04c98"
+    },
+    "gap3_delta1e+09_seed42": {
+      "csv": "ab8ed4be3223e45f8f45effae780108f29ac1dd29e083cbcb89458336e2dce11",
+      "json": "3675d865f7a6873094868a5e4fe003b96f5d9f1a2ee0919260ff021d1c9bbc9d"
+    },
+    "gap5_delta0.05_seed11": {
+      "csv": "3d59e4598f5be3ef7db4e99d0d795f4843b976f3acfc0f9fd88ad636cdb05455",
+      "json": "18c8908c3f8cda86b07a800a4c18cc2dbc6b44f2322f028500b1f38fbba8e217"
+    },
+    "gap5_delta0.05_seed23": {
+      "csv": "3c68070a7bd25a30786229a3c87b76f95ed51c83183ebf79572be47afb2eec29",
+      "json": "92ef185114b13c4e2570ec6159368fed3dfd9da8e28efb00f161ba2e4f39e2ab"
+    },
+    "gap5_delta0.05_seed42": {
+      "csv": "749e34051e6d6bd73f017f2dd25d34053ca7b9419b6f4d402376b42cae0707e7",
+      "json": "dd8215fc66e95f1ba4c77cce71d8abab934e0d07d9df87b2caffabff1aad989c"
+    },
+    "gap5_delta0.5_seed11": {
+      "csv": "d14e10be02c7506d55cbb514db0f3e82c5a74d62ef335427e03ded9bc2290f24",
+      "json": "ee93e23a03d5c6b8e334476bc058a1174968218b978b47a8781275aedc14c932"
+    },
+    "gap5_delta0.5_seed23": {
+      "csv": "15f3d80b4f886a8b265281a7cf6014e065001fe67f7c015f95f5aec1f0ac4d6f",
+      "json": "ddf3de66de93da7e6d2a321b8d468b5c8c7a5fbc7d97cbd4e29934234bae3475"
+    },
+    "gap5_delta0.5_seed42": {
+      "csv": "e19cb05093bcb23474a27273680f4eb00c0207729228332c49a950a75f3b6c14",
+      "json": "104216f063b35daec161fe2f85bdd7b2495ab77ce53fc073d9032e1687a51b0b"
+    },
+    "gap5_delta1e+09_seed11": {
+      "csv": "db4fa65cc0b0584fa828c30cd6f7188d459f7e650accb9a45efb42f60da90e5f",
+      "json": "7035379a31188e9c88270d7180bcdec815d953921e6335aad0cc5250f042c120"
+    },
+    "gap5_delta1e+09_seed23": {
+      "csv": "9672a2353606a00214df96a61f2e7ee205cb8dfd54116b99dbc1492060c91ee3",
+      "json": "0eec846d42217d8ea31ef1acbd66d1720c2870498d088fc45df66cdefd45c7c1"
+    },
+    "gap5_delta1e+09_seed42": {
+      "csv": "5678fcb324a3560dbe372f9991b0fbd351ee042c05474fd4cf0b9fd7362259ab",
+      "json": "b44a8b2ede463462732186aabd85dfa0adda1a09adcfb5d9b09da1ae05f2acc7"
+    },
+    "weights_accuracy_seed11": {
+      "csv": "83b6e8b34c90cd7714263c0aba67f870064b2b251ed0f7226f350f09b288bd02",
+      "json": "cc16c915cff7cf3297f3244754ede98bf394b529389d45d153be48e8b1341e6c"
+    },
+    "weights_accuracy_seed23": {
+      "csv": "864f9cec5cfe66a80d91c3932043eaa65443abb8b572420d457aef5c461b6a1c",
+      "json": "64a9743a5c844692298ee529f8fbda3d0eefad20f5a056c6dff69bf76a705dd4"
+    },
+    "weights_accuracy_seed42": {
+      "csv": "327c023c9c8e78559fc9a6dd32938a44c6d715d68a0b07e682add0b12d3ce34e",
+      "json": "e617a402693b622ac9e1864471fff275d663dfad974a3e962c2f4a0e2f678532"
+    },
+    "weights_bandwidth_seed11": {
+      "csv": "91f38e7717af34066aeeee40018ec99a858f0b8b0b0689e0257bfa93d1444790",
+      "json": "5b6a4033724e479ee2f186d547ba3971dd9a14e7636d0baafd2eb453ed78583e"
+    },
+    "weights_bandwidth_seed23": {
+      "csv": "3bb8dc01f02d502849242b6ebad9d8aca55758ac392234b71cc98099854ed539",
+      "json": "d4a0161c00c93915913883bf32b97850dd20391c04c7a4819fd2242cdafd0a79"
+    },
+    "weights_bandwidth_seed42": {
+      "csv": "c5e9dc5a41222afafd74b7b01604c09cdf53e02d7ae7e11c5ed495b240b46359",
+      "json": "c20469c27720d0bd26e36a736f890eb3c0a55f35dc6baef6b4fcbb43d15f8704"
+    },
+    "weights_compute_seed11": {
+      "csv": "03d332b0416fe3697ddcdada20ae1e3244427888f03f1c1b80adbfa8fb9bf192",
+      "json": "600a584f55c524e0fdaa81bb683264f81707bcf1e41034c41ce970015e2ddddc"
+    },
+    "weights_compute_seed23": {
+      "csv": "a44308ba8fc2ae2a7ce1786c0edecf12b7b93d6f14070e4336ee1334f02cd77c",
+      "json": "eb211e3e84741377e8fe8ada90cb1bfc9b662d3fdf7d5255b1df281d01679f36"
+    },
+    "weights_compute_seed42": {
+      "csv": "993688e7b488ee4ed25a4764e7d8cb49fc7b6d38f897c41dc0b2f37af9cfdd68",
+      "json": "ad70e6c04f73bf24d05be58914fa5a5ae0d27f5ee82ef13ca139337cfcd6040f"
+    },
+    "weights_energy_seed11": {
+      "csv": "8df0ea9c554a31ef6a858eafcab94024e20feeb391fd806b3333ab11322722bf",
+      "json": "a3b5fa7ea3b88fc860931da9b96280e680774cf2baf8603871e94013d5f6de39"
+    },
+    "weights_energy_seed23": {
+      "csv": "6975fc6d975b6434a17f944f01c9e550e9192477311ee1fbae4645abcb2f2ec7",
+      "json": "3b155ac8b0eb915d524b800b30bb3bd39844b0a87baebeb4bae533cb3f1b631a"
+    },
+    "weights_energy_seed42": {
+      "csv": "41037a8b9ebf27be1fcbd515b02d2b8e70c23019ba448a60af6403de20843a0b",
+      "json": "a07f480fa1c8bffa44b47a593deb29bc89dc8543fb8ca21db1be7198a9616b55"
+    },
+    "weights_equal_seed11": {
+      "csv": "28ce4d0f3ddd584a4cfc217940eae8291b9e97d8c403076c07fea7caa08b0b1e",
+      "json": "8ba553840bc6807d44f0bae1512a59ecb2f034703530bec01bd7f0e30e3dfbea"
+    },
+    "weights_equal_seed23": {
+      "csv": "126b59b5d492326ca4841666bf32e29b625dfc20b9312b73576ec8121e6aa10b",
+      "json": "7089e2fb76738558e54276b01c1439ad89cab02d2cdc1869531758609121f583"
+    },
+    "weights_equal_seed42": {
+      "csv": "c4e7d2f76bda077981a9ade9d50d3c1ecf9c1e32f0939b482b0a136e41532085",
+      "json": "261ace1ab481bc9392b6582323d1da04f94e15ef7f855e08380f083f919d546e"
+    },
+    "weights_latency_seed11": {
+      "csv": "7e91ae50f5b0d740973db421d9fe20da7127e34459aeb5470a14e89962025c49",
+      "json": "d05d076f48999935c24f04b6d59c5e3de7c633f8697a90127e40a780f8ff6aef"
+    },
+    "weights_latency_seed23": {
+      "csv": "b61e030799b6000b63ce7c59e03a3d0066196e6d19dc368c9004e6b505ab276f",
+      "json": "a3890218c5f2d1647812d7904289af4316345d551bb5c8df8b642f713cc4ec77"
+    },
+    "weights_latency_seed42": {
+      "csv": "7c271f0c2df20575586b1d108c0e6574a74a33b8abf6e42eacbbbdfd2f8a2008",
+      "json": "a9663c9c38897b96182d2a7716148eef5a7fb89e452ddb7f80ba5ba96a7d7b28"
+    }
+  },
+  "sync_joint": [
+    {
+      "accuracy": {
+        "ci95": [
+          0.43370085579572104,
+          0.5124324775376123
+        ],
+        "mean": 0.4730666666666667,
+        "sd": 0.015846871405212237
+      },
+      "accuracy_contrast": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "mean_difference": 0.0,
+        "p_holm_family": null,
+        "p_unadjusted": null,
+        "paired_seed_differences": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "test_note": "identical paired outcomes; t-statistic undefined"
+      },
+      "accuracy_per_seed": [
+        0.4909,
+        0.4677,
+        0.4606
+      ],
+      "bytes": {
+        "ci95": [
+          281201593.4592273,
+          450807643.87410605
+        ],
+        "mean": 366004618.6666667,
+        "sd": 34137811.60613956
+      },
+      "bytes_per_seed": [
+        326857264,
+        381577840,
+        389578752
+      ],
+      "delta": 0.05,
+      "delta_label": "0.05",
+      "gap": 1,
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          10959.99893376225,
+          26062.00117400989
+        ],
+        "mean": 18511.00005388607,
+        "sd": 3039.6870046320273
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        21977.462261762732,
+        17254.661922375486,
+        16300.875977519992
+      ],
+      "syncs": {
+        "ci95": [
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      },
+      "syncs_per_seed": [
+        100,
+        100,
+        100
+      ],
+      "trigger_reasons_per_seed": [
+        {
+          "both": 100
+        },
+        {
+          "both": 100
+        },
+        {
+          "both": 100
+        }
+      ]
+    },
+    {
+      "accuracy": {
+        "ci95": [
+          0.43370085579572104,
+          0.5124324775376123
+        ],
+        "mean": 0.4730666666666667,
+        "sd": 0.015846871405212237
+      },
+      "accuracy_contrast": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "mean_difference": 0.0,
+        "p_holm_family": null,
+        "p_unadjusted": null,
+        "paired_seed_differences": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "test_note": "identical paired outcomes; t-statistic undefined"
+      },
+      "accuracy_per_seed": [
+        0.4909,
+        0.4677,
+        0.4606
+      ],
+      "bytes": {
+        "ci95": [
+          281201593.4592273,
+          450807643.87410605
+        ],
+        "mean": 366004618.6666667,
+        "sd": 34137811.60613956
+      },
+      "bytes_per_seed": [
+        326857264,
+        381577840,
+        389578752
+      ],
+      "delta": 0.5,
+      "delta_label": "0.5",
+      "gap": 1,
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          10959.99893376225,
+          26062.00117400989
+        ],
+        "mean": 18511.00005388607,
+        "sd": 3039.6870046320273
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        21977.462261762732,
+        17254.661922375486,
+        16300.875977519992
+      ],
+      "syncs": {
+        "ci95": [
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      },
+      "syncs_per_seed": [
+        100,
+        100,
+        100
+      ],
+      "trigger_reasons_per_seed": [
+        {
+          "both": 59,
+          "max_gap": 41
+        },
+        {
+          "both": 50,
+          "max_gap": 50
+        },
+        {
+          "both": 52,
+          "max_gap": 48
+        }
+      ]
+    },
+    {
+      "accuracy": {
+        "ci95": [
+          0.43370085579572104,
+          0.5124324775376123
+        ],
+        "mean": 0.4730666666666667,
+        "sd": 0.015846871405212237
+      },
+      "accuracy_per_seed": [
+        0.4909,
+        0.4677,
+        0.4606
+      ],
+      "bytes": {
+        "ci95": [
+          281201593.4592273,
+          450807643.87410605
+        ],
+        "mean": 366004618.6666667,
+        "sd": 34137811.60613956
+      },
+      "bytes_per_seed": [
+        326857264,
+        381577840,
+        389578752
+      ],
+      "delta": 1000000000.0,
+      "delta_label": "1e+09",
+      "gap": 1,
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          10959.99893376225,
+          26062.00117400989
+        ],
+        "mean": 18511.00005388607,
+        "sd": 3039.6870046320273
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        21977.462261762732,
+        17254.661922375486,
+        16300.875977519992
+      ],
+      "syncs": {
+        "ci95": [
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      },
+      "syncs_per_seed": [
+        100,
+        100,
+        100
+      ],
+      "trigger_reasons_per_seed": [
+        {
+          "max_gap": 100
+        },
+        {
+          "max_gap": 100
+        },
+        {
+          "max_gap": 100
+        }
+      ]
+    },
+    {
+      "accuracy": {
+        "ci95": [
+          0.43370085579572104,
+          0.5124324775376123
+        ],
+        "mean": 0.4730666666666667,
+        "sd": 0.015846871405212237
+      },
+      "accuracy_contrast": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "mean_difference": 0.0,
+        "p_holm_family": null,
+        "p_unadjusted": null,
+        "paired_seed_differences": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "test_note": "identical paired outcomes; t-statistic undefined"
+      },
+      "accuracy_per_seed": [
+        0.4909,
+        0.4677,
+        0.4606
+      ],
+      "bytes": {
+        "ci95": [
+          281201593.4592273,
+          450807643.87410605
+        ],
+        "mean": 366004618.6666667,
+        "sd": 34137811.60613956
+      },
+      "bytes_per_seed": [
+        326857264,
+        381577840,
+        389578752
+      ],
+      "delta": 0.05,
+      "delta_label": "0.05",
+      "gap": 3,
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          10959.99893376225,
+          26062.00117400989
+        ],
+        "mean": 18511.00005388607,
+        "sd": 3039.6870046320273
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        21977.462261762732,
+        17254.661922375486,
+        16300.875977519992
+      ],
+      "syncs": {
+        "ci95": [
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      },
+      "syncs_per_seed": [
+        100,
+        100,
+        100
+      ],
+      "trigger_reasons_per_seed": [
+        {
+          "divergence": 100
+        },
+        {
+          "divergence": 100
+        },
+        {
+          "divergence": 100
+        }
+      ]
+    },
+    {
+      "accuracy": {
+        "ci95": [
+          0.43921846714424523,
+          0.5142481995224214
+        ],
+        "mean": 0.4767333333333333,
+        "sd": 0.015101765901156505
+      },
+      "accuracy_contrast": {
+        "ci95": [
+          0.0009303539273389154,
+          0.006402979405994387
+        ],
+        "mean_difference": 0.0036666666666666514,
+        "p_holm_family": 0.11515942669297152,
+        "p_unadjusted": 0.02878985667324288,
+        "paired_seed_differences": [
+          0.002599999999999991,
+          0.004799999999999971,
+          0.003599999999999992
+        ]
+      },
+      "accuracy_per_seed": [
+        0.4935,
+        0.4725,
+        0.4642
+      ],
+      "bytes": {
+        "ci95": [
+          275006213.831152,
+          389359012.8355146
+        ],
+        "mean": 332182613.3333333,
+        "sd": 23016598.166731533
+      },
+      "bytes_per_seed": [
+        306185496,
+        340398264,
+        349964080
+      ],
+      "delta": 0.5,
+      "delta_label": "0.5",
+      "gap": 3,
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          10941.05100565768,
+          26016.093018610933
+        ],
+        "mean": 18478.572012134307,
+        "sd": 3034.260528642621
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        21942.834371137116,
+        17200.20474335721,
+        16292.676921908595
+      ],
+      "syncs": {
+        "ci95": [
+          71.4955216541244,
+          81.83781167920894
+        ],
+        "mean": 76.66666666666667,
+        "sd": 2.0816659994661326
+      },
+      "syncs_per_seed": [
+        79,
+        75,
+        76
+      ],
+      "trigger_reasons_per_seed": [
+        {
+          "divergence": 79,
+          "held": 21
+        },
+        {
+          "divergence": 75,
+          "held": 25
+        },
+        {
+          "divergence": 76,
+          "held": 24
+        }
+      ]
+    },
+    {
+      "accuracy": {
+        "ci95": [
+          0.44818032390284984,
+          0.5027530094304835
+        ],
+        "mean": 0.47546666666666665,
+        "sd": 0.010984231121627629
+      },
+      "accuracy_contrast": {
+        "ci95": [
+          -0.009893344735519533,
+          0.01469334473551952
+        ],
+        "mean_difference": 0.0023999999999999946,
+        "p_holm_family": 0.8542255824941741,
+        "p_unadjusted": 0.4893231706582333,
+        "paired_seed_differences": [
+          -0.003300000000000025,
+          0.0049000000000000155,
+          0.005599999999999994
+        ]
+      },
+      "accuracy_per_seed": [
+        0.4876,
+        0.4726,
+        0.4662
+      ],
+      "bytes": {
+        "ci95": [
+          258615836.9116955,
+          287629491.0883045
+        ],
+        "mean": 273122664.0,
+        "sd": 5839783.768703769
+      },
+      "bytes_per_seed": [
+        266763088,
+        274360824,
+        278244080
+      ],
+      "delta": 1000000000.0,
+      "delta_label": "1e+09",
+      "gap": 3,
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          10814.04404747362,
+          26116.6401666672
+        ],
+        "mean": 18465.34210707041,
+        "sd": 3080.0619560683144
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        21982.198904894874,
+        17165.7931595572,
+        16248.034256759158
+      ],
+      "syncs": {
+        "ci95": [
+          33.0,
+          33.0
+        ],
+        "mean": 33.0,
+        "sd": 0.0
+      },
+      "syncs_per_seed": [
+        33,
+        33,
+        33
+      ],
+      "trigger_reasons_per_seed": [
+        {
+          "held": 67,
+          "max_gap": 33
+        },
+        {
+          "held": 67,
+          "max_gap": 33
+        },
+        {
+          "held": 67,
+          "max_gap": 33
+        }
+      ]
+    },
+    {
+      "accuracy": {
+        "ci95": [
+          0.43370085579572104,
+          0.5124324775376123
+        ],
+        "mean": 0.4730666666666667,
+        "sd": 0.015846871405212237
+      },
+      "accuracy_contrast": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "mean_difference": 0.0,
+        "p_holm_family": null,
+        "p_unadjusted": null,
+        "paired_seed_differences": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "test_note": "identical paired outcomes; t-statistic undefined"
+      },
+      "accuracy_per_seed": [
+        0.4909,
+        0.4677,
+        0.4606
+      ],
+      "bytes": {
+        "ci95": [
+          281201593.4592273,
+          450807643.87410605
+        ],
+        "mean": 366004618.6666667,
+        "sd": 34137811.60613956
+      },
+      "bytes_per_seed": [
+        326857264,
+        381577840,
+        389578752
+      ],
+      "delta": 0.05,
+      "delta_label": "0.05",
+      "gap": 5,
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          10959.99893376225,
+          26062.00117400989
+        ],
+        "mean": 18511.00005388607,
+        "sd": 3039.6870046320273
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        21977.462261762732,
+        17254.661922375486,
+        16300.875977519992
+      ],
+      "syncs": {
+        "ci95": [
+          100.0,
+          100.0
+        ],
+        "mean": 100.0,
+        "sd": 0.0
+      },
+      "syncs_per_seed": [
+        100,
+        100,
+        100
+      ],
+      "trigger_reasons_per_seed": [
+        {
+          "divergence": 100
+        },
+        {
+          "divergence": 100
+        },
+        {
+          "divergence": 100
+        }
+      ]
+    },
+    {
+      "accuracy": {
+        "ci95": [
+          0.43921846714424523,
+          0.5142481995224214
+        ],
+        "mean": 0.4767333333333333,
+        "sd": 0.015101765901156505
+      },
+      "accuracy_contrast": {
+        "ci95": [
+          0.0009303539273389154,
+          0.006402979405994387
+        ],
+        "mean_difference": 0.0036666666666666514,
+        "p_holm_family": 0.11515942669297152,
+        "p_unadjusted": 0.02878985667324288,
+        "paired_seed_differences": [
+          0.002599999999999991,
+          0.004799999999999971,
+          0.003599999999999992
+        ]
+      },
+      "accuracy_per_seed": [
+        0.4935,
+        0.4725,
+        0.4642
+      ],
+      "bytes": {
+        "ci95": [
+          275006213.831152,
+          389359012.8355146
+        ],
+        "mean": 332182613.3333333,
+        "sd": 23016598.166731533
+      },
+      "bytes_per_seed": [
+        306185496,
+        340398264,
+        349964080
+      ],
+      "delta": 0.5,
+      "delta_label": "0.5",
+      "gap": 5,
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          10941.05100565768,
+          26016.093018610933
+        ],
+        "mean": 18478.572012134307,
+        "sd": 3034.260528642621
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        21942.834371137116,
+        17200.20474335721,
+        16292.676921908595
+      ],
+      "syncs": {
+        "ci95": [
+          71.4955216541244,
+          81.83781167920894
+        ],
+        "mean": 76.66666666666667,
+        "sd": 2.0816659994661326
+      },
+      "syncs_per_seed": [
+        79,
+        75,
+        76
+      ],
+      "trigger_reasons_per_seed": [
+        {
+          "divergence": 79,
+          "held": 21
+        },
+        {
+          "divergence": 75,
+          "held": 25
+        },
+        {
+          "divergence": 76,
+          "held": 24
+        }
+      ]
+    },
+    {
+      "accuracy": {
+        "ci95": [
+          0.4431441935765791,
+          0.49318913975675427
+        ],
+        "mean": 0.4681666666666667,
+        "sd": 0.010072900939318986
+      },
+      "accuracy_contrast": {
+        "ci95": [
+          -0.026228893768822367,
+          0.01642889376882237
+        ],
+        "mean_difference": -0.004899999999999997,
+        "p_holm_family": 0.8542255824941741,
+        "p_unadjusted": 0.42711279124708706,
+        "paired_seed_differences": [
+          -0.014100000000000001,
+          0.0029000000000000137,
+          -0.003500000000000003
+        ]
+      },
+      "accuracy_per_seed": [
+        0.4768,
+        0.4706,
+        0.4571
+      ],
+      "bytes": {
+        "ci95": [
+          251162026.71727666,
+          255628085.28272334
+        ],
+        "mean": 253395056.0,
+        "sd": 898915.2542392414
+      },
+      "bytes_per_seed": [
+        253487488,
+        252453496,
+        254244184
+      ],
+      "delta": 1000000000.0,
+      "delta_label": "1e+09",
+      "gap": 5,
+      "modeled_critical_path_ms_sum": {
+        "ci95": [
+          10817.269441617953,
+          26070.68600916744
+        ],
+        "mean": 18443.977725392695,
+        "sd": 3070.163239219513
+      },
+      "modeled_critical_path_ms_sum_per_seed": [
+        21955.64969207818,
+        17108.881940095413,
+        16267.401544004495
+      ],
+      "syncs": {
+        "ci95": [
+          20.0,
+          20.0
+        ],
+        "mean": 20.0,
+        "sd": 0.0
+      },
+      "syncs_per_seed": [
+        20,
+        20,
+        20
+      ],
+      "trigger_reasons_per_seed": [
+        {
+          "held": 80,
+          "max_gap": 20
+        },
+        {
+          "held": 80,
+          "max_gap": 20
+        },
+        {
+          "held": 80,
+          "max_gap": 20
+        }
+      ]
+    }
+  ],
+  "timestamp_utc": "2026-11-07T15:33:08.028486+00:00"
+}

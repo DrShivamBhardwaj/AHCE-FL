@@ -1,0 +1,536 @@
+{
+  "source_docx_sha256": "337094fc215f5c4a3c772e49a19763b79cbebd3ef1c574e1b47ca5c5d5c07c0d",
+  "revised_docx_sha256": "cc45039deca1005da4f5366811056f321025b26a3ef163e0978219ef29074b66",
+  "checks_total": 92,
+  "checks_passed": 92,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "label": "source_table_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "revised_table_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "original_table_1_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "original_table_2_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "original_table_3_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "original_table_4_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "original_table_5_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "original_table_6_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "original_table_7_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "original_table_8_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "original_table_9_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "figure_captions_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "all_nine_original_images_identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "figure_resolution_word/media/image1.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "figure_resolution_word/media/image2.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "figure_resolution_word/media/image3.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "figure_resolution_word/media/image4.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "figure_resolution_word/media/image5.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "figure_resolution_word/media/image6.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "figure_resolution_word/media/image7.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "figure_resolution_word/media/image8.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "figure_resolution_word/media/image9.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_policy_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_accuracy_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_bytes_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_policy_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_accuracy_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_bytes_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_delta_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_holm_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_policy_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_accuracy_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_bytes_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_delta_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_holm_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_policy_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_accuracy_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_bytes_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_delta_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_holm_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_policy_5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_accuracy_5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_bytes_5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_delta_5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_holm_5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_policy_6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_accuracy_6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_bytes_6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_delta_6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table10_holm_6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_key_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_accuracy_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_bytes_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_syncs_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_key_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_accuracy_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_bytes_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_syncs_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_key_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_accuracy_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_bytes_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_syncs_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_key_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_accuracy_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_bytes_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_syncs_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_key_5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_accuracy_5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_bytes_5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_syncs_5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_key_6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_accuracy_6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_bytes_6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_syncs_6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_key_7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_accuracy_7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_bytes_7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_syncs_7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_key_8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_accuracy_8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_bytes_8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_syncs_8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_key_9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_accuracy_9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_bytes_9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "table11_syncs_9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "source_docx_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "revised_subsection_5.7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "revised_subsection_5.8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "label": "revised_subsection_5.9",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "figure_images": {
+    "word/media/image1.png": {
+      "size_px": [
+        2160,
+        1692
+      ],
+      "sha256": "2f7de6553907c51396cba91c476f95112be2cf61b8e79240f21bdf9501fc4d2c"
+    },
+    "word/media/image2.png": {
+      "size_px": [
+        3870,
+        1069
+      ],
+      "sha256": "bc7ef85f095aad8fdca20cfe55975b524563131ca3e86ff9264202d3fe13048b"
+    },
+    "word/media/image3.png": {
+      "size_px": [
+        3870,
+        1841
+      ],
+      "sha256": "d3e14c8ec7aca3755db2cbd2160e088cf510c7d580cda7c4a95f137ccf207835"
+    },
+    "word/media/image4.png": {
+      "size_px": [
+        2160,
+        1020
+      ],
+      "sha256": "1a364444f0f481a633595b435b87aa5e85b318a89d6aaff4e7047d5f721456b6"
+    },
+    "word/media/image5.png": {
+      "size_px": [
+        3870,
+        1923
+      ],
+      "sha256": "54fdb6c0e712a2151810832fcbced74cd1017e10557794dd06b205d960417d5e"
+    },
+    "word/media/image6.png": {
+      "size_px": [
+        3870,
+        1910
+      ],
+      "sha256": "6586672f8e9fdfe8330c8d3eb4518cf317839a38c2f516eb9230843977cb1c17"
+    },
+    "word/media/image7.png": {
+      "size_px": [
+        2160,
+        1088
+      ],
+      "sha256": "3de8534f9b4f80716e3200299d87f502170893249d1a2f7e14884127fa18a725"
+    },
+    "word/media/image8.png": {
+      "size_px": [
+        3870,
+        1926
+      ],
+      "sha256": "7c08842658499797ebaf10e5f366ae1d322db715b49b9742d6f28161e436c1de"
+    },
+    "word/media/image9.png": {
+      "size_px": [
+        3870,
+        1910
+      ],
+      "sha256": "ec0a8e526607420470d2185a3af94b8251639a990e8a0780c689343b891ef30f"
+    }
+  },
+  "figure_review": "Nine figures visually reviewed using a contact sheet: displayed baselines, thresholds, synchronization counts and communication annotations align with archived summary tables at readable precision. Exact pixel-level numerical extraction not performed.",
+  "limitations": "No physical hardware validation; paired n=3; original references not independently verified."
+}
