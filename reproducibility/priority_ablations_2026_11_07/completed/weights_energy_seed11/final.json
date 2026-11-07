@@ -1,0 +1,50 @@
+{
+  "configuration": {
+    "batch_size": 32,
+    "checkpoint_every": 5,
+    "checkpoint_path": "reproducibility/priority_ablations_2026_11_07/checkpoints/weights_energy_seed11.pt",
+    "clients": 50,
+    "compression_threshold": 0.01,
+    "cpu_threads": 2,
+    "dataset": "cifar10",
+    "dirichlet_alpha": 0.5,
+    "edges": 5,
+    "learning_rate": 0.001,
+    "local_epochs": 5,
+    "method": "ahce-fl",
+    "participation_ratio": 0.2,
+    "prox_mu": 0.01,
+    "rounds": 100,
+    "seed": 11,
+    "selection_weights": [
+      0.15,
+      0.4,
+      0.15,
+      0.15,
+      0.15
+    ],
+    "sync_max_gap": 3,
+    "sync_threshold": 0.05
+  },
+  "method": "ahce-fl",
+  "seed": 11,
+  "tau": 0.01,
+  "result": {
+    "round": 100,
+    "accuracy": 0.4919,
+    "participating_clients": 10,
+    "sync_triggered": 1,
+    "parameters": 38570,
+    "client_upload_bytes": 769984,
+    "client_download_bytes": 1542800,
+    "cloud_upload_bytes": 617120,
+    "cloud_download_bytes": 617120,
+    "total_bytes": 3547024,
+    "compressed_entries": 96248,
+    "modeled_critical_path_ms": 234.0953660851086,
+    "wall_clock_s": 13.045210667070933,
+    "divergence_l2": 0.40385189479516165,
+    "sync_reason": "divergence"
+  },
+  "measurement_type": "single-process simulation"
+}
