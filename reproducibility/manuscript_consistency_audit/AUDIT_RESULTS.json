@@ -1,0 +1,1164 @@
+{
+  "audited_utc": "2026-11-07T00:56:18.660799+00:00",
+  "source_docx": "manuscripts/IJAESD-345169/AHCE_FL_Final_Audited_Blind.docx",
+  "docx_sha256": "337094fc215f5c4a3c772e49a19763b79cbebd3ef1c574e1b47ca5c5d5c07c0d",
+  "total_checks": 125,
+  "passed_checks": 125,
+  "failed_checks": 0,
+  "findings": [],
+  "configuration_method_metadata_discrepancies": [
+    "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedavg_seed11_tau0.01.json",
+    "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedavg_seed23_tau0.01.json",
+    "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedavg_seed42_tau0.01.json",
+    "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedprox_seed11_tau0.01.json",
+    "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedprox_seed23_tau0.01.json",
+    "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedprox_seed42_tau0.01.json",
+    "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedcs_seed11_tau0.01.json",
+    "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedcs_seed23_tau0.01.json",
+    "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedcs_seed42_tau0.01.json",
+    "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_hfl_seed11_tau0.01.json",
+    "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_hfl_seed23_tau0.01.json",
+    "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_hfl_seed42_tau0.01.json"
+  ],
+  "legacy_report_caveat": "EVIDENCE_REPORT.md flat baseline modeled bytes 617120000 include duplicate cloud columns; final manuscript correctly uses client upload/download once: 308560000",
+  "claims_scope": "Single-process simulation, synthetic network parameters; not empirical network or battery measurements",
+  "csv_runs": [
+    {
+      "group": "baseline",
+      "setting": "fedavg",
+      "seed": 11,
+      "accuracy": 0.6553,
+      "bytes": 308560000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedavg_seed11_tau0.01.csv",
+      "csv_sha256": "1bb736089443c92acdc3e34ce5df00541a62b5a0168780291350849fbc81c354"
+    },
+    {
+      "group": "baseline",
+      "setting": "fedavg",
+      "seed": 23,
+      "accuracy": 0.6271,
+      "bytes": 308560000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedavg_seed23_tau0.01.csv",
+      "csv_sha256": "c88102aa0db79df209dafd63e01579bba501eb8969351ed2763005887c8dea37"
+    },
+    {
+      "group": "baseline",
+      "setting": "fedavg",
+      "seed": 42,
+      "accuracy": 0.648,
+      "bytes": 308560000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedavg_seed42_tau0.01.csv",
+      "csv_sha256": "7a4c19e95a4eb8f5183a411f77032678861d275bc0363adb35fe7790c8078c8b"
+    },
+    {
+      "group": "baseline",
+      "setting": "fedprox",
+      "seed": 11,
+      "accuracy": 0.6471,
+      "bytes": 308560000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedprox_seed11_tau0.01.csv",
+      "csv_sha256": "2440fed70a4fa0c557b0fbfea7001d7c645966bfce216586f54b27807099a863"
+    },
+    {
+      "group": "baseline",
+      "setting": "fedprox",
+      "seed": 23,
+      "accuracy": 0.6271,
+      "bytes": 308560000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedprox_seed23_tau0.01.csv",
+      "csv_sha256": "8de5e498d1a16a8d8e005b40cd4e7b42964b6a523d1f685c91c1e9601be7098a"
+    },
+    {
+      "group": "baseline",
+      "setting": "fedprox",
+      "seed": 42,
+      "accuracy": 0.6504,
+      "bytes": 308560000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedprox_seed42_tau0.01.csv",
+      "csv_sha256": "c6c85e33c140cfd974b0764e702ea21aada6be8de4bed799c32bb992e74ee3a8"
+    },
+    {
+      "group": "baseline",
+      "setting": "fedcs",
+      "seed": 11,
+      "accuracy": 0.5128,
+      "bytes": 308560000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedcs_seed11_tau0.01.csv",
+      "csv_sha256": "39b24f74f2bc7165a1a78d99f4f64552358db8eb207d5475b4421c10d2d8c6e5"
+    },
+    {
+      "group": "baseline",
+      "setting": "fedcs",
+      "seed": 23,
+      "accuracy": 0.5051,
+      "bytes": 308560000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedcs_seed23_tau0.01.csv",
+      "csv_sha256": "22098ab8201174da8586574f791a2a7e2fe68fea485524b3e4818bc94c1e2e5e"
+    },
+    {
+      "group": "baseline",
+      "setting": "fedcs",
+      "seed": 42,
+      "accuracy": 0.5102,
+      "bytes": 308560000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_fedcs_seed42_tau0.01.csv",
+      "csv_sha256": "a4752323e7b7bb90c8f58fd598b4f7250d8657a3514a46b84e84d3c24b74997c"
+    },
+    {
+      "group": "baseline",
+      "setting": "hfl",
+      "seed": 11,
+      "accuracy": 0.6547,
+      "bytes": 448337680,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_hfl_seed11_tau0.01.csv",
+      "csv_sha256": "3f512b374e68d5da8602d049f0c735481595366b29beda17d46c000714205475"
+    },
+    {
+      "group": "baseline",
+      "setting": "hfl",
+      "seed": 23,
+      "accuracy": 0.6278,
+      "bytes": 451423280,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_hfl_seed23_tau0.01.csv",
+      "csv_sha256": "8d496e6ee8a5dd75f17fc8d919a13d83d616e2a4b7473e51fb938cc2d0caf8a6"
+    },
+    {
+      "group": "baseline",
+      "setting": "hfl",
+      "seed": 42,
+      "accuracy": 0.6447,
+      "bytes": 451114720,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_hfl_seed42_tau0.01.csv",
+      "csv_sha256": "a05635b067154b0c3bf2a4c3368bde12a6bb6a85b4d0d0cbf197891cbf39e068"
+    },
+    {
+      "group": "baseline",
+      "setting": "ahce-fl",
+      "seed": 11,
+      "accuracy": 0.4909,
+      "bytes": 326857264,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_ahce-fl_seed11_tau0.01.csv",
+      "csv_sha256": "7ea7790fef4c263d5e67876fcb10e73a4f4039956d915df7ac5320a005cba852"
+    },
+    {
+      "group": "baseline",
+      "setting": "ahce-fl",
+      "seed": 23,
+      "accuracy": 0.4677,
+      "bytes": 381577840,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_ahce-fl_seed23_tau0.01.csv",
+      "csv_sha256": "aee71be7f0dd5db2aeeda40177f1ff4ca1587fe5e68f1eb5902e5ac646ae850c"
+    },
+    {
+      "group": "baseline",
+      "setting": "ahce-fl",
+      "seed": 42,
+      "accuracy": 0.4606,
+      "bytes": 389578752,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_100round/manuscript_cifar10_cifar10_ahce-fl_seed42_tau0.01.csv",
+      "csv_sha256": "b9f4e330eea2a044679d6f618bbf68813107a182168a6ec625bbe089e513ec50"
+    },
+    {
+      "group": "compression",
+      "setting": "0",
+      "seed": 11,
+      "accuracy": 0.5074,
+      "bytes": 401128000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_compression_tau_0_cifar10_ahce-fl_seed11_tau0.csv",
+      "csv_sha256": "b57b3894f93d8ccb57be3b751011a92996ff2d8c9bde32e6427412afcf52fc1f"
+    },
+    {
+      "group": "compression",
+      "setting": "0",
+      "seed": 23,
+      "accuracy": 0.504,
+      "bytes": 462840000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_compression_tau_0_cifar10_ahce-fl_seed23_tau0.csv",
+      "csv_sha256": "abee3c854170ac6438b2325a7e945658a1de9ac946ceea859e49ad26ec9e3b48"
+    },
+    {
+      "group": "compression",
+      "setting": "0",
+      "seed": 42,
+      "accuracy": 0.5063,
+      "bytes": 462840000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_compression_tau_0_cifar10_ahce-fl_seed42_tau0.csv",
+      "csv_sha256": "c5a493b6f7ed094f2541bd7dfff820b8f0bac8977a3fd0d985c9e02114f880e8"
+    },
+    {
+      "group": "compression",
+      "setting": "0.001",
+      "seed": 11,
+      "accuracy": 0.5074,
+      "bytes": 401128000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_compression_tau_0.001_cifar10_ahce-fl_seed11_tau0.001.csv",
+      "csv_sha256": "0da59d5b4778e47be3f9ea8a182875b9b9d8ec40627e0fc73e117125675eac43"
+    },
+    {
+      "group": "compression",
+      "setting": "0.001",
+      "seed": 23,
+      "accuracy": 0.504,
+      "bytes": 462840000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_compression_tau_0.001_cifar10_ahce-fl_seed23_tau0.001.csv",
+      "csv_sha256": "fdc4eb99e09e62d6963701a3ebd2f9fa967e7b373c6d1d2b5976a3684163e578"
+    },
+    {
+      "group": "compression",
+      "setting": "0.001",
+      "seed": 42,
+      "accuracy": 0.5063,
+      "bytes": 462840000,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_compression_tau_0.001_cifar10_ahce-fl_seed42_tau0.001.csv",
+      "csv_sha256": "0cc7f2261b62cc0a08d7bf07874bb3dd254a383c5addeac1521bd6d04091e0af"
+    },
+    {
+      "group": "compression",
+      "setting": "0.01",
+      "seed": 11,
+      "accuracy": 0.4909,
+      "bytes": 326857264,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_compression_tau_0.01_cifar10_ahce-fl_seed11_tau0.01.csv",
+      "csv_sha256": "cdb1fd69df7313e590f1f959fc4246feaa658c383ec3d762b2ffa28ba906ab6b"
+    },
+    {
+      "group": "compression",
+      "setting": "0.01",
+      "seed": 23,
+      "accuracy": 0.4677,
+      "bytes": 381577840,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_compression_tau_0.01_cifar10_ahce-fl_seed23_tau0.01.csv",
+      "csv_sha256": "4ab198fa060b144f4ac83d86fb25c175c62ddb350495ac31f00d3b1baa54080e"
+    },
+    {
+      "group": "compression",
+      "setting": "0.01",
+      "seed": 42,
+      "accuracy": 0.4606,
+      "bytes": 389578752,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_compression_tau_0.01_cifar10_ahce-fl_seed42_tau0.01.csv",
+      "csv_sha256": "825d5bad41c02943ce7307cc5dc7c5653923b5a3d9a9d82bee4753903959216e"
+    },
+    {
+      "group": "compression",
+      "setting": "0.05",
+      "seed": 11,
+      "accuracy": 0.2014,
+      "bytes": 247495728,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_compression_tau_0.05_cifar10_ahce-fl_seed11_tau0.05.csv",
+      "csv_sha256": "24d09ada462628d416030424372cea6b92fb02703dc60b4b66d4c2aaaa431664"
+    },
+    {
+      "group": "compression",
+      "setting": "0.05",
+      "seed": 23,
+      "accuracy": 0.1426,
+      "bytes": 309210952,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_compression_tau_0.05_cifar10_ahce-fl_seed23_tau0.05.csv",
+      "csv_sha256": "eea738f2a039c34c06541575cc4500dec5145d6668e7997536b5bc6cc619a837"
+    },
+    {
+      "group": "compression",
+      "setting": "0.05",
+      "seed": 42,
+      "accuracy": 0.2144,
+      "bytes": 309273192,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_compression_tau_0.05_cifar10_ahce-fl_seed42_tau0.05.csv",
+      "csv_sha256": "32b3d4484959523017578d7ef633f74cefe49a6f6bfbbb0b9521bf5700a433b0"
+    },
+    {
+      "group": "original_sync",
+      "setting": "1",
+      "seed": 11,
+      "accuracy": 0.4909,
+      "bytes": 326857264,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_synchronization_gap_1_cifar10_ahce-fl_seed11_tau0.01.csv",
+      "csv_sha256": "89d41a283ef98f28959be5c75aec448ef0b63e2e2d0450b51d085b35d00abf02"
+    },
+    {
+      "group": "original_sync",
+      "setting": "1",
+      "seed": 23,
+      "accuracy": 0.4677,
+      "bytes": 381577840,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_synchronization_gap_1_cifar10_ahce-fl_seed23_tau0.01.csv",
+      "csv_sha256": "74e1966b8234c1a47322ce0be73999c655b44b3c1a0f13da33ad6ed8a6df9c68"
+    },
+    {
+      "group": "original_sync",
+      "setting": "1",
+      "seed": 42,
+      "accuracy": 0.4606,
+      "bytes": 389578752,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_synchronization_gap_1_cifar10_ahce-fl_seed42_tau0.01.csv",
+      "csv_sha256": "e37f23cbb61f964af1dc2e8895c5c1dff4e0b57ad86ea73426edb34f82465b3b"
+    },
+    {
+      "group": "original_sync",
+      "setting": "2",
+      "seed": 11,
+      "accuracy": 0.4909,
+      "bytes": 326857264,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_synchronization_gap_2_cifar10_ahce-fl_seed11_tau0.01.csv",
+      "csv_sha256": "5cdadef69f85c32ab483d6bab8e1806f0bb6ac018150db9fa4e92e69f67516cf"
+    },
+    {
+      "group": "original_sync",
+      "setting": "2",
+      "seed": 23,
+      "accuracy": 0.4677,
+      "bytes": 381577840,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_synchronization_gap_2_cifar10_ahce-fl_seed23_tau0.01.csv",
+      "csv_sha256": "8a86693d4d665f938d529964615b9156fce81603b18404bd1e3befc2cf8efe9c"
+    },
+    {
+      "group": "original_sync",
+      "setting": "2",
+      "seed": 42,
+      "accuracy": 0.4606,
+      "bytes": 389578752,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_synchronization_gap_2_cifar10_ahce-fl_seed42_tau0.01.csv",
+      "csv_sha256": "2496b3df47da5f93037828c0cac594956eb4ee4f4203db88ca36c713adcad460"
+    },
+    {
+      "group": "original_sync",
+      "setting": "3",
+      "seed": 11,
+      "accuracy": 0.4909,
+      "bytes": 326857264,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_synchronization_gap_3_cifar10_ahce-fl_seed11_tau0.01.csv",
+      "csv_sha256": "d091248ab0e1bec031667edd14348d2115f5b03b6574adbf4055e28a5ce41bac"
+    },
+    {
+      "group": "original_sync",
+      "setting": "3",
+      "seed": 23,
+      "accuracy": 0.4677,
+      "bytes": 381577840,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_synchronization_gap_3_cifar10_ahce-fl_seed23_tau0.01.csv",
+      "csv_sha256": "dc620f117c51fe4d326ab29860896c0aecef20e1f3b950814932db5535956e4f"
+    },
+    {
+      "group": "original_sync",
+      "setting": "3",
+      "seed": 42,
+      "accuracy": 0.4606,
+      "bytes": 389578752,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_synchronization_gap_3_cifar10_ahce-fl_seed42_tau0.01.csv",
+      "csv_sha256": "7f2c48b8f06cccfd31c3d63876b0f2191ba77b34cd1d874c0cbc098b56512916"
+    },
+    {
+      "group": "original_sync",
+      "setting": "5",
+      "seed": 11,
+      "accuracy": 0.4909,
+      "bytes": 326857264,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_synchronization_gap_5_cifar10_ahce-fl_seed11_tau0.01.csv",
+      "csv_sha256": "e92bb5d83f66774ae02681d4477429242fda968661eb3e84d437ce3d44b5fab8"
+    },
+    {
+      "group": "original_sync",
+      "setting": "5",
+      "seed": 23,
+      "accuracy": 0.4677,
+      "bytes": 381577840,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_synchronization_gap_5_cifar10_ahce-fl_seed23_tau0.01.csv",
+      "csv_sha256": "62907b730fa6ed5b9b264e918f22f6d4457301f0de543b1fa20d3a41c1aa5c56"
+    },
+    {
+      "group": "original_sync",
+      "setting": "5",
+      "seed": 42,
+      "accuracy": 0.4606,
+      "bytes": 389578752,
+      "syncs": 100,
+      "csv": "reproducibility/cifar10_sensitivity/cifar10_synchronization_gap_5_cifar10_ahce-fl_seed42_tau0.01.csv",
+      "csv_sha256": "5dba3db28f4f461aafd14063f423ca11b742622749e3f7a8ba416a31208ec844"
+    },
+    {
+      "group": "corrected_gap",
+      "setting": "1",
+      "seed": 11,
+      "accuracy": 0.4909,
+      "bytes": 326857264,
+      "syncs": 100,
+      "csv": "reproducibility/sync_corrected/cifar10_sync_corrected_gap_1_cifar10_ahce-fl_seed11_tau0.01.csv",
+      "csv_sha256": "89faf70205e7a30462605ee41bf5e9bbcb8ad1eadb21631d31252960908d6f30"
+    },
+    {
+      "group": "corrected_gap",
+      "setting": "1",
+      "seed": 23,
+      "accuracy": 0.4677,
+      "bytes": 381577840,
+      "syncs": 100,
+      "csv": "reproducibility/sync_corrected/cifar10_sync_corrected_gap_1_cifar10_ahce-fl_seed23_tau0.01.csv",
+      "csv_sha256": "070c72be43d461d714a27a98b772f1a81e53f9d2e952764e6ac16b9392c4ae61"
+    },
+    {
+      "group": "corrected_gap",
+      "setting": "1",
+      "seed": 42,
+      "accuracy": 0.4606,
+      "bytes": 389578752,
+      "syncs": 100,
+      "csv": "reproducibility/sync_corrected/cifar10_sync_corrected_gap_1_cifar10_ahce-fl_seed42_tau0.01.csv",
+      "csv_sha256": "04ba5ac75279cfdeb1c17575d2128496ee0bacb2dbd810000c49f72176736391"
+    },
+    {
+      "group": "corrected_gap",
+      "setting": "2",
+      "seed": 11,
+      "accuracy": 0.4802,
+      "bytes": 282873448,
+      "syncs": 50,
+      "csv": "reproducibility/sync_corrected/cifar10_sync_corrected_gap_2_cifar10_ahce-fl_seed11_tau0.01.csv",
+      "csv_sha256": "a20694b174945f67c2f5eed2ef2603046ea62c08e78ec0809e9e803757ca91cc"
+    },
+    {
+      "group": "corrected_gap",
+      "setting": "2",
+      "seed": 23,
+      "accuracy": 0.4659,
+      "bytes": 302661328,
+      "syncs": 50,
+      "csv": "reproducibility/sync_corrected/cifar10_sync_corrected_gap_2_cifar10_ahce-fl_seed23_tau0.01.csv",
+      "csv_sha256": "828ea0a35cdfe7054b2c846ebdc9833206ba02d6c78a2e147bb67f9562fdf79f"
+    },
+    {
+      "group": "corrected_gap",
+      "setting": "2",
+      "seed": 42,
+      "accuracy": 0.4722,
+      "bytes": 304960744,
+      "syncs": 50,
+      "csv": "reproducibility/sync_corrected/cifar10_sync_corrected_gap_2_cifar10_ahce-fl_seed42_tau0.01.csv",
+      "csv_sha256": "63a4a11ca88d942c54d061ea2550689b2c7ef0a493060447c0487250f881c36b"
+    },
+    {
+      "group": "corrected_gap",
+      "setting": "3",
+      "seed": 11,
+      "accuracy": 0.4876,
+      "bytes": 266763088,
+      "syncs": 33,
+      "csv": "reproducibility/sync_corrected/cifar10_sync_corrected_gap_3_cifar10_ahce-fl_seed11_tau0.01.csv",
+      "csv_sha256": "554db6b5e424e07779bad5b5e89e8edf5d7490b2b95791e847159763dae695bd"
+    },
+    {
+      "group": "corrected_gap",
+      "setting": "3",
+      "seed": 23,
+      "accuracy": 0.4726,
+      "bytes": 274360824,
+      "syncs": 33,
+      "csv": "reproducibility/sync_corrected/cifar10_sync_corrected_gap_3_cifar10_ahce-fl_seed23_tau0.01.csv",
+      "csv_sha256": "9024266c837e1c29e4fc917673c07852e4c30e1531ef2384cbff3ed7fef77da8"
+    },
+    {
+      "group": "corrected_gap",
+      "setting": "3",
+      "seed": 42,
+      "accuracy": 0.4662,
+      "bytes": 278244080,
+      "syncs": 33,
+      "csv": "reproducibility/sync_corrected/cifar10_sync_corrected_gap_3_cifar10_ahce-fl_seed42_tau0.01.csv",
+      "csv_sha256": "dfc92c832d05661477b3522c1add5b95f55bca442e2fe810a45e68b55faebe88"
+    },
+    {
+      "group": "corrected_gap",
+      "setting": "5",
+      "seed": 11,
+      "accuracy": 0.4768,
+      "bytes": 253487488,
+      "syncs": 20,
+      "csv": "reproducibility/sync_corrected/cifar10_sync_corrected_gap_5_cifar10_ahce-fl_seed11_tau0.01.csv",
+      "csv_sha256": "95c04e513547d758d19ce5b1679d3e1b474bfbd9b346f20c6fb37733bae33fac"
+    },
+    {
+      "group": "corrected_gap",
+      "setting": "5",
+      "seed": 23,
+      "accuracy": 0.4706,
+      "bytes": 252453496,
+      "syncs": 20,
+      "csv": "reproducibility/sync_corrected/cifar10_sync_corrected_gap_5_cifar10_ahce-fl_seed23_tau0.01.csv",
+      "csv_sha256": "e277473666e1440e59ae63824130b640baeab508fc97989643277d30b1cf2a13"
+    },
+    {
+      "group": "corrected_gap",
+      "setting": "5",
+      "seed": 42,
+      "accuracy": 0.4571,
+      "bytes": 254244184,
+      "syncs": 20,
+      "csv": "reproducibility/sync_corrected/cifar10_sync_corrected_gap_5_cifar10_ahce-fl_seed42_tau0.01.csv",
+      "csv_sha256": "d0122a7980260bf7f95c1e2a6e25d978bd0784c4df38c456d9e6ffbb846c4b95"
+    }
+  ],
+  "checks": [
+    {
+      "check": "rounds:baseline:fedavg:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "direct_baseline_accounting:fedavg:11",
+      "passed": true,
+      "detail": "client up+down 308560000, redundant cloud columns 308560000"
+    },
+    {
+      "check": "rounds:baseline:fedavg:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "direct_baseline_accounting:fedavg:23",
+      "passed": true,
+      "detail": "client up+down 308560000, redundant cloud columns 308560000"
+    },
+    {
+      "check": "rounds:baseline:fedavg:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "direct_baseline_accounting:fedavg:42",
+      "passed": true,
+      "detail": "client up+down 308560000, redundant cloud columns 308560000"
+    },
+    {
+      "check": "rounds:baseline:fedprox:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "direct_baseline_accounting:fedprox:11",
+      "passed": true,
+      "detail": "client up+down 308560000, redundant cloud columns 308560000"
+    },
+    {
+      "check": "rounds:baseline:fedprox:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "direct_baseline_accounting:fedprox:23",
+      "passed": true,
+      "detail": "client up+down 308560000, redundant cloud columns 308560000"
+    },
+    {
+      "check": "rounds:baseline:fedprox:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "direct_baseline_accounting:fedprox:42",
+      "passed": true,
+      "detail": "client up+down 308560000, redundant cloud columns 308560000"
+    },
+    {
+      "check": "rounds:baseline:fedcs:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "direct_baseline_accounting:fedcs:11",
+      "passed": true,
+      "detail": "client up+down 308560000, redundant cloud columns 308560000"
+    },
+    {
+      "check": "rounds:baseline:fedcs:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "direct_baseline_accounting:fedcs:23",
+      "passed": true,
+      "detail": "client up+down 308560000, redundant cloud columns 308560000"
+    },
+    {
+      "check": "rounds:baseline:fedcs:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "direct_baseline_accounting:fedcs:42",
+      "passed": true,
+      "detail": "client up+down 308560000, redundant cloud columns 308560000"
+    },
+    {
+      "check": "rounds:baseline:hfl:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:baseline:hfl:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:baseline:hfl:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:baseline:ahce-fl:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:baseline:ahce-fl:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:baseline:ahce-fl:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:compression:0:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:compression:0:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:compression:0:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:compression:0.001:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:compression:0.001:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:compression:0.001:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:compression:0.01:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:compression:0.01:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:compression:0.01:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:compression:0.05:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:compression:0.05:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:compression:0.05:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:original_sync:1:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:original_sync:1:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:original_sync:1:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:original_sync:2:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:original_sync:2:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:original_sync:2:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:original_sync:3:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:original_sync:3:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:original_sync:3:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:original_sync:5:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:original_sync:5:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:original_sync:5:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "rounds:corrected_gap:1:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "gap_trigger:1:11",
+      "passed": true,
+      "detail": "syncs 100, sync_reason {'max_gap': 100}"
+    },
+    {
+      "check": "rounds:corrected_gap:1:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "gap_trigger:1:23",
+      "passed": true,
+      "detail": "syncs 100, sync_reason {'max_gap': 100}"
+    },
+    {
+      "check": "rounds:corrected_gap:1:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "gap_trigger:1:42",
+      "passed": true,
+      "detail": "syncs 100, sync_reason {'max_gap': 100}"
+    },
+    {
+      "check": "rounds:corrected_gap:2:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "gap_trigger:2:11",
+      "passed": true,
+      "detail": "syncs 50, sync_reason {'held': 50, 'max_gap': 50}"
+    },
+    {
+      "check": "rounds:corrected_gap:2:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "gap_trigger:2:23",
+      "passed": true,
+      "detail": "syncs 50, sync_reason {'held': 50, 'max_gap': 50}"
+    },
+    {
+      "check": "rounds:corrected_gap:2:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "gap_trigger:2:42",
+      "passed": true,
+      "detail": "syncs 50, sync_reason {'held': 50, 'max_gap': 50}"
+    },
+    {
+      "check": "rounds:corrected_gap:3:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "gap_trigger:3:11",
+      "passed": true,
+      "detail": "syncs 33, sync_reason {'held': 67, 'max_gap': 33}"
+    },
+    {
+      "check": "rounds:corrected_gap:3:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "gap_trigger:3:23",
+      "passed": true,
+      "detail": "syncs 33, sync_reason {'held': 67, 'max_gap': 33}"
+    },
+    {
+      "check": "rounds:corrected_gap:3:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "gap_trigger:3:42",
+      "passed": true,
+      "detail": "syncs 33, sync_reason {'held': 67, 'max_gap': 33}"
+    },
+    {
+      "check": "rounds:corrected_gap:5:11",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "gap_trigger:5:11",
+      "passed": true,
+      "detail": "syncs 20, sync_reason {'held': 80, 'max_gap': 20}"
+    },
+    {
+      "check": "rounds:corrected_gap:5:23",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "gap_trigger:5:23",
+      "passed": true,
+      "detail": "syncs 20, sync_reason {'held': 80, 'max_gap': 20}"
+    },
+    {
+      "check": "rounds:corrected_gap:5:42",
+      "passed": true,
+      "detail": "100 rows, start [1, 2], end [99, 100]"
+    },
+    {
+      "check": "gap_trigger:5:42",
+      "passed": true,
+      "detail": "syncs 20, sync_reason {'held': 80, 'max_gap': 20}"
+    },
+    {
+      "check": "count:51",
+      "passed": true,
+      "detail": "51 distinct CSV run files"
+    },
+    {
+      "check": "table4:fedavg:seed11",
+      "passed": true,
+      "detail": "manuscript=0.6553 archived=0.6553"
+    },
+    {
+      "check": "table4:fedavg:seed23",
+      "passed": true,
+      "detail": "manuscript=0.6271 archived=0.6271"
+    },
+    {
+      "check": "table4:fedavg:seed42",
+      "passed": true,
+      "detail": "manuscript=0.6480 archived=0.648"
+    },
+    {
+      "check": "table4:fedavg:mean",
+      "passed": true,
+      "detail": "manuscript=0.643467 archived=0.6434666667"
+    },
+    {
+      "check": "table4:fedprox:seed11",
+      "passed": true,
+      "detail": "manuscript=0.6471 archived=0.6471"
+    },
+    {
+      "check": "table4:fedprox:seed23",
+      "passed": true,
+      "detail": "manuscript=0.6271 archived=0.6271"
+    },
+    {
+      "check": "table4:fedprox:seed42",
+      "passed": true,
+      "detail": "manuscript=0.6504 archived=0.6504"
+    },
+    {
+      "check": "table4:fedprox:mean",
+      "passed": true,
+      "detail": "manuscript=0.641533 archived=0.6415333333"
+    },
+    {
+      "check": "table4:fedcs:seed11",
+      "passed": true,
+      "detail": "manuscript=0.5128 archived=0.5128"
+    },
+    {
+      "check": "table4:fedcs:seed23",
+      "passed": true,
+      "detail": "manuscript=0.5051 archived=0.5051"
+    },
+    {
+      "check": "table4:fedcs:seed42",
+      "passed": true,
+      "detail": "manuscript=0.5102 archived=0.5102"
+    },
+    {
+      "check": "table4:fedcs:mean",
+      "passed": true,
+      "detail": "manuscript=0.509367 archived=0.5093666667"
+    },
+    {
+      "check": "table4:hfl:seed11",
+      "passed": true,
+      "detail": "manuscript=0.6547 archived=0.6547"
+    },
+    {
+      "check": "table4:hfl:seed23",
+      "passed": true,
+      "detail": "manuscript=0.6278 archived=0.6278"
+    },
+    {
+      "check": "table4:hfl:seed42",
+      "passed": true,
+      "detail": "manuscript=0.6447 archived=0.6447"
+    },
+    {
+      "check": "table4:hfl:mean",
+      "passed": true,
+      "detail": "manuscript=0.642400 archived=0.6424000000"
+    },
+    {
+      "check": "table4:ahce-fl:seed11",
+      "passed": true,
+      "detail": "manuscript=0.4909 archived=0.4909"
+    },
+    {
+      "check": "table4:ahce-fl:seed23",
+      "passed": true,
+      "detail": "manuscript=0.4677 archived=0.4677"
+    },
+    {
+      "check": "table4:ahce-fl:seed42",
+      "passed": true,
+      "detail": "manuscript=0.4606 archived=0.4606"
+    },
+    {
+      "check": "table4:ahce-fl:mean",
+      "passed": true,
+      "detail": "manuscript=0.473067 archived=0.4730666667"
+    },
+    {
+      "check": "table5:fedavg",
+      "passed": true,
+      "detail": "bytes manuscript=308560000 archived=308560000.0000000; sync=100/100.0"
+    },
+    {
+      "check": "table5:fedprox",
+      "passed": true,
+      "detail": "bytes manuscript=308560000 archived=308560000.0000000; sync=100/100.0"
+    },
+    {
+      "check": "table5:fedcs",
+      "passed": true,
+      "detail": "bytes manuscript=308560000 archived=308560000.0000000; sync=100/100.0"
+    },
+    {
+      "check": "table5:hfl",
+      "passed": true,
+      "detail": "bytes manuscript=450291893 archived=450291893.3333333; sync=100/100.0"
+    },
+    {
+      "check": "table5:ahce-fl",
+      "passed": true,
+      "detail": "bytes manuscript=366004619 archived=366004618.6666667; sync=100/100.0"
+    },
+    {
+      "check": "table6:fedavg",
+      "passed": true,
+      "detail": "mean=-0.1704 CI=[-0.2074960868302798,-0.13330391316972018] p=0.002550237458110635"
+    },
+    {
+      "check": "table6:fedprox",
+      "passed": true,
+      "detail": "mean=-0.16846666666666665 CI=[-0.21453341373204105,-0.12239991960129226] p=0.004014699565220372"
+    },
+    {
+      "check": "table6:fedcs",
+      "passed": true,
+      "detail": "mean=-0.0363 CI=[-0.07078659593443942,-0.0018134040655605754] p=0.04545600474459761"
+    },
+    {
+      "check": "table6:hfl",
+      "passed": true,
+      "detail": "mean=-0.16933333333333334 CI=[-0.2014319429720816,-0.13723472369458506] p=0.001935319904713325"
+    },
+    {
+      "check": "table7:0",
+      "passed": true,
+      "detail": "per seed correct=[True, True, True], mean=0.5059, bytes=442269333.3333333, sync=100.0"
+    },
+    {
+      "check": "table7:0.001",
+      "passed": true,
+      "detail": "per seed correct=[True, True, True], mean=0.5059, bytes=442269333.3333333, sync=100.0"
+    },
+    {
+      "check": "table7:0.01",
+      "passed": true,
+      "detail": "per seed correct=[True, True, True], mean=0.4730666666666667, bytes=366004618.6666667, sync=100.0"
+    },
+    {
+      "check": "table7:0.05",
+      "passed": true,
+      "detail": "per seed correct=[True, True, True], mean=0.18613333333333335, bytes=288659957.3333333, sync=100.0"
+    },
+    {
+      "check": "table8:1",
+      "passed": true,
+      "detail": "per seed correct=[True, True, True], mean=0.4730666666666667, bytes=366004618.6666667, sync=100.0"
+    },
+    {
+      "check": "table8:2",
+      "passed": true,
+      "detail": "per seed correct=[True, True, True], mean=0.4727666666666666, bytes=296831840.0, sync=50.0"
+    },
+    {
+      "check": "table8:3",
+      "passed": true,
+      "detail": "per seed correct=[True, True, True], mean=0.47546666666666665, bytes=273122664.0, sync=33.0"
+    },
+    {
+      "check": "table8:5",
+      "passed": true,
+      "detail": "per seed correct=[True, True, True], mean=0.4681666666666667, bytes=253395056.0, sync=20.0"
+    },
+    {
+      "check": "table9:G2",
+      "passed": true,
+      "detail": "paired mean=-0.000300000000000004; CI=[-0.028185483157732266,0.027585483157732255]; p=0.967286134506588"
+    },
+    {
+      "check": "table9:G3",
+      "passed": true,
+      "detail": "paired mean=0.0023999999999999946; CI=[-0.009893344735519533,0.01469334473551952]; p=0.4893231706582333"
+    },
+    {
+      "check": "table9:G5",
+      "passed": true,
+      "detail": "paired mean=-0.004899999999999997; CI=[-0.026228893768822367,0.01642889376882237]; p=0.42711279124708706"
+    },
+    {
+      "check": "figure_1_caption",
+      "passed": true,
+      "detail": "1 caption or textual mentions; 9 total embedded media files"
+    },
+    {
+      "check": "figure_2_caption",
+      "passed": true,
+      "detail": "2 caption or textual mentions; 9 total embedded media files"
+    },
+    {
+      "check": "figure_3_caption",
+      "passed": true,
+      "detail": "1 caption or textual mentions; 9 total embedded media files"
+    },
+    {
+      "check": "figure_4_caption",
+      "passed": true,
+      "detail": "1 caption or textual mentions; 9 total embedded media files"
+    },
+    {
+      "check": "figure_5_caption",
+      "passed": true,
+      "detail": "1 caption or textual mentions; 9 total embedded media files"
+    },
+    {
+      "check": "figure_6_caption",
+      "passed": true,
+      "detail": "1 caption or textual mentions; 9 total embedded media files"
+    },
+    {
+      "check": "figure_7_caption",
+      "passed": true,
+      "detail": "1 caption or textual mentions; 9 total embedded media files"
+    },
+    {
+      "check": "figure_8_caption",
+      "passed": true,
+      "detail": "1 caption or textual mentions; 9 total embedded media files"
+    },
+    {
+      "check": "figure_9_caption",
+      "passed": true,
+      "detail": "1 caption or textual mentions; 9 total embedded media files"
+    },
+    {
+      "check": "figures_embedded",
+      "passed": true,
+      "detail": "9 image objects"
+    },
+    {
+      "check": "manuscript_51_run_statement",
+      "passed": true,
+      "detail": "CSV experiments 51"
+    },
+    {
+      "check": "manuscript_model_parameter_count",
+      "passed": true,
+      "detail": "all per-round CSV rows show 38,570 model parameters"
+    }
+  ]
+}
