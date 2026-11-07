@@ -1,0 +1,63 @@
+name: Research priority gates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/priority_workflow.py'
+      - 'reproducibility/manuscript_consistency_audit/**'
+      - 'docs/PRIORITY_EXECUTION_WORKFLOW.md'
+      - '.github/workflows/research-priority-gates.yml'
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: 'Which non-training validation stage to run'
+        type: choice
+        required: true
+        default: all-preflight
+        options:
+          - all-preflight
+          - audit
+          - plan
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ahce-priority-gates-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  preflight:
+    name: P1 provenance → P4 accounting → P2/P3 plan → P5 figure checklist
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout source and archived evidence
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install analysis dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: python -m pytest -q
+
+      - name: Execute priority workflow (no model training)
+        run: python scripts/priority_workflow.py --stage "${{ inputs.stage || 'all-preflight' }}"
+
+      - name: Upload machine-readable priority report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ahce-priority-audit-${{ github.run_number }}
+          path: |
+            reports/priority_workflow/*.json
+            reproducibility/manuscript_consistency_audit/AUDIT_REPORT.md
+            reproducibility/manuscript_consistency_audit/AUDIT_RESULTS.json
+          if-no-files-found: warn
+          retention-days: 30
