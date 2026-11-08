@@ -1,0 +1,24 @@
+{
+  "search_date": "2026-11-08",
+  "source_bibliography_count": 16,
+  "exact_title_scispace_matching_entries": 14,
+  "scispace_index_gaps": [
+    11,
+    13
+  ],
+  "publication_identity_notes": {
+    "1": "SciSpace returned 2018 for a proceedings-style record; authoritative PMLR AISTATS 2020 vol.108 pp.2938-2948 prevails. https://proceedings.mlr.press/v108/bagdasaryan20a.html",
+    "5": "SciSpace indexes 2016 preprint; Crossref 10.48550/arXiv.1610.05492 query returned 404; record is identifiable by arXiv identifier 1610.05492, not a Crossref DOI match.",
+    "6": "SciSpace has titled 2020 version; verify MLSys proceedings full metadata separately before claiming DOI verification.",
+    "10": "SciSpace publication result is 2017 AISTATS. Publisher PMLR v54/mcmahan17a.html is authoritative.",
+    "11": "Exact-title SciSpace query did not surface this 2026 FL-KAN article. Previously matched DOI 10.1504/IJAHUC.2026.151264 through Crossref. Publisher DOI metadata required; no SciSpace exact match claimed.",
+    "12": "SciSpace published workshop record uses shorter title LDP-Fed; arXiv 2006.03637 expands to Federated Learning with Local Differential Privacy. Same research identity with DOI 10.1145/3378679.3394533.",
+    "13": "Exact-title SciSpace query did not surface SCGAT-HFL. Prior Crossref DOI match 10.1109/MNET.2026.3719448 does not imply SciSpace indexed it.",
+    "14": "SciSpace indexed 2025 Journal of Internet Technology record; official journal confirms vol.26 no.5 pp.617-629 (2025). Its page does not display DOI; do not add DOI from SciSpace without final publisher confirmation.",
+    "15": "One SciSpace indexed record omits first author Qiong Wu; institutional IEEE metadata and DBLP confirm manuscript's correct seven-author list. DOI 10.1109/TPDS.2023.3238049."
+  },
+  "crossref_previous_no_flag": 10,
+  "claim_level_full_text_verified": 0,
+  "source_report": "User-supplied FreshBack-IoT SciSpace report supplies procedure only; its 22 reference conclusions were not copied.",
+  "no_bibliography_content_changed": true
+}
