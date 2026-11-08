@@ -39,7 +39,7 @@ notes={
 14:"SciSpace indexed 2025 Journal of Internet Technology record; official journal confirms vol.26 no.5 pp.617-629 (2025). Its page does not display DOI; do not add DOI from SciSpace without final publisher confirmation.",
 15:"One SciSpace indexed record omits first author Qiong Wu; institutional IEEE metadata and DBLP confirm manuscript's correct seven-author list. DOI 10.1109/TPDS.2023.3238049.",
 }
-with (OUT/"AHCE_SCISPACE_LEDGER.csv").open("w",newline="") as f:
+with (OUT/"AHCE_SCISPACE_LEDGER.csv").open("w",newline="\n") as f:
  w=csv.DictWriter(f,fieldnames=["ref_no","citation_key","scispace_unique_id","reference","existing_crossref_status","scispace_exact_title_search","publisher_crosscheck","verification_level","claim_level_full_text_verified","source_note"])
  w.writeheader()
  for i,entry in enumerate(prev["entries"],1):
