@@ -1,0 +1,137 @@
+{
+  "authoritative_input_sha256": "c3165c1fb2e64d1092ba570adf5bb438c2da2f8273b62ea7fd6ead4507d8abe2",
+  "claim_audit_changes": [
+    {
+      "section": "2.1",
+      "type": "claim precision",
+      "source": "McMahan et al. 2017 primary PMLR abstract",
+      "before": "unqualified FedAvg reduction",
+      "after": "bounded to tested tasks and synchronous SGD comparator"
+    },
+    {
+      "section": "2.2",
+      "type": "attribution",
+      "source": "Kairouz 2021 monograph, Lim 2020 IEEE survey",
+      "after": "general cited context separated from current framework implication"
+    },
+    {
+      "section": "2.3",
+      "type": "specificity",
+      "source": "Deng et al. 2024 IEEE primary abstract"
+    },
+    {
+      "section": "2.4",
+      "type": "specificity",
+      "source": "Wen et al. 2025 Journal of Internet Technology official abstract"
+    },
+    {
+      "section": "2.4",
+      "type": "mechanism specificity",
+      "source": "Tseng et al. 2026 DOI-linked abstract; full text not inspected"
+    },
+    {
+      "section": "4.2",
+      "type": "experimental provenance",
+      "source": "Li et al. 2020 FedProx; AHCE-FL repo configuration",
+      "before": "μ misattributed to cited authors",
+      "after": "μ declared study-specific"
+    },
+    {
+      "section": "2.3",
+      "type": "new verified comparison",
+      "sources": [
+        "Fan et al. 2025 IEEE WCSP",
+        "Qiu and Li 2026 IEEE Access"
+      ],
+      "claim": "mechanism-level comparison only; unexecuted baseline"
+    }
+  ],
+  "all_18_references_in_bibliography": true,
+  "new_reference_count": 2,
+  "prior_source_reference_count": 16,
+  "figures_preserved": 9,
+  "tables_preserved": 11,
+  "source": "manuscripts/IJAESD-345169/AHCE_FL_IJAESD_Final_Compliance_Blind.docx",
+  "output": "manuscripts/IJAESD-345169/AHCE_FL_Claim_Audited_Blind.docx",
+  "output_sha256": "051d43d49a008b26cce0abd339f521b17f1f3e2fa837a4860e36fdb635ec4392",
+  "remaining_limits": [
+    "Publisher abstract is insufficient to certify full-text claim context",
+    "Full-text comparison to FedDAC and AHPT-FL not performed",
+    "Physical hardware experiment not performed",
+    "IJAESD topical suitability requires editor assessment"
+  ],
+  "references": [
+    {
+      "ref_no": 1,
+      "reference": "Bagdasaryan, E., Veit, A., Hua, Y., Estrin, D. and Shmatikov, V. (2020) 'How to backdoor federated learning', Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, Vol. 108, pp. 2938–2948. Available at: https://proceedings.mlr.press/v108/bagdasaryan20a.html (accessed 3 November 2026)."
+    },
+    {
+      "ref_no": 2,
+      "reference": "Chowdhury, M. (2023) 'Merit: an on-demand IoT service delivery and resource scheduling scheme for federated learning and blockchain empowered 6G edge networks with reduced time and energy cost', International Journal of Ad Hoc and Ubiquitous Computing, Vol. 44, No. 2, pp. 79–103. doi:10.1504/IJAHUC.2023.134603."
+    },
+    {
+      "ref_no": 3,
+      "reference": "Deng, Y., Lyu, F., Xia, T., Zhou, Y., Zhang, Y., Ren, J. and Yang, Y. (2024) 'A communication-efficient hierarchical federated learning framework via shaping data distribution at edge', IEEE/ACM Transactions on Networking, Vol. 32, No. 3, pp. 2600–2615. doi:10.1109/TNET.2024.3363916."
+    },
+    {
+      "ref_no": 4,
+      "reference": "Fan, L., Zhang, X., Duan, M. and Jiang, J. (2025) 'Adaptive communication control for efficient hierarchical federated learning in heterogeneous edge networks', Proceedings of the 17th International Conference on Wireless Communications and Signal Processing (WCSP 2025). doi:10.1109/WCSP68525.2025.1010225."
+    },
+    {
+      "ref_no": 5,
+      "reference": "Kairouz, P. et al. (2021) 'Advances and open problems in federated learning', Foundations and Trends in Machine Learning, Vol. 14, Nos. 1–2, pp. 1–210. doi:10.1561/2200000083."
+    },
+    {
+      "ref_no": 6,
+      "reference": "Konečný, J., McMahan, H.B., Yu, F.X., Richtárik, P., Suresh, A.T. and Bacon, D. (2016) 'Federated learning: strategies for improving communication efficiency', NeurIPS Workshop on Private Multi-Party Machine Learning. arXiv:1610.05492. doi:10.48550/arXiv.1610.05492."
+    },
+    {
+      "ref_no": 7,
+      "reference": "Li, T., Sahu, A.K., Zaheer, M., Sanjabi, M., Talwalkar, A. and Smith, V. (2020) 'Federated optimization in heterogeneous networks', Proceedings of Machine Learning and Systems, Vol. 2, pp. 429–450."
+    },
+    {
+      "ref_no": 8,
+      "reference": "Lim, W.Y.B., Luong, N.C., Hoang, D.T., Jiao, Y., Liang, Y.C., Yang, Q., Niyato, D. and Miao, C. (2020) 'Federated learning in mobile edge networks: a comprehensive survey', IEEE Communications Surveys & Tutorials, Vol. 22, No. 3, pp. 2031–2063. doi:10.1109/COMST.2020.2986024."
+    },
+    {
+      "ref_no": 9,
+      "reference": "Lin, F.P.C., Hosseinalipour, S., Michelusi, N. and Brinton, C.G. (2024) 'Delay-aware hierarchical federated learning', IEEE Transactions on Cognitive Communications and Networking, Vol. 10, No. 2, pp. 674–688. doi:10.1109/TCCN.2023.3329024."
+    },
+    {
+      "ref_no": 10,
+      "reference": "Ma, C., Li, X., Huang, B., Li, G. and Li, F. (2024) 'Personalized client-edge-cloud hierarchical federated learning in mobile edge computing', Journal of Cloud Computing, Vol. 13, Article 161. doi:10.1186/s13677-024-00721-w."
+    },
+    {
+      "ref_no": 11,
+      "reference": "McMahan, B., Moore, E., Ramage, D., Hampson, S. and Agüera y Arcas, B. (2017) 'Communication-efficient learning of deep networks from decentralized data', Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, Vol. 54, pp. 1273–1282. Available at: https://proceedings.mlr.press/v54/mcmahan17a.html (accessed 3 November 2026)."
+    },
+    {
+      "ref_no": 12,
+      "reference": "Qiu, Y. and Li, D. (2026) 'Adaptive hierarchical parameter transmission for federated learning in MEC environments with dynamic network awareness', IEEE Access, Vol. 14, pp. 65150–65160. doi:10.1109/ACCESS.2026.3688275."
+    },
+    {
+      "ref_no": 13,
+      "reference": "Shabariram, C.P., Shanthi, N., Shinaz, A. and Ranganathan, L. (2026) 'Intelligent task offloading in vehicular edge computing using federated learning and Kolmogorov Arnold networks (FL-KAN)', International Journal of Ad Hoc and Ubiquitous Computing, Vol. 51, No. 1, pp. 37–55. doi:10.1504/IJAHUC.2026.151264."
+    },
+    {
+      "ref_no": 14,
+      "reference": "Truex, S., Liu, L., Chow, K.H., Gursoy, M.E. and Wei, W. (2020) 'LDP-Fed: federated learning with local differential privacy', Proceedings of the 3rd ACM International Workshop on Edge Systems, Analytics and Networking, pp. 61–66. doi:10.1145/3378679.3394533."
+    },
+    {
+      "ref_no": 15,
+      "reference": "Tseng, F.-H., Wang, Y.-C., Cho, H.-H. and Baihan, A. (2026) 'SCGAT-HFL: a semantic-aware hierarchical federated learning via communication-gated graph attention networks for 6G services', IEEE Network, early access. doi:10.1109/MNET.2026.3719448."
+    },
+    {
+      "ref_no": 16,
+      "reference": "Wen, A., Fu, Y., Liu, Z., Wang, Z. and Zhang, W. (2025) 'Hierarchical asynchronous federated learning algorithm for edge computing networks', Journal of Internet Technology, Vol. 26, No. 5, pp. 617–629."
+    },
+    {
+      "ref_no": 17,
+      "reference": "Wu, Q., Chen, X., Ouyang, T., Zhou, Z., Zhang, X., Yang, S. and Zhang, J. (2023) 'HiFlash: communication-efficient hierarchical federated learning with adaptive staleness control and heterogeneity-aware client-edge association', IEEE Transactions on Parallel and Distributed Systems, Vol. 34, No. 5, pp. 1560–1579. doi:10.1109/TPDS.2023.3238049."
+    },
+    {
+      "ref_no": 18,
+      "reference": "Yu, X., Cherkasova, L., Vardhan, H., Zhao, Q., Ekaireb, E., Zhang, X., Mazumdar, A. and Šimunić Rosing, T. (2023) 'Async-HFL: efficient and robust asynchronous federated learning in hierarchical IoT networks', Proceedings of the International Conference on Internet-of-Things Design and Implementation (IoTDI 2023). doi:10.1145/3576842.3582377."
+    }
+  ]
+}

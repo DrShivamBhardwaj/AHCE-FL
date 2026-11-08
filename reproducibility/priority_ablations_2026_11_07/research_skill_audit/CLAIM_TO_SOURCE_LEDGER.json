@@ -1,0 +1,276 @@
+{
+  "source_document": "manuscripts/IJAESD-345169/AHCE_FL_Claim_Audited_Blind.docx",
+  "source_sha256": "051d43d49a008b26cce0abd339f521b17f1f3e2fa837a4860e36fdb635ec4392",
+  "cited": 18,
+  "reference_count": 18,
+  "uncited": [],
+  "claim_references": [
+    {
+      "ref_no": 1,
+      "lead_author": "Bagdasaryan",
+      "citation_count": 1,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 27,
+          "context": "In these runs, the CIFAR-10 training images stay with the clients, and model representations pass between participants (Table 1). Those messages can disclose information about the training data or introduce malicious parameter changes (Bagdasaryan et al., 2020, Truex et al., 2020). We ran the experiments without a differential-privacy accountant, secure aggregation or encrypted transport. Inference and poisoning were outside the experimental design."
+        }
+      ],
+      "reference": "Bagdasaryan, E., Veit, A., Hua, Y., Estrin, D. and Shmatikov, V. (2020) 'How to backdoor federated learning', Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, Vol. 108, pp. 2938–2948. Available at: https://proceedings.mlr.press/v108/bagdasaryan20a.html (accessed 3 November 2026).",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 2,
+      "lead_author": "Chowdhury",
+      "citation_count": 1,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 25,
+          "context": "The scheduling decision depends on what the system needs to allocate. Chowdhury (2023) studies resources shared by federated learning and blockchain services. In vehicular networks, Shabariram et al. (2026) focus on where to offload tasks. Tseng et al. (2026) use semantic proxies and communication-gated graph attention to represent link conditions when coordinating hierarchical learning. Our simulation uses synthetic resource values to decide which clients train."
+        }
+      ],
+      "reference": "Chowdhury, M. (2023) 'Merit: an on-demand IoT service delivery and resource scheduling scheme for federated learning and blockchain empowered 6G edge networks with reduced time and energy cost', International Journal of Ad Hoc and Ubiquitous Computing, Vol. 44, No. 2, pp. 79–103. doi:10.1504/IJAHUC.2023.134603.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 3,
+      "lead_author": "Deng",
+      "citation_count": 2,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 18,
+          "context": "ShapeFL jointly considers edge-node association and the diversity of data represented at edge aggregators (Deng et al., 2024). HiFlash addresses who connects to which edge and how stale those updates can become (Wu et al., 2023). Async-HFL allows different arrival times (Yu et al., 2023). In our comparisons, we reproduce the baseline policies under the same experimental budget."
+        },
+        {
+          "paragraph_index": 20,
+          "context": "The same hierarchy can behave differently when edges serve different clients, keep older models or exchange updates with the cloud at different times (Wu et al., 2023, Yu et al., 2023, Deng et al., 2024, Ma et al., 2024, Lin et al., 2024). Our experiments keep client–edge association fixed so that we can vary indexed sparsification and round-level cloud exchange."
+        }
+      ],
+      "reference": "Deng, Y., Lyu, F., Xia, T., Zhou, Y., Zhang, Y., Ren, J. and Yang, Y. (2024) 'A communication-efficient hierarchical federated learning framework via shaping data distribution at edge', IEEE/ACM Transactions on Networking, Vol. 32, No. 3, pp. 2600–2615. doi:10.1109/TNET.2024.3363916.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 4,
+      "lead_author": "Fan",
+      "citation_count": 1,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 19,
+          "context": "More recent work addresses transmission control directly. Fan et al. (2025) describe FedDAC, which varies compression ratios on device–edge and edge–cloud links in response to resource conditions. Qiu and Li (2026) describe network-aware parameter transmission with link sensing and a choice among full, incremental and cached updates. These systems differ from the present experiment, where resource descriptors are synthetic and fixed during a run, sparsification uses an explicit encoded-size test, and cloud synchronisation is triggered by a divergence threshold or maximum-gap ceiling. We do not"
+        }
+      ],
+      "reference": "Fan, L., Zhang, X., Duan, M. and Jiang, J. (2025) 'Adaptive communication control for efficient hierarchical federated learning in heterogeneous edge networks', Proceedings of the 17th International Conference on Wireless Communications and Signal Processing (WCSP 2025). doi:10.1109/WCSP68525.2025.1010225.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 5,
+      "lead_author": "Kairouz",
+      "citation_count": 2,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 5,
+          "context": "In federated learning, clients retain their data and send model parameters to a server (McMahan et al., 2017, Kairouz et al., 2021). An edge server can average the client updates before forwarding them. If that server still sends an aggregate after every round, the frequency of cloud exchanges stays the same."
+        },
+        {
+          "paragraph_index": 15,
+          "context": "Selecting a client also selects its data. Kairouz et al. (2021) describe participation and heterogeneity challenges in federated learning, while Lim et al. (2020) review mobile-edge resource constraints. Under a fixed resource ranking, repeatedly favouring the same clients can also underrepresent some non-IID partitions; this is a possible consequence of the selection rule examined here rather than a measured result from those two surveys. AHCE-FL normalises synthetic bandwidth, energy, accuracy, latency and compute values and ranks clients by their combined score. Because those values stay fi"
+        }
+      ],
+      "reference": "Kairouz, P. et al. (2021) 'Advances and open problems in federated learning', Foundations and Trends in Machine Learning, Vol. 14, Nos. 1–2, pp. 1–210. doi:10.1561/2200000083.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 6,
+      "lead_author": "Konečný",
+      "citation_count": 1,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 12,
+          "context": "In their evaluated tasks, McMahan et al. (2017) reported that FedAvg required 10–100 times fewer communication rounds than synchronised stochastic gradient descent. Konečný et al. (2016) addressed the size of each message through structured and sketched updates. In an indexed sparse update, every coefficient that survives carries an index. The sparse encoding can exceed the dense update in length, so we report the encoded byte count alongside final accuracy."
+        }
+      ],
+      "reference": "Konečný, J., McMahan, H.B., Yu, F.X., Richtárik, P., Suresh, A.T. and Bacon, D. (2016) 'Federated learning: strategies for improving communication efficiency', NeurIPS Workshop on Private Multi-Party Machine Learning. arXiv:1610.05492. doi:10.48550/arXiv.1610.05492.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 7,
+      "lead_author": "Li",
+      "citation_count": 1,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 102,
+          "context": "We use the same data partitions and participation fraction across the five reconstructed methods. FedAvg selects clients at random. FedProx follows the proximal-objective formulation of Li et al. (2020), with µ = 0.01 selected for the present implementation. FedCS orders clients by their synthetic resource values. HFL averages client models at an intermediate edge tier, which AHCE-FL combines with resource ranking and sparsification."
+        }
+      ],
+      "reference": "Li, T., Sahu, A.K., Zaheer, M., Sanjabi, M., Talwalkar, A. and Smith, V. (2020) 'Federated optimization in heterogeneous networks', Proceedings of Machine Learning and Systems, Vol. 2, pp. 429–450.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 8,
+      "lead_author": "Lim",
+      "citation_count": 1,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 15,
+          "context": "Selecting a client also selects its data. Kairouz et al. (2021) describe participation and heterogeneity challenges in federated learning, while Lim et al. (2020) review mobile-edge resource constraints. Under a fixed resource ranking, repeatedly favouring the same clients can also underrepresent some non-IID partitions; this is a possible consequence of the selection rule examined here rather than a measured result from those two surveys. AHCE-FL normalises synthetic bandwidth, energy, accuracy, latency and compute values and ranks clients by their combined score. Because those values stay fi"
+        }
+      ],
+      "reference": "Lim, W.Y.B., Luong, N.C., Hoang, D.T., Jiao, Y., Liang, Y.C., Yang, Q., Niyato, D. and Miao, C. (2020) 'Federated learning in mobile edge networks: a comprehensive survey', IEEE Communications Surveys & Tutorials, Vol. 22, No. 3, pp. 2031–2063. doi:10.1109/COMST.2020.2986024.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 9,
+      "lead_author": "Lin",
+      "citation_count": 2,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 20,
+          "context": "The same hierarchy can behave differently when edges serve different clients, keep older models or exchange updates with the cloud at different times (Wu et al., 2023, Yu et al., 2023, Deng et al., 2024, Ma et al., 2024, Lin et al., 2024). Our experiments keep client–edge association fixed so that we can vary indexed sparsification and round-level cloud exchange."
+        },
+        {
+          "paragraph_index": 23,
+          "context": "Hierarchical training introduces a timing question because the models at the edge and in the cloud can have different ages (Yu et al., 2023, Lin et al., 2024). We evaluate the synchronization rule at the end of the round, once the edge aggregates are available. The coordinator uses two quantities at that point. It measures the ℓ₂ distance between the cloud candidate and the stored global model and counts the rounds since the last exchange."
+        }
+      ],
+      "reference": "Lin, F.P.C., Hosseinalipour, S., Michelusi, N. and Brinton, C.G. (2024) 'Delay-aware hierarchical federated learning', IEEE Transactions on Cognitive Communications and Networking, Vol. 10, No. 2, pp. 674–688. doi:10.1109/TCCN.2023.3329024.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 10,
+      "lead_author": "Ma",
+      "citation_count": 1,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 20,
+          "context": "The same hierarchy can behave differently when edges serve different clients, keep older models or exchange updates with the cloud at different times (Wu et al., 2023, Yu et al., 2023, Deng et al., 2024, Ma et al., 2024, Lin et al., 2024). Our experiments keep client–edge association fixed so that we can vary indexed sparsification and round-level cloud exchange."
+        }
+      ],
+      "reference": "Ma, C., Li, X., Huang, B., Li, G. and Li, F. (2024) 'Personalized client-edge-cloud hierarchical federated learning in mobile edge computing', Journal of Cloud Computing, Vol. 13, Article 161. doi:10.1186/s13677-024-00721-w.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 11,
+      "lead_author": "McMahan",
+      "citation_count": 2,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 5,
+          "context": "In federated learning, clients retain their data and send model parameters to a server (McMahan et al., 2017, Kairouz et al., 2021). An edge server can average the client updates before forwarding them. If that server still sends an aggregate after every round, the frequency of cloud exchanges stays the same."
+        },
+        {
+          "paragraph_index": 12,
+          "context": "In their evaluated tasks, McMahan et al. (2017) reported that FedAvg required 10–100 times fewer communication rounds than synchronised stochastic gradient descent. Konečný et al. (2016) addressed the size of each message through structured and sketched updates. In an indexed sparse update, every coefficient that survives carries an index. The sparse encoding can exceed the dense update in length, so we report the encoded byte count alongside final accuracy."
+        }
+      ],
+      "reference": "McMahan, B., Moore, E., Ramage, D., Hampson, S. and Agüera y Arcas, B. (2017) 'Communication-efficient learning of deep networks from decentralized data', Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, Vol. 54, pp. 1273–1282. Available at: https://proceedings.mlr.press/v54/mcmahan17a.html (accessed 3 November 2026).",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 12,
+      "lead_author": "Qiu",
+      "citation_count": 1,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 19,
+          "context": "More recent work addresses transmission control directly. Fan et al. (2025) describe FedDAC, which varies compression ratios on device–edge and edge–cloud links in response to resource conditions. Qiu and Li (2026) describe network-aware parameter transmission with link sensing and a choice among full, incremental and cached updates. These systems differ from the present experiment, where resource descriptors are synthetic and fixed during a run, sparsification uses an explicit encoded-size test, and cloud synchronisation is triggered by a divergence threshold or maximum-gap ceiling. We do not"
+        }
+      ],
+      "reference": "Qiu, Y. and Li, D. (2026) 'Adaptive hierarchical parameter transmission for federated learning in MEC environments with dynamic network awareness', IEEE Access, Vol. 14, pp. 65150–65160. doi:10.1109/ACCESS.2026.3688275.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 13,
+      "lead_author": "Shabariram",
+      "citation_count": 1,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 25,
+          "context": "The scheduling decision depends on what the system needs to allocate. Chowdhury (2023) studies resources shared by federated learning and blockchain services. In vehicular networks, Shabariram et al. (2026) focus on where to offload tasks. Tseng et al. (2026) use semantic proxies and communication-gated graph attention to represent link conditions when coordinating hierarchical learning. Our simulation uses synthetic resource values to decide which clients train."
+        }
+      ],
+      "reference": "Shabariram, C.P., Shanthi, N., Shinaz, A. and Ranganathan, L. (2026) 'Intelligent task offloading in vehicular edge computing using federated learning and Kolmogorov Arnold networks (FL-KAN)', International Journal of Ad Hoc and Ubiquitous Computing, Vol. 51, No. 1, pp. 37–55. doi:10.1504/IJAHUC.2026.151264.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 14,
+      "lead_author": "Truex",
+      "citation_count": 1,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 27,
+          "context": "In these runs, the CIFAR-10 training images stay with the clients, and model representations pass between participants (Table 1). Those messages can disclose information about the training data or introduce malicious parameter changes (Bagdasaryan et al., 2020, Truex et al., 2020). We ran the experiments without a differential-privacy accountant, secure aggregation or encrypted transport. Inference and poisoning were outside the experimental design."
+        }
+      ],
+      "reference": "Truex, S., Liu, L., Chow, K.H., Gursoy, M.E. and Wei, W. (2020) 'LDP-Fed: federated learning with local differential privacy', Proceedings of the 3rd ACM International Workshop on Edge Systems, Analytics and Networking, pp. 61–66. doi:10.1145/3378679.3394533.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 15,
+      "lead_author": "Tseng",
+      "citation_count": 1,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 25,
+          "context": "The scheduling decision depends on what the system needs to allocate. Chowdhury (2023) studies resources shared by federated learning and blockchain services. In vehicular networks, Shabariram et al. (2026) focus on where to offload tasks. Tseng et al. (2026) use semantic proxies and communication-gated graph attention to represent link conditions when coordinating hierarchical learning. Our simulation uses synthetic resource values to decide which clients train."
+        }
+      ],
+      "reference": "Tseng, F.-H., Wang, Y.-C., Cho, H.-H. and Baihan, A. (2026) 'SCGAT-HFL: a semantic-aware hierarchical federated learning via communication-gated graph attention networks for 6G services', IEEE Network, early access. doi:10.1109/MNET.2026.3719448.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 16,
+      "lead_author": "Wen",
+      "citation_count": 1,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 24,
+          "context": "Wen et al. (2025) study hierarchical asynchronous learning through a Bayesian formulation with variational inference and multilevel model aggregation. In our timer sweep, the synchronization decision has a fixed place in the round. Selected clients complete local training, the edges compute their averages, and the coordinator then decides whether to exchange the model."
+        }
+      ],
+      "reference": "Wen, A., Fu, Y., Liu, Z., Wang, Z. and Zhang, W. (2025) 'Hierarchical asynchronous federated learning algorithm for edge computing networks', Journal of Internet Technology, Vol. 26, No. 5, pp. 617–629.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 17,
+      "lead_author": "Wu",
+      "citation_count": 2,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 18,
+          "context": "ShapeFL jointly considers edge-node association and the diversity of data represented at edge aggregators (Deng et al., 2024). HiFlash addresses who connects to which edge and how stale those updates can become (Wu et al., 2023). Async-HFL allows different arrival times (Yu et al., 2023). In our comparisons, we reproduce the baseline policies under the same experimental budget."
+        },
+        {
+          "paragraph_index": 20,
+          "context": "The same hierarchy can behave differently when edges serve different clients, keep older models or exchange updates with the cloud at different times (Wu et al., 2023, Yu et al., 2023, Deng et al., 2024, Ma et al., 2024, Lin et al., 2024). Our experiments keep client–edge association fixed so that we can vary indexed sparsification and round-level cloud exchange."
+        }
+      ],
+      "reference": "Wu, Q., Chen, X., Ouyang, T., Zhou, Z., Zhang, X., Yang, S. and Zhang, J. (2023) 'HiFlash: communication-efficient hierarchical federated learning with adaptive staleness control and heterogeneity-aware client-edge association', IEEE Transactions on Parallel and Distributed Systems, Vol. 34, No. 5, pp. 1560–1579. doi:10.1109/TPDS.2023.3238049.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    },
+    {
+      "ref_no": 18,
+      "lead_author": "Yu",
+      "citation_count": 3,
+      "cited_paragraphs": [
+        {
+          "paragraph_index": 18,
+          "context": "ShapeFL jointly considers edge-node association and the diversity of data represented at edge aggregators (Deng et al., 2024). HiFlash addresses who connects to which edge and how stale those updates can become (Wu et al., 2023). Async-HFL allows different arrival times (Yu et al., 2023). In our comparisons, we reproduce the baseline policies under the same experimental budget."
+        },
+        {
+          "paragraph_index": 20,
+          "context": "The same hierarchy can behave differently when edges serve different clients, keep older models or exchange updates with the cloud at different times (Wu et al., 2023, Yu et al., 2023, Deng et al., 2024, Ma et al., 2024, Lin et al., 2024). Our experiments keep client–edge association fixed so that we can vary indexed sparsification and round-level cloud exchange."
+        },
+        {
+          "paragraph_index": 23,
+          "context": "Hierarchical training introduces a timing question because the models at the edge and in the cloud can have different ages (Yu et al., 2023, Lin et al., 2024). We evaluate the synchronization rule at the end of the round, once the edge aggregates are available. The coordinator uses two quantities at that point. It measures the ℓ₂ distance between the cloud candidate and the stored global model and counts the rounds since the last exchange."
+        }
+      ],
+      "reference": "Yu, X., Cherkasova, L., Vardhan, H., Zhao, Q., Ekaireb, E., Zhang, X., Mazumdar, A. and Šimunić Rosing, T. (2023) 'Async-HFL: efficient and robust asynchronous federated learning in hierarchical IoT networks', Proceedings of the International Conference on Internet-of-Things Design and Implementation (IoTDI 2023). doi:10.1145/3576842.3582377.",
+      "claim_verification_level": "primary publisher abstract/SciSpace extract for targeted mechanism statements; exact full text not uniformly available"
+    }
+  ],
+  "limitations": [
+    "Search does not certify every clause in multi-claim paragraphs; manual semantic reading required.",
+    "Metadata and accessible abstracts support mechanism descriptions, not any newly claimed performance.",
+    "No full-text examination of every reference is claimed."
+  ]
+}
