@@ -1,0 +1,138 @@
+{
+  "source": "/Users/shivambhardwaj/Research/AHCE-FL/manuscripts/IJAESD-345169/AHCE_FL_Claim_Audited_Blind.docx",
+  "source_sha256": "051d43d49a008b26cce0abd339f521b17f1f3e2fa837a4860e36fdb635ec4392",
+  "clean_sha256": "e134092512876e35513d255b71fce5632470a90b5c0f7eb7430101eaf5438397",
+  "change_count": 20,
+  "review_items": 20,
+  "highlighted_paragraphs": 19,
+  "preserved_images": 9,
+  "preserved_numeric_tables": 10,
+  "conceptual_table_1_expanded": true,
+  "limitations": [
+    "Review comments are authentic; one reviewer suggested references not all independently confirmed as relevant",
+    "Hardware measurements not performed",
+    "No measured superiority over FedAvg"
+  ],
+  "changes": [
+    {
+      "issue": "E1/R2-M1",
+      "tag": "Introduction",
+      "old": "In federated learning, clients retain their data and send model parameters to a server (McMahan et al., 2017, Kairouz et al., 2021). An edge server can average the client updates before forwarding them. If that server still sends an aggregate after every round, the frequency of cloud exchanges stays the same.",
+      "new": "Federated learning trains a shared model using data retained at participating clients rather than transferring their raw examples to a central server (McMahan et al., 2017; Kairouz et al., 2021). Hierarchical implementations place an aggregation tier between clients and the cloud. That tier can reduce wide-area traffic, but the benefit depends on when the edge model is forwarded: exchanging a full aggregate after every round leaves the cloud-update frequency unchanged."
+    },
+    {
+      "issue": "R2-M1/R2-M2/R2-M7",
+      "tag": "Introduction",
+      "old": "After a round with no cloud exchange, the next group of clients at an edge can start from its cached model. If the scheduler repeatedly selects clients with the same non-IID partitions, successive local updates can widen the gap between that model and the global copy. The size of the client upload depends on a separate decision. The encoder uses sparsification only when the bytes saved by dropping coefficients exceed the cost of storing the indices of those it retains. We compare the resulting byte counts with final accuracy to see what the smaller uploads cost in predictive performance.",
+      "new": "When the cloud does not receive an update, participating edges may retain locally updated models while the global model remains unchanged. Subsequent clients can therefore begin training from models that differ in age. Client-side encoding poses a separate decision: transmitting sparse values saves bytes only if the discarded coefficients compensate for the indices needed to describe those retained. We study these decisions jointly, measuring both modelled payload volume and final accuracy rather than treating a smaller message as evidence of a better learning policy."
+    },
+    {
+      "issue": "R2-M2/R2-M5/R2-M6",
+      "tag": "Introduction",
+      "old": "Before local training, the scheduler ranks eligible clients using five resource descriptors. At the end of training, each selected client sends the difference between its trained parameters and its starting parameters. The edge reconstructs each model by adding the decoded difference to that client’s starting model, then averages the reconstructions by sample count. Aggregates from active edges form the cloud candidate.",
+      "new": "AHCE-FL ranks eligible clients using five simulated descriptors—bandwidth, residual energy, accuracy, latency and computing capability—and selects ten participants. Each selected client transmits an encoded difference from its starting model. The assigned edge decodes the update, reconstructs the resulting client model and forms a sample-weighted aggregate. A separate, explicit rule determines whether the cloud replaces its global model with the aggregate of the active edges."
+    },
+    {
+      "issue": "R2-M1/R2-M4/R2-M7",
+      "tag": "Introduction",
+      "old": "We use the same partitioning procedure for AHCE-FL and the reconstructed FedAvg, FedProx, FedCS and HFL baselines. In both the τ and G sweeps, each run lasts 100 rounds and comparisons pair runs at seeds 11, 23 and 42. We hold client selection fixed across the τ sweep so that the threshold changes the encoding of updates from the same participants.",
+      "new": "The evaluation uses a common CIFAR-10 partitioning procedure and the same participation fraction for AHCE-FL and reconstructed FedAvg, FedProx, FedCS and HFL comparators. Every run comprises 100 rounds; paired comparisons use seeds 11, 23 and 42. The original 51-run study tests baseline methods, compression thresholds and synchronization gaps. A further 45 runs examine resource-score weights and the interaction between the divergence threshold and the maximum synchronization gap. These groups test distinct controls; they are not 96 repetitions of a single treatment."
+    },
+    {
+      "issue": "R2-M1/R2-M2/R2-M7",
+      "tag": "Introduction",
+      "old": "Within the threshold sweep, τ = 0.05 yielded the fewest bytes and the lowest accuracy. The first gap sweep recorded an exchange in every round, so it could not isolate the timer. With the divergence trigger suppressed, maximum gaps of 1, 2, 3 and 5 yielded 100, 50, 33 and 20 exchanges, respectively. Section 5.6 identifies the measurements needed to assess those settings on devices.",
+      "new": "The experiments do not establish a general advantage for AHCE-FL. In the baseline comparison, FedAvg achieves higher final accuracy while using fewer modelled bytes. Within AHCE-FL, τ = 0.05 produces the smallest payload but also the lowest accuracy. The initial maximum-gap sweep synchronizes every round, because the divergence condition dominates; when that condition is deliberately suppressed, gaps of 1, 2, 3 and 5 produce 100, 50, 33 and 20 cloud exchanges, respectively. These observations motivate a mechanism-level interpretation rather than a claim of unconditional communication efficiency."
+    },
+    {
+      "issue": "E1/R2-M1",
+      "tag": "Introduction",
+      "old": "",
+      "new": "For engineering assessment, we make the selection, compression, aggregation and synchronization operations individually traceable to their configurations, algorithms and per-round logs. This permits controlled testing of policy changes and makes failure cases visible. It does not constitute an experimental evaluation of agile development practices or a production cloud deployment."
+    },
+    {
+      "issue": "R2-M1/R2-M5/R2-S4",
+      "tag": "Related work",
+      "old": "Selecting a client also selects its data. Kairouz et al. (2021) describe participation and heterogeneity challenges in federated learning, while Lim et al. (2020) review mobile-edge resource constraints. Under a fixed resource ranking, repeatedly favouring the same clients can also underrepresent some non-IID partitions; this is a possible consequence of the selection rule examined here rather than a measured result from those two surveys. AHCE-FL normalises synthetic bandwidth, energy, accuracy, latency and compute values and ranks clients by their combined score. Because those values stay fixed within a run, high-ranked clients can return many times and leave other non-IID partitions underrepresented.",
+      "new": "The composition of a participating client set matters because each client also contributes a particular data partition. Kairouz et al. (2021) identify participation and heterogeneity as central federated-learning challenges, and Lim et al. (2020) review the effect of mobile-edge resource constraints. Here, bandwidth, energy, accuracy, latency and computing capability are represented by fixed synthetic descriptors. Reusing a resource ranking can repeatedly select the same clients, potentially narrowing the range of non-IID partitions represented in training. The experiment does not quantify participation fairness or demonstrate that the descriptor weights are optimal."
+    },
+    {
+      "issue": "R2-M1/R2-S1/R2-S3",
+      "tag": "Related work",
+      "old": "ShapeFL jointly considers edge-node association and the diversity of data represented at edge aggregators (Deng et al., 2024). HiFlash addresses who connects to which edge and how stale those updates can become (Wu et al., 2023). Async-HFL allows different arrival times (Yu et al., 2023). In our comparisons, we reproduce the baseline policies under the same experimental budget.",
+      "new": "Existing hierarchical systems modify different parts of the learning process. ShapeFL addresses node–edge assignment together with the distribution of data represented at edge aggregators (Deng et al., 2024). HiFlash combines heterogeneity-aware association with staleness control (Wu et al., 2023), while Async-HFL accommodates asynchronous arrivals across gateway and cloud levels (Yu et al., 2023). AHCE-FL instead fixes client–edge membership in the tested simulator and evaluates a five-descriptor client ranking, update encoding and an end-of-round synchronization gate. The resulting mechanism is identifiable, but combining known components alone does not establish technical superiority."
+    },
+    {
+      "issue": "R2-M1/R2-S3/R2-S4",
+      "tag": "Related work",
+      "old": "More recent work addresses transmission control directly. Fan et al. (2025) describe FedDAC, which varies compression ratios on device–edge and edge–cloud links in response to resource conditions. Qiu and Li (2026) describe network-aware parameter transmission with link sensing and a choice among full, incremental and cached updates. These systems differ from the present experiment, where resource descriptors are synthetic and fixed during a run, sparsification uses an explicit encoded-size test, and cloud synchronisation is triggered by a divergence threshold or maximum-gap ceiling. We do not reproduce FedDAC or AHPT-FL as numerical baselines; consequently, the present comparisons cannot establish superiority over either approach.",
+      "new": "Recent approaches show why the baseline comparison must be interpreted cautiously. FedDAC adjusts compression on both device–edge and edge–cloud links using resource conditions (Fan et al., 2025). AHPT-FL selects transmission behaviour in response to changing link observations (Qiu and Li, 2026). In contrast, the present AHCE-FL implementation uses fixed simulated resource descriptors, a deterministic sparse-versus-dense byte comparison and a divergence-or-gap synchronization gate. Neither FedDAC nor AHPT-FL was reproduced in these experiments, so no result here establishes better accuracy, traffic or latency relative to those methods."
+    },
+    {
+      "issue": "R2-M2/R2-S2",
+      "tag": "Related work",
+      "old": "Hierarchical training introduces a timing question because the models at the edge and in the cloud can have different ages (Yu et al., 2023, Lin et al., 2024). We evaluate the synchronization rule at the end of the round, once the edge aggregates are available. The coordinator uses two quantities at that point. It measures the ℓ₂ distance between the cloud candidate and the stored global model and counts the rounds since the last exchange.",
+      "new": "Between cloud exchanges, edge and global models may no longer represent the same training state. Async-HFL and delay-aware hierarchical FL study different aspects of this problem (Yu et al., 2023; Lin et al., 2024). Our coordinator makes a decision only after the current round has finished local training and edge aggregation. It measures the Euclidean distance between the candidate cloud model and the stored global model and compares the elapsed rounds with the configured maximum gap. This rule reacts to model-state divergence and elapsed rounds; the experiment does not demonstrate adaptation to measured wireless congestion or battery state."
+    },
+    {
+      "issue": "R2-M8/R2-M9",
+      "tag": "Related work",
+      "old": "In these runs, the CIFAR-10 training images stay with the clients, and model representations pass between participants (Table 1). Those messages can disclose information about the training data or introduce malicious parameter changes (Bagdasaryan et al., 2020, Truex et al., 2020). We ran the experiments without a differential-privacy accountant, secure aggregation or encrypted transport. Inference and poisoning were outside the experimental design.",
+      "new": "The simulator retains CIFAR-10 training images in its client partitions and transmits model representations rather than raw images. Data locality is a basic federated-learning property, not a formal privacy guarantee. Parameter updates can still reveal information or be manipulated by malicious participants (Bagdasaryan et al., 2020; Truex et al., 2020). The implementation provides neither differential privacy nor secure aggregation, encrypted transport, multiparty computation or trusted execution. Attack resistance and leakage were not measured, and no such protection is claimed."
+    },
+    {
+      "issue": "R2-M1/R2-M7/R2-M11",
+      "tag": "Results discussion",
+      "old": "Reconstructed FedAvg finished at higher accuracy and used fewer modeled bytes than baseline AHCE-FL. HFL also finished at higher accuracy, but its modeled traffic exceeded that of AHCE-FL. Within AHCE-FL, the threshold and timer sweeps show how the byte total changes when the encoder drops more coefficients or the cloud exchanges models less often.",
+      "new": "The baseline result is unfavorable to AHCE-FL on both final accuracy and modelled communication relative to FedAvg. HFL finishes with higher accuracy than AHCE-FL but consumes more modelled bytes. The sparsification sweep demonstrates a clear accuracy cost at the most aggressive threshold; the gap sweep demonstrates fewer cloud exchanges only when the divergence trigger does not intervene. These controls are therefore useful for explaining the communication–accuracy trade-off, not for claiming universal improvement."
+    },
+    {
+      "issue": "R2-M11",
+      "tag": "Limitations",
+      "old": "We count the bytes used for parameter values and sparse indices. Measuring headers, retries, acknowledgements, time in queues and contention would require packet captures. The critical-path estimate uses synthetic latency and calculated transfer time. The energy descriptor for client ranking comes without a corresponding battery-discharge measurement.",
+      "new": "The communication ledger counts parameter values and any retained sparse indices, with each transfer counted once. It does not include packet headers, fragmentation, acknowledgements, retries or shared-channel contention. The critical-path quantity is an analytical estimate based on synthetic link parameters, not measured elapsed time. Likewise, the energy variable influences simulated selection but was not obtained from battery-discharge measurements. Hardware measurements would be necessary to evaluate radio traffic, end-to-end delay and energy use."
+    },
+    {
+      "issue": "R1-CLARITY/R2-M11",
+      "tag": "Limitations",
+      "old": "The additional 45 runs were verified against their 100 consecutively numbered rounds, seed-specific configurations, final-result summaries and SHA-256 manifests. The numerical figures and nine original manuscript tables remain linked to the preceding 51-run baseline and sensitivity archive. Figures 1–9 are retained without alteration; their presence and raster dimensions are checked separately, but image-level agreement between every plotted mark and its underlying data has not yet been independently certified. The two new tables are generated solely from the additional archived runs.",
+      "new": "Each of the 45 supplementary experiments has a consecutive 100-round record, an explicit seed and configuration, a final-result summary and a file-integrity manifest. The original nine numerical figures and nine tables remain associated with the preceding 51-run campaign; Tables 10 and 11 are calculated from the additional runs. We retained the embedded figures and checked their displayed principal values against archived summaries, although an exhaustive extraction of each plotted pixel was not performed."
+    },
+    {
+      "issue": "R2-M1/R2-M7/R2-M11",
+      "tag": "Conclusion",
+      "old": "The 51 CIFAR-10 runs show how the two controls save bytes. With τ = 0.05, AHCE-FL used 288659957 modeled bytes and reached 0.186133 mean final accuracy. After we suppressed divergence, increasing G from 1 to 5 cut cloud exchanges from 100 to 20 (Table 8, Figure 7).",
+      "new": "The controlled runs distinguish two mechanisms that can lower modelled transfer volume within AHCE-FL. At τ = 0.05, the modelled total is 288659957 bytes and mean final accuracy falls to 0.186133. When divergence triggering is suppressed, increasing G from 1 to 5 reduces cloud exchanges from 100 to 20 (Table 8, Figure 7). These changes quantify mechanism behaviour under the specified simulator, rather than improvements over every baseline."
+    },
+    {
+      "issue": "R2-M1/R2-M11",
+      "tag": "Conclusion",
+      "old": "In the baseline runs, AHCE-FL reached 0.473067 mean final accuracy and used 366004619 modeled bytes. Reconstructed FedAvg reached 0.643467 and used 308560000 bytes under direct client–server accounting. Further runs across seeds, datasets and models would show how sensitive the accuracy gap is to the training setup. Packet traces, execution times and energy measurements would be needed to assess the effects of sparsification and less frequent synchronization on devices.",
+      "new": "Across the baseline seeds, AHCE-FL obtains mean final accuracy 0.473067 and transmits 366004619 modelled bytes. Reconstructed FedAvg instead obtains 0.643467 accuracy with 308560000 bytes under corrected direct-transfer accounting. This negative comparison is central to the interpretation: the present client-ranking and hierarchical communication policies do not outperform FedAvg on these two outcomes. Further experiments with different data partitions, model architectures and participating devices are required before assessing generality."
+    },
+    {
+      "issue": "R2-M2/R2-M5/R2-M11",
+      "tag": "Conclusion",
+      "old": "In an additional 45-run, three-seed evaluation, the five nonuniform selection-weight policies did not yield Holm-adjusted evidence of higher final accuracy than the equal-weight control. A joint gap–threshold experiment exposed the dependence of cloud synchronization on divergence-trigger settings: short thresholds forced synchronization every round even when the maximum gap was lengthened, whereas suppressing the divergence trigger isolated reductions associated with G. These results extend mechanism-level sensitivity evidence but do not reverse the baseline FedAvg comparison or establish network-, hardware- or energy-level superiority.",
+      "new": "The supplementary 45-run study adds two diagnostic results. First, none of the five nonuniform resource-weight profiles provides Holm-adjusted evidence of higher accuracy than equal weighting across the three paired seeds. Second, cloud exchanges depend on the joint divergence and maximum-gap settings: a permissive divergence trigger can eliminate the apparent benefit of a longer timer. These are simulation-level findings. They neither establish non-inferiority in predictive performance nor validate physical packet, latency or energy benefits."
+    },
+    {
+      "issue": "R2-M3/R2-M11",
+      "tag": "Limitations",
+      "old": "",
+      "new": "For reproducibility, the release records the run configuration, selected seed, 100-round data, final metrics, trigger reason and checksum for each supplementary experiment. The 12 legacy comparator metadata inconsistencies are disclosed in a provenance sidecar rather than silently rewriting the original measurements. Exact communication-accounting conventions are stated alongside Tables 4–5."
+    },
+    {
+      "issue": "R2-S1/R2-S2",
+      "tag": "Table 1 comparison expanded",
+      "old": "six columns",
+      "new": "seven columns, including non-IID evidence qualifiers"
+    },
+    {
+      "issue": "R2-S1/R2-S2",
+      "tag": "Related work",
+      "old": "",
+      "new": "The new non-IID column distinguishes evaluation under heterogeneous partitions from a proved robustness guarantee. An entry of “not established here” means that the cited mechanism or the evidence reviewed does not justify an affirmative claim, not that the source system necessarily lacks the feature."
+    }
+  ]
+}

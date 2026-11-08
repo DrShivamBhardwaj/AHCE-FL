@@ -1,0 +1,702 @@
+{
+  "checks_total": 134,
+  "passed": 134,
+  "failed": 0,
+  "items": [
+    {
+      "check": "clean_exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_blinded_author",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_no_placeholder",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_11_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_9_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_media_identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_50_equations_identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_numeric_table_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_numeric_table_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_numeric_table_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_numeric_table_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_numeric_table_6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_numeric_table_7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_numeric_table_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_numeric_table_9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_numeric_table_10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_numeric_table_11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_expands_table_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_no_privacy_guarantee",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_no_invented_superiority",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "clean_abstract_word_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_blinded_author",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_no_placeholder",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_11_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_9_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_media_identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_50_equations_identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_numeric_table_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_numeric_table_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_numeric_table_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_numeric_table_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_numeric_table_6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_numeric_table_7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_numeric_table_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_numeric_table_9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_numeric_table_10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_numeric_table_11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_expands_table_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_no_privacy_guarantee",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_no_invented_superiority",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "marked_abstract_word_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_blinded_author",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_no_placeholder",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_E1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_E2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-M1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-M2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-M3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-M4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-M5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-M6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-M7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-M8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-M9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-M10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-M11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-S1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-S2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-S3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-S4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-S5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "response_comment_R2-S6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sheet_exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sheet_blinded_author",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sheet_no_placeholder",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "change_sheet_20_rows",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_blinded_author",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_no_placeholder",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_11_tables",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_9_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_media_identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_50_equations_identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_numeric_table_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_numeric_table_3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_numeric_table_4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_numeric_table_5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_numeric_table_6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_numeric_table_7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_numeric_table_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_numeric_table_9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_numeric_table_10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_numeric_table_11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_expands_table_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_no_privacy_guarantee",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_no_invented_superiority",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_abstract_word_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_E1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_E2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-M1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-M2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-M3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-M4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-M5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-M6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-M7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-M8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-M9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-M10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-M11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-S1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-S2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-S3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-S4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-S5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_comment_R2-S6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "references_18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ref_Fan_2025",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ref_Qiu_2026",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Bagdasaryan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Chowdhury",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Deng",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Fan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Kairouz",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Konečný",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Li",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Lim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Lin",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Ma",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_McMahan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Qiu",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Shabariram",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Truex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Tseng",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Wen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Wu",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_cited_Yu",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "combined_pdf_23_pages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pdf_no_blank_pages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "original_preserved",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "files": {
+    "clean": {
+      "path": "manuscripts/IJAESD-345169/revision_package/AHCE_FL_IJAESD_Reviewer_Revised_Blind.docx",
+      "sha256": "5feb6d88d7b3a075095c2687132f16614e5b1c227cf242281bdcfa8019dba0fe"
+    },
+    "marked": {
+      "path": "manuscripts/IJAESD-345169/revision_package/AHCE_FL_IJAESD_Annotated_Blind.docx",
+      "sha256": "1c91a358f19927f2646a57f999ea2a3f7cde79cf510d31a975720cffb3a5c1e9"
+    },
+    "response": {
+      "path": "manuscripts/IJAESD-345169/revision_package/IJAESD_345169_Point_by_Point_Response.docx",
+      "sha256": "9f60dd1f672dde61b1aecf0eeec2ea644858523bfefbd57c336487ef4e623449"
+    },
+    "sheet": {
+      "path": "manuscripts/IJAESD-345169/revision_package/IJAESD_345169_Annotated_Change_Sheet.docx",
+      "sha256": "55ea64b8757736bc26af520c279a29adb5a650777bce0e9527b934cbb76ba094"
+    },
+    "combined": {
+      "path": "manuscripts/IJAESD-345169/revision_package/IJAESD_345169_Response_and_Annotated_Manuscript.docx",
+      "sha256": "ff8f7b73c8cffb16f150c47c74912691cfd911435d9542608a3d97c128c1c753"
+    }
+  },
+  "reviewer_comments_from": "Inderscience editorial revision request dated 10 October 2026",
+  "claim_limits": "No physical measurements, no confirmed accuracy superiority over FedAvg, no universal source full-text validation",
+  "blinded": true
+}
