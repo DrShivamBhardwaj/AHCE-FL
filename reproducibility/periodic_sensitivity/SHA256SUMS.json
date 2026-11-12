@@ -1,5 +1,5 @@
 {
-  "STATUS.json": "a801531cc3da59a1a18ab03b0632fbe9899ebd1d723a3af78daac28a64867ffe",
+  "STATUS.json": "7e53435f67a3093a6d7627a69e3f0b4681a7f2c95b41394cfa2c10755b0e19fe",
   "complete_runs/cifar10_compression_tau_0.001_cifar10_ahce-fl_seed11_tau0.001.csv": "0da59d5b4778e47be3f9ea8a182875b9b9d8ec40627e0fc73e117125675eac43",
   "complete_runs/cifar10_compression_tau_0.001_cifar10_ahce-fl_seed11_tau0.001.json": "bfd67967604e0d6137259aa101844b1fbc45abb47b8e6fb19173facd7f677ba8",
   "complete_runs/cifar10_compression_tau_0.001_cifar10_ahce-fl_seed23_tau0.001.csv": "fdc4eb99e09e62d6963701a3ebd2f9fa967e7b373c6d1d2b5976a3684163e578",
